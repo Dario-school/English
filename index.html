@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vokabel- &amp; Grammatiktrainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: HOME (Startscreen)
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-home" class="screen active">
+    <div class="home-logo"><span class="dot"></span> Vokabel- &amp; Grammatiktrainer</div>
+    <h1 class="page-title">Lernen<br>macht Spass.</h1>
+    <p class="page-subtitle">Wähle, womit du heute starten möchtest.</p>
+
+    <div class="home-cards">
+      <div class="home-card voci" id="btn-voci" role="button" tabindex="0">
+        <span class="card-icon">📚</span>
+        <h2>Voci lernen</h2>
+        <p>Wörter zuordnen, Karteikarten üben oder das 3-Stufen-Slot-System nutzen.</p>
+        <span class="card-arrow">Starten →</span>
+      </div>
+      <div class="home-card gram" id="btn-grammar" role="button" tabindex="0">
+        <span class="card-icon">✏️</span>
+        <h2>Grammatik lernen</h2>
+        <p>Present Perfect, Past Simple und weitere Themen mit Lückentexten üben.</p>
+        <span class="card-arrow">Starten →</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: UNIT-AUSWAHL
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-unit-select" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-unit-select">
+        <span style="display:inline-flex;width:16px;height:16px;">&#8592;</span> Zurück
+      </button>
+      <span class="nav-title">Voci lernen</span>
+    </div>
+
+    <h1 class="page-title" style="font-size:clamp(1.6rem,4vw,2.4rem)">Unit wählen</h1>
+    <p class="page-subtitle">Welche Unit möchtest du üben?</p>
+
+    <div class="unit-grid" id="unit-grid">
+      <!-- Wird via JS gefüllt (renderUnitSelect) -->
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: MODUS-AUSWAHL
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-mode-select" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-mode-select">&#8592; Zurück</button>
+      <span class="nav-title" id="mode-unit-title"></span>
+    </div>
+
+    <h1 class="page-title" style="font-size:clamp(1.6rem,4vw,2.4rem)">Lernart wählen</h1>
+    <p class="page-subtitle" id="mode-word-count"></p>
+
+    <div class="mode-cards">
+      <div class="mode-card" id="btn-zuordnen" role="button" tabindex="0">
+        <span class="mode-icon">🔀</span>
+        <h3>Zuordnen</h3>
+        <p>Klicke ein deutsches und das passende englische Wort an – klassisches Wörtermatch.</p>
+      </div>
+      <div class="mode-card" id="btn-flashcard" role="button" tabindex="0">
+        <span class="mode-icon">🃏</span>
+        <h3>Karteikarten</h3>
+        <p>Karte anklicken zum Umdrehen, dann selbst einschätzen: gewusst oder nicht?</p>
+      </div>
+      <div class="mode-card" id="btn-slot" role="button" tabindex="0">
+        <span class="mode-icon">🎯</span>
+        <h3>Slot lernen</h3>
+        <p>3-Stufen-System: Wörter wandern von Slot 1 über Slot 2 nach Slot 3 – Fortschritt wird gespeichert.</p>
+      </div>
+    </div>
+
+    <!-- Karteikarten-Richtung -->
+    <div style="margin-top:24px;">
+      <p class="section-label">Karteikarten-Richtung</p>
+      <div class="lang-toggle">
+        <label><input type="radio" name="fc-dir" value="de-en" checked /> 🇩🇪 Deutsch → Englisch</label>
+        <label><input type="radio" name="fc-dir" value="en-de" /> 🇬🇧 Englisch → Deutsch</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: ZUORDNEN
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-zuordnen" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-zuordnen">&#8592; Zurück</button>
+      <span class="nav-title">Zuordnen</span>
+    </div>
+
+    <div class="zuordnen-header">
+      <div class="zuordnen-stats">
+        Paare: <strong id="zu-matched">0</strong> / <strong id="zu-total">0</strong> &nbsp;|&nbsp;
+        Versuche: <strong id="zu-attempts">0</strong>
+      </div>
+    </div>
+
+    <div class="zuordnen-progress">
+      <div class="zuordnen-progress-bar" id="zu-progress-bar" style="width:0%"></div>
+    </div>
+
+    <div class="zuordnen-grid">
+      <div>
+        <div class="zuordnen-col-label">🇩🇪 Deutsch</div>
+        <div class="zuordnen-col" id="zu-col-de"></div>
+      </div>
+      <div>
+        <div class="zuordnen-col-label">🇬🇧 Englisch</div>
+        <div class="zuordnen-col" id="zu-col-en"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ZUORDNEN: Ergebnis ── -->
+  <section id="screen-zuordnen-result" class="screen">
+    <div class="result-box">
+      <span class="result-emoji" id="zu-res-emoji">🎉</span>
+      <h2>Geschafft!</h2>
+      <p>Du hast alle Paare gefunden.</p>
+      <div class="result-stats">
+        <div class="result-stat">
+          <span class="val" id="zu-res-matched">–</span>
+          <span class="lbl">Paare</span>
+        </div>
+        <div class="result-stat">
+          <span class="val" id="zu-res-attempts">–</span>
+          <span class="lbl">Versuche</span>
+        </div>
+        <div class="result-stat">
+          <span class="val" id="zu-res-acc">–</span>
+          <span class="lbl">Trefferquote</span>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="zu-again">Nochmals</button>
+        <button class="btn btn-outline" id="zu-other-mode">Anderer Modus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: KARTEIKARTEN (FLASHCARD)
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-flashcard" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-flashcard">&#8592; Zurück</button>
+      <span class="nav-title">Karteikarten</span>
+    </div>
+
+    <div class="flashcard-area">
+      <div class="flashcard-score-bar">
+        <span class="score-correct" id="fc-score-correct">✓ 0</span>
+        <span style="color:var(--border)">|</span>
+        <span class="score-wrong" id="fc-score-wrong">✗ 0</span>
+      </div>
+
+      <p class="flashcard-meta" id="fc-meta">Karte <strong>1</strong> von <strong>–</strong></p>
+
+      <div class="card-scene" id="fc-card" role="button" tabindex="0" aria-label="Karte umdrehen">
+        <div class="card-inner" id="fc-card-inner">
+          <div class="card-face front">
+            <span class="face-label" id="fc-front-label">Deutsch</span>
+            <span class="face-word" id="fc-front-word">...</span>
+            <span class="face-hint">Anklicken zum Umdrehen</span>
+          </div>
+          <div class="card-face back">
+            <span class="face-label" id="fc-back-label">Englisch</span>
+            <span class="face-word" id="fc-back-word">...</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="card-click-hint">Klicke auf die Karte, um die Übersetzung zu sehen.</p>
+
+      <div class="flashcard-actions">
+        <button class="btn btn-wrong"    id="fc-btn-wrong"   disabled>✗ Nicht gewusst</button>
+        <button class="btn btn-correct"  id="fc-btn-correct" disabled>✓ Gewusst</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FLASHCARD: Ergebnis ── -->
+  <section id="screen-flashcard-result" class="screen">
+    <div class="result-box">
+      <span class="result-emoji" id="fc-res-emoji">🎉</span>
+      <h2>Unit abgeschlossen!</h2>
+      <p>Wie gut hast du die Wörter gekannt?</p>
+      <div class="result-stats">
+        <div class="result-stat">
+          <span class="val score-correct" id="fc-res-correct">–</span>
+          <span class="lbl">Gewusst</span>
+        </div>
+        <div class="result-stat">
+          <span class="val score-wrong" id="fc-res-wrong">–</span>
+          <span class="lbl">Nicht gewusst</span>
+        </div>
+        <div class="result-stat">
+          <span class="val" id="fc-res-pct">–</span>
+          <span class="lbl">Quote</span>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="fc-again">Nochmals</button>
+        <button class="btn btn-outline" id="fc-other-mode">Anderer Modus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: SLOT LERNEN
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-slot" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-slot">&#8592; Zurück</button>
+      <span class="nav-title">Slot lernen</span>
+      <button class="btn btn-outline" id="sl-reset" style="margin-left:auto;padding:6px 14px;font-size:.8rem;">
+        ↺ Reset
+      </button>
+    </div>
+
+    <!-- Slot-Übersicht (3 Kreisdiagramme) -->
+    <div class="slot-overview">
+      <div class="slot-item slot-1" id="sl-slot-item-1">
+        <div class="slot-circle-wrap">
+          <svg viewBox="0 0 64 64">
+            <circle class="slot-circle-bg"   cx="32" cy="32" r="26"/>
+            <circle class="slot-circle-fill s1" id="sl-circ-1" cx="32" cy="32" r="26"
+                    stroke-dasharray="163.36" stroke-dashoffset="163.36"/>
+          </svg>
+          <span class="slot-count-text" id="sl-count-1">0</span>
+        </div>
+        <div class="slot-label">Slot 1</div>
+        <div class="slot-sublabel">Neu / Falsch</div>
+      </div>
+      <div class="slot-item slot-2" id="sl-slot-item-2">
+        <div class="slot-circle-wrap">
+          <svg viewBox="0 0 64 64">
+            <circle class="slot-circle-bg"   cx="32" cy="32" r="26"/>
+            <circle class="slot-circle-fill s2" id="sl-circ-2" cx="32" cy="32" r="26"
+                    stroke-dasharray="163.36" stroke-dashoffset="163.36"/>
+          </svg>
+          <span class="slot-count-text" id="sl-count-2">0</span>
+        </div>
+        <div class="slot-label">Slot 2</div>
+        <div class="slot-sublabel">Fast gewusst</div>
+      </div>
+      <div class="slot-item slot-3" id="sl-slot-item-3">
+        <div class="slot-circle-wrap">
+          <svg viewBox="0 0 64 64">
+            <circle class="slot-circle-bg"   cx="32" cy="32" r="26"/>
+            <circle class="slot-circle-fill s3" id="sl-circ-3" cx="32" cy="32" r="26"
+                    stroke-dasharray="163.36" stroke-dashoffset="163.36"/>
+          </svg>
+          <span class="slot-count-text" id="sl-count-3">0</span>
+        </div>
+        <div class="slot-label">Slot 3</div>
+        <div class="slot-sublabel">Gelernt ✓</div>
+      </div>
+    </div>
+    <p style="text-align:center;font-size:.8rem;color:var(--text-muted);margin-bottom:20px;"
+       id="sl-overall-pct">0% in Slot 3</p>
+
+    <!-- Übungsbereich -->
+    <div class="slot-practice-area">
+      <div id="sl-from-badge" class="slot-from-badge s1">Aus Slot 1</div>
+      <div class="slot-practice-prompt">Wie lautet die deutsche Übersetzung?</div>
+      <div class="slot-practice-word" id="sl-prompt">…</div>
+
+      <div class="slot-input-row">
+        <input type="text" class="slot-input" id="sl-input"
+               placeholder="Deutsche Übersetzung eingeben…"
+               autocomplete="off" spellcheck="false" />
+        <button class="btn btn-primary" id="sl-submit" style="border-radius:var(--radius-sm);padding:12px 20px;">
+          ✓
+        </button>
+      </div>
+
+      <div class="slot-feedback" id="sl-feedback"></div>
+    </div>
+  </section>
+
+  <!-- ── SLOT: Ergebnis ── -->
+  <section id="screen-slot-result" class="screen">
+    <div class="result-box">
+      <span class="result-emoji" id="sl-res-emoji">🏆</span>
+      <h2>Unit gemeistert!</h2>
+      <p>Alle Wörter sind in Slot 3 – du kennst sie alle!</p>
+      <div class="result-stats">
+        <div class="result-stat">
+          <span class="val" id="sl-res-total">–</span>
+          <span class="lbl">Wörter gelernt</span>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="sl-again">Nochmals üben</button>
+        <button class="btn btn-outline" id="sl-other-mode">Anderer Modus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: GRAMMATIK – THEMEN
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-grammar-topics" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-grammar-topics">&#8592; Zurück</button>
+      <span class="nav-title">Grammatik</span>
+    </div>
+
+    <h1 class="page-title" style="font-size:clamp(1.6rem,4vw,2.4rem)">Thema wählen</h1>
+    <p class="page-subtitle">Welches Grammatikthema möchtest du üben?</p>
+
+    <div class="grammar-topic-cards" id="grammar-topic-grid">
+      <!-- Wird via JS gefüllt -->
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: GRAMMATIK – ÜBUNG
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-grammar-practice" class="screen">
+    <div class="nav-bar">
+      <button class="nav-back" id="back-grammar-practice">&#8592; Themen</button>
+      <span class="nav-title" id="gr-title">Grammatik</span>
+    </div>
+
+    <!-- Grammatikregel -->
+    <div class="grammar-rule-box" id="gr-rule"></div>
+
+    <!-- Fortschrittsbalken -->
+    <div class="grammar-progress-wrap">
+      <div class="grammar-progress-bar-outer">
+        <div class="grammar-progress-bar-inner" id="gr-progress-bar" style="width:0%"></div>
+      </div>
+      <span class="grammar-progress-label" id="gr-progress-label">1 / –</span>
+    </div>
+
+    <!-- Aufgaben werden hier eingefügt -->
+    <div id="gr-exercise-area"></div>
+  </section>
+
+  <!-- ── GRAMMATIK: Ergebnis ── -->
+  <section id="screen-grammar-result" class="screen">
+    <div class="result-box">
+      <span class="result-emoji" id="gr-res-emoji">🎉</span>
+      <h2>Grammatik-Check!</h2>
+      <p>Alle Aufgaben abgeschlossen.</p>
+      <div class="result-stats">
+        <div class="result-stat">
+          <span class="val score-correct" id="gr-res-correct">–</span>
+          <span class="lbl">Richtig</span>
+        </div>
+        <div class="result-stat">
+          <span class="val score-wrong" id="gr-res-wrong">–</span>
+          <span class="lbl">Falsch</span>
+        </div>
+        <div class="result-stat">
+          <span class="val" id="gr-res-pct">–</span>
+          <span class="lbl">Quote</span>
+        </div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="gr-again">Nochmals</button>
+        <button class="btn btn-outline" id="gr-other-topic">Anderes Thema</button>
+      </div>
+    </div>
+  </section>
+
+</div><!-- #app -->
+
+<!-- Daten zuerst laden, dann App-Logik -->
+<script src="data/vocabularies.js"></script>
+<script src="data/grammar.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
