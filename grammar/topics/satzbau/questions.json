@@ -1,0 +1,31 @@
+{"id":"questions","group":"satzbau","title":"Questions","description":"Wh- und Yes/No-Fragen bilden","levels":[
+{"level":1,"title":"Yes/No-Fragen","exercises":[
+{"type":"multiple-choice","instruction":"Wähle die richtige Frage.","question":"___ she live in London?","options":["Do","Does","Is","Has"],"answer":"Does"},
+{"type":"fill-in-the-blank","instruction":"Bilde eine Yes/No-Frage.","sentence":"___ you like pizza? (Do/Does)","answer":"Do"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"___ they speak English?","options":["Do","Does","Are","Have"],"answer":"Do"},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["he","Does","coffee","drink"],"answer":"Does he drink coffee"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"___ your parents live nearby? (Do/Does)","answer":"Do"}
+]},
+{"level":2,"title":"Wh-Fragen","exercises":[
+{"type":"multiple-choice","instruction":"Wähle das richtige Fragewort.","question":"___ do you live?","options":["What","Where","When","Who"],"answer":"Where"},
+{"type":"fill-in-the-blank","instruction":"Ergänze das Fragewort.","sentence":"___ does the film start?","answer":"When"},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["do","What","you","do","usually","mornings","in","the"],"answer":"What do you usually do in the mornings"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"___ is your favourite singer?","options":["What","Where","Who","Which"],"answer":"Who"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"___ book do you prefer?","answer":"Which"}
+]},
+{"level":3,"title":"Fragen in der Vergangenheit","exercises":[
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"___ you go to the party?","options":["Do","Did","Does","Have"],"answer":"Did"},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["she","did","Where","go","last","summer"],"answer":"Where did she go last summer"},
+{"type":"fill-in-the-blank","instruction":"Bilde eine Frage.","sentence":"___ they win the match? (Did)","answer":"Did"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"Where did she went?","answer":"Where did she go?"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"___ did you arrive? (What time)","answer":"What time"}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Wo wohnst du?","answer":"Where do you live?"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"What does she likes?","answer":"What does she like?"},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["often","you","do","How","gym","go","to","the"],"answer":"How often do you go to the gym"},
+{"type":"translation","instruction":"Übersetze.","sentence":"Was hat er gesagt?","answer":"What did he say?"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"___ long does the journey take?","answer":"How"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}

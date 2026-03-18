@@ -1,0 +1,31 @@
+{"id":"word-order","group":"satzbau","title":"Word Order","description":"Wortstellung in englischen Aussagesätzen","levels":[
+{"level":1,"title":"Grundlegende Wortstellung","exercises":[
+{"type":"reorder","instruction":"Bringe die Wörter in die richtige Reihenfolge.","words":["loves","She","chocolate"],"answer":"She loves chocolate"},
+{"type":"multiple-choice","instruction":"Wähle den richtigen Satz.","question":"Welcher Satz ist korrekt?","options":["Every day goes she to school.","She every day goes to school.","She goes to school every day.","Goes she every day to school."],"answer":"She goes to school every day."},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["his","He","homework","does","evening","every"],"answer":"He does his homework every evening"},
+{"type":"error-correction","instruction":"Korrigiere die Wortstellung.","sentence":"Often she goes to the cinema.","answer":"She often goes to the cinema."},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["usually","breakfast","They","at","have","7am"],"answer":"They usually have breakfast at 7am"}
+]},
+{"level":2,"title":"Adverbien der Häufigkeit","exercises":[
+{"type":"fill-in-the-blank","instruction":"Wo steht 'always'? Ergänze den Satz korrekt.","sentence":"She ___ eats breakfast. (always)","answer":"always"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"He goes always to bed at 10pm.","answer":"He always goes to bed at 10pm."},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["never","late","is","She"],"answer":"She is never late"},
+{"type":"multiple-choice","instruction":"Wo steht 'usually'?","question":"___ correct?","options":["Usually she walks to school.","She usually walks to school.","She walks usually to school."],"answer":"She usually walks to school."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"They are ___ very friendly. (always)","answer":"always"}
+]},
+{"level":3,"title":"Zeit- und Ortsangaben","exercises":[
+{"type":"reorder","instruction":"Richtige Reihenfolge (Ort vor Zeit).","words":["She","yesterday","in","London","was"],"answer":"She was in London yesterday"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"He went yesterday to school.","answer":"He went to school yesterday."},
+{"type":"fill-in-the-blank","instruction":"Wo steht die Zeitangabe?","sentence":"I saw him ___ at the supermarket. (yesterday)","answer":"yesterday"},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["morning","He","the","gym","to","goes","in"],"answer":"He goes to the gym in the morning"},
+{"type":"multiple-choice","instruction":"Wähle den richtigen Satz.","question":"","options":["She yesterday came home.","She came home yesterday.","Yesterday she came home."],"answer":"She came home yesterday."}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Sie spielt manchmal Klavier am Abend.","answer":"She sometimes plays piano in the evening."},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"He drinks never coffee in the morning.","answer":"He never drinks coffee in the morning."},
+{"type":"reorder","instruction":"Richtige Reihenfolge.","words":["often","They","in","park","the","evenings","walk","in"],"answer":"They often walk in the park in the evenings"},
+{"type":"translation","instruction":"Übersetze.","sentence":"Ich gehe jeden Freitag ins Kino.","answer":"I go to the cinema every Friday."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She ___ (never) arrives late.","answer":"never"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}

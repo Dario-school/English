@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grammatik – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="../index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="../voci/index.html">Vokabeln</a>
+      <a href="index.html" class="active">Grammatik</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <h1>Grammatik</h1>
+    <p>Wähle ein Thema und übe in 5 aufbauenden Levels. Ab Level 2 brauchst du mindestens 70% im vorherigen Level.</p>
+  </div>
+
+  <div class="container">
+    <div id="grammarContent"></div>
+  </div>
+</main>
+
+<script src="../js/storage.js"></script>
+<script src="../js/grammar-engine.js"></script>
+<script>
+  // Theme
+  const themeBtn = document.getElementById('themeToggle');
+  document.body.classList.toggle('dark', Storage.getDarkMode());
+  themeBtn.textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  themeBtn.addEventListener('click', () => { Storage.setDarkMode(!Storage.getDarkMode()); location.reload(); });
+
+  const TOPICS = GrammarEngine.getTopics();
+  const GROUP_LABELS = GrammarEngine.getGroupLabels();
+
+  // Group topics
+  const grouped = {};
+  TOPICS.forEach(t => {
+    if (!grouped[t.group]) grouped[t.group] = [];
+    grouped[t.group].push(t);
+  });
+
+  let html = '';
+  Object.entries(grouped).forEach(([group, topics]) => {
+    html += `<div class="grammar-group">
+      <div class="grammar-group-title">${GROUP_LABELS[group] || group}</div>
+      <div class="card-grid" style="padding: 0 0 16px;">`;
+
+    topics.forEach(topic => {
+      const td = Storage.getGrammarTopic(topic.id);
+      const star = td.star ? '⭐' : '';
+
+      // Build level dots
+      let dotsHtml = '';
+      for (let l = 1; l <= 5; l++) {
+        const lvl = td.levels[l];
+        const unlocked = Storage.isLevelUnlocked(topic.id, l);
+        let cls = 'level-dot';
+        if (lvl && lvl.completed) cls += ' done';
+        else if (unlocked) cls += ' active';
+        dotsHtml += `<div class="${cls}" title="Level ${l}${lvl ? ': ' + lvl.score + '%' : ''}"></div>`;
+      }
+
+      const completedCount = Object.values(td.levels).filter(l => l.completed).length;
+
+      html += `<div class="topic-card" onclick="openTopic('${topic.group}','${topic.id}')">
+        <div class="topic-info">
+          <h3>${topic.title} ${star}</h3>
+          <p>${topic.desc}</p>
+          <div class="level-dots">${dotsHtml}</div>
+        </div>
+        <div style="font-size:0.75rem; color:var(--ink-muted); text-align:right; min-width:48px;">
+          ${completedCount}/5<br>Level
+        </div>
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  document.getElementById('grammarContent').innerHTML = html;
+
+  function openTopic(group, id) {
+    location.href = `exercise.html?group=${group}&id=${id}`;
+  }
+</script>
+</body>
+</html>

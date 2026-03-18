@@ -1,0 +1,31 @@
+{"id":"comparatives","group":"adjektive","title":"Comparatives","description":"Vergleiche mit -er und more","levels":[
+{"level":1,"title":"Einsilbige Adjektive","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den Komparativ.","sentence":"London is ___ (big) than Glasgow.","answer":"bigger","hint":"Einsilbig: Adjektiv + -er (Dopplung möglich)"},
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"My bag is ___ than yours.","options":["more heavy","heavier","heavyer","more heavier"],"answer":"heavier"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She is ___ (tall) than her brother.","answer":"taller"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"Today is ___ than yesterday.","options":["hoter","more hot","hotter","hot"],"answer":"hotter"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"This road is ___ (long) than the other one.","answer":"longer"}
+]},
+{"level":2,"title":"Mehrsilbige Adjektive","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den Komparativ.","sentence":"This exercise is ___ (difficult) than the last one.","answer":"more difficult"},
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"She is ___ than her sister.","options":["more beautiful","beautifuler","more beautifull","beautifuller"],"answer":"more beautiful"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"The new phone is ___ (expensive) than the old one.","answer":"more expensive"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"English is ___ than I expected.","options":["more easy","easier","easyer","most easy"],"answer":"easier"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"The film was ___ (interesting) than the book.","answer":"more interesting"}
+]},
+{"level":3,"title":"Unregelmässige Formen","exercises":[
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"This is ___ than that.","options":["more good","gooder","better","more better"],"answer":"better"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"He feels ___ (bad) than yesterday.","answer":"worse"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"She has ___ books than me.","options":["more","most","many","much"],"answer":"more"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"There is ___ (little) water in this bottle.","answer":"less"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"She is more better at maths than her brother.","answer":"She is better at maths than her brother."}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Dieses Buch ist interessanter als der Film.","answer":"This book is more interesting than the film."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"Sydney is ___ (warm) than London.","answer":"warmer"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"My house is more big than yours.","answer":"My house is bigger than yours."},
+{"type":"translation","instruction":"Übersetze.","sentence":"Er ist besser als ich.","answer":"He is better than me."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"The new airport is ___ (modern) than the old one.","answer":"more modern"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}

@@ -1,0 +1,31 @@
+{"id":"superlatives","group":"adjektive","title":"Superlatives","description":"Superlativen mit -est und most","levels":[
+{"level":1,"title":"Einsilbige Adjektive","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den Superlativ.","sentence":"This is ___ (tall) building in the city.","answer":"the tallest"},
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"It was ___ day of my life.","options":["the most happy","the happiest","the happyest","happiest"],"answer":"the happiest"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"Mount Everest is ___ (high) mountain in the world.","answer":"the highest"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"Summer is ___ season of the year.","options":["the most hot","the hottest","the hotter","most hot"],"answer":"the hottest"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She is ___ (fast) runner in the class.","answer":"the fastest"}
+]},
+{"level":2,"title":"Mehrsilbige Adjektive","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den Superlativ.","sentence":"It is ___ (beautiful) place I have ever seen.","answer":"the most beautiful"},
+{"type":"multiple-choice","instruction":"Wähle die richtige Form.","question":"This is ___ film I have ever watched.","options":["the most boring","the boringest","more boring","most boring"],"answer":"the most boring"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She is ___ (intelligent) student in the class.","answer":"the most intelligent"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"That was ___ meal I have ever tasted.","options":["the most delicious","the delicioust","most delicious","the more delicious"],"answer":"the most delicious"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"This is ___ (expensive) restaurant in town.","answer":"the most expensive"}
+]},
+{"level":3,"title":"Unregelmässige Formen","exercises":[
+{"type":"fill-in-the-blank","instruction":"Ergänze den Superlativ.","sentence":"She is ___ (good) student in the school.","answer":"the best"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"This is ___ idea ever!","options":["the most bad","the worst","the baddest","worst"],"answer":"the worst"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"He has ___ (many) friends of all of us.","answer":"the most"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"She is the most best player on the team.","answer":"She is the best player on the team."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"There was ___ (little) snow this winter.","answer":"the least"}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Das ist das teuerste Auto, das ich je gesehen habe.","answer":"This is the most expensive car I have ever seen."},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"He is the most tallest person in the room.","answer":"He is the tallest person in the room."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"Sydney is one of ___ (beautiful) cities in the world.","answer":"the most beautiful"},
+{"type":"translation","instruction":"Übersetze.","sentence":"Sie ist die beste Spielerin.","answer":"She is the best player."},
+{"type":"multiple-choice","instruction":"Wähle.","question":"That is ___ thing I have ever heard!","options":["the most strange","the strangest","more strange","most strange"],"answer":"the strangest"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}

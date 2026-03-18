@@ -1,0 +1,31 @@
+{"id":"articles","group":"nomen","title":"Articles","description":"a / an / the – wann welchen Artikel?","levels":[
+{"level":1,"title":"a oder an","exercises":[
+{"type":"fill-in-the-blank","instruction":"Ergänze a oder an.","sentence":"She is ___ engineer.","answer":"an"},
+{"type":"multiple-choice","instruction":"Wähle a oder an.","question":"He has ___ old car.","options":["a","an","the","-"],"answer":"an"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"I need ___ umbrella.","answer":"an"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"There is ___ university in this city.","options":["a","an","the","-"],"answer":"a"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She saw ___ elephant at the zoo.","answer":"an"}
+]},
+{"level":2,"title":"the – bestimmter Artikel","exercises":[
+{"type":"multiple-choice","instruction":"Wann benutzt man the?","question":"___ sun rises in the east.","options":["A","An","The","–"],"answer":"The"},
+{"type":"fill-in-the-blank","instruction":"Ergänze the oder –.","sentence":"I play ___ guitar.","answer":"the"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"We went to ___ cinema last night.","options":["a","an","the","–"],"answer":"the"},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"___ Thames runs through London.","answer":"The"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"She is ___ best student in the class.","options":["a","an","the","–"],"answer":"the"}
+]},
+{"level":3,"title":"Kein Artikel","exercises":[
+{"type":"multiple-choice","instruction":"Artikel oder nicht?","question":"I like ___ music.","options":["a","an","the","–"],"answer":"–"},
+{"type":"fill-in-the-blank","instruction":"a/an/the oder –?","sentence":"___ breakfast is the most important meal.","answer":"–"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"We go to ___ school every day.","options":["a","an","the","–"],"answer":"–"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"The love is important in life.","answer":"Love is important in life."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"She speaks ___ English very well.","answer":"–"}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Ich spiele Klavier.","answer":"I play the piano."},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"He is an honest person with a good heart.","answer":"He is an honest person with a good heart."},
+{"type":"fill-in-the-blank","instruction":"a/an/the/–","sentence":"She is ___ teacher. She teaches ___ French.","answer":"a"},
+{"type":"translation","instruction":"Übersetze.","sentence":"Die Sonne scheint heute.","answer":"The sun is shining today."},
+{"type":"multiple-choice","instruction":"Wähle.","question":"I would like ___ apple, please.","options":["a","an","the","–"],"answer":"an"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}

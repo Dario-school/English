@@ -1,0 +1,31 @@
+{"id":"plural","group":"nomen","title":"Plural Forms","description":"Reguläre und irreguläre Pluralformen","levels":[
+{"level":1,"title":"Reguläre Plurale","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den Plural.","sentence":"one book → two ___","answer":"books","hint":"Regulärer Plural: +s"},
+{"type":"fill-in-the-blank","instruction":"Bilde den Plural.","sentence":"one box → two ___","answer":"boxes","hint":"Nach -x, -s, -sh, -ch: +es"},
+{"type":"multiple-choice","instruction":"Wähle den richtigen Plural.","question":"one bus → two ___","options":["bus","buses","buss","busies"],"answer":"buses"},
+{"type":"fill-in-the-blank","instruction":"Plural.","sentence":"one city → two ___","answer":"cities","hint":"-y nach Konsonant → -ies"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"one leaf → two ___","options":["leafs","leaves","leafes","leaf"],"answer":"leaves"}
+]},
+{"level":2,"title":"Irreguläre Plurale","exercises":[
+{"type":"fill-in-the-blank","instruction":"Bilde den irregulären Plural.","sentence":"one man → two ___","answer":"men"},
+{"type":"multiple-choice","instruction":"Wähle den richtigen Plural.","question":"one child → two ___","options":["childs","childes","children","childrens"],"answer":"children"},
+{"type":"fill-in-the-blank","instruction":"Plural.","sentence":"one tooth → two ___","answer":"teeth"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"one mouse → two ___","options":["mouses","mouse","mices","mice"],"answer":"mice"},
+{"type":"fill-in-the-blank","instruction":"Plural.","sentence":"one foot → two ___","answer":"feet"}
+]},
+{"level":3,"title":"Gleich im Singular und Plural","exercises":[
+{"type":"multiple-choice","instruction":"Wähle den richtigen Plural.","question":"one sheep → two ___","options":["sheeps","sheepes","sheep","sheepen"],"answer":"sheep"},
+{"type":"fill-in-the-blank","instruction":"Plural.","sentence":"one fish → two ___","answer":"fish"},
+{"type":"multiple-choice","instruction":"Wähle.","question":"one deer → two ___","options":["deers","deeres","deer","deeren"],"answer":"deer"},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"There are three sheeps in the garden.","answer":"There are three sheep in the garden."},
+{"type":"fill-in-the-blank","instruction":"Plural.","sentence":"one aircraft → two ___","answer":"aircraft"}
+]},
+{"level":4,"title":"Gemischte Übungen","exercises":[
+{"type":"translation","instruction":"Übersetze.","sentence":"Ich sehe viele Kinder auf dem Spielplatz.","answer":"I see many children in the playground."},
+{"type":"error-correction","instruction":"Korrigiere.","sentence":"She has two tooths that hurt.","answer":"She has two teeth that hurt."},
+{"type":"fill-in-the-blank","instruction":"Ergänze.","sentence":"All the ___ (woman) in the team were brilliant.","answer":"women"},
+{"type":"translation","instruction":"Übersetze.","sentence":"Die Mäuse sind unter dem Schreibtisch.","answer":"The mice are under the desk."},
+{"type":"multiple-choice","instruction":"Wähle.","question":"The ___ in the park were very loud.","options":["goose","gooses","geese","geeses"],"answer":"geese"}
+]},
+{"level":5,"title":"Abschlusstest","exercises":[]}
+]}
