@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot-Lernen – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .confetti-piece {
+      position: fixed;
+      width: 10px; height: 10px;
+      border-radius: 2px;
+      pointer-events: none;
+      animation: confettiFall 3s ease-in forwards;
+    }
+    @keyframes confettiFall {
+      0%   { opacity:1; transform: translateY(-20px) rotate(0deg); }
+      100% { opacity:0; transform: translateY(100vh) rotate(720deg); }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="index.html">← Zurück</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div id="loadingScreen" style="text-align:center; padding:80px 24px;">
+  <div style="font-size:3rem;">⏳</div><p>Laden…</p>
+</div>
+
+<div id="exerciseScreen" style="display:none;">
+  <div class="container" style="max-width:640px;">
+    <div style="padding: 24px 0 16px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <h2 style="font-size:1.1rem;">📦 Slot-Lernen</h2>
+        <span id="currentSlotBadge" style="font-size:0.8rem; font-weight:600; color:var(--red);"></span>
+      </div>
+
+      <div class="slot-bars">
+        <div class="slot-bar s1"><div class="slot-bar-fill" id="s1fill" style="width:0%"></div></div>
+        <div class="slot-bar s2"><div class="slot-bar-fill" id="s2fill" style="width:0%"></div></div>
+        <div class="slot-bar s3"><div class="slot-bar-fill" id="s3fill" style="width:0%"></div></div>
+      </div>
+      <div class="slot-labels">
+        <span id="s1label">Slot 1</span>
+        <span id="s2label">Slot 2</span>
+        <span id="s3label">Slot 3 ✓</span>
+      </div>
+    </div>
+
+    <div class="writing-area">
+      <div class="flashcard-hint" id="dirHint" style="font-size:1rem; margin-bottom:8px;"></div>
+      <div class="writing-prompt" id="wordPrompt">–</div>
+
+      <input type="text" class="writing-input" id="slotInput"
+        placeholder="Antwort eingeben…"
+        autocomplete="off" autocorrect="off" spellcheck="false">
+
+      <div style="margin-top:16px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <button class="btn btn-primary" id="confirmBtn" onclick="checkSlotAnswer()">Bestätigen ↵</button>
+      </div>
+
+      <div id="feedbackArea" style="margin-top:20px; min-height:56px; text-align:center;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Round complete screen -->
+<div id="roundCompleteScreen" style="display:none;">
+  <div class="container">
+    <div class="result-card">
+      <div style="font-size:3rem;">🎉</div>
+      <h2>Runde abgeschlossen!</h2>
+      <p style="color:var(--ink-soft); margin:12px 0 24px;">Alle Wörter haben Slot 3 erreicht. Starte eine neue Runde!</p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <button class="btn btn-primary" onclick="restartRound()">🔄 Neue Runde</button>
+        <a href="index.html" class="btn btn-outline">← Einheiten</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/storage.js"></script>
+<script src="../js/voci-engine.js"></script>
+<script>
+  const themeBtn = document.getElementById('themeToggle');
+  document.body.classList.toggle('dark', Storage.getDarkMode());
+  themeBtn.textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  themeBtn.addEventListener('click', () => { Storage.setDarkMode(!Storage.getDarkMode()); location.reload(); });
+
+  const params  = new URLSearchParams(location.search);
+  const unitNum = parseInt(params.get('units'));
+  const dir = params.get('dir') || 'de_en';
+  let wordMap = {};
+  let currentWord = null;
+  let waitingNext = false;
+
+  async function init() {
+    await VociEngine.loadUnits([unitNum]);
+    VociEngine.setDirection(dir);
+    wordMap = VociEngine.getSlotWords();
+    document.getElementById('loadingScreen').style.display = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    nextWord();
+  }
+
+  function updateSlotBars() {
+    const counts = VociEngine.getSlotCounts(wordMap);
+    const total  = counts.total;
+    document.getElementById('s1fill').style.width = `${(counts.s1/total)*100}%`;
+    document.getElementById('s2fill').style.width = `${(counts.s2/total)*100}%`;
+    document.getElementById('s3fill').style.width = `${(counts.s3/total)*100}%`;
+    document.getElementById('s1label').textContent = `Slot 1 (${counts.s1})`;
+    document.getElementById('s2label').textContent = `Slot 2 (${counts.s2})`;
+    document.getElementById('s3label').textContent = `Slot 3 ✓ (${counts.s3})`;
+  }
+
+  function nextWord() {
+    waitingNext = false;
+    updateSlotBars();
+    currentWord = VociEngine.pickSlotWord(wordMap);
+
+    if (!currentWord) {
+      // All in slot 3 – round complete!
+      launchConfetti();
+      setTimeout(() => {
+        document.getElementById('exerciseScreen').style.display = 'none';
+        document.getElementById('roundCompleteScreen').style.display = 'block';
+      }, 1500);
+      return;
+    }
+
+    document.getElementById('wordPrompt').textContent = VociEngine.prompt(currentWord);
+    document.getElementById('dirHint').textContent = dir === 'de_en' ? '🇩🇪 → 🇬🇧' : '🇬🇧 → 🇩🇪';
+    document.getElementById('currentSlotBadge').textContent = `📦 Aktuell in Slot ${currentWord.slot}`;
+    const inp = document.getElementById('slotInput');
+    inp.value = '';
+    inp.className = 'writing-input';
+    inp.disabled = false;
+    document.getElementById('feedbackArea').innerHTML = '';
+    document.getElementById('confirmBtn').textContent = 'Bestätigen ↵';
+    inp.focus();
+  }
+
+  function checkSlotAnswer() {
+    if (waitingNext) { nextWord(); return; }
+
+    const inp  = document.getElementById('slotInput');
+    const userAnswer = inp.value.trim();
+    const correctAnswer = VociEngine.answer(currentWord);
+    const ua = userAnswer.toLowerCase();
+    const ca = correctAnswer.toLowerCase();
+    const ok = ua === ca || VociEngine.levenshtein(ua, ca) <= 1;
+
+    // Update wordMap slot
+    if (ok) {
+      wordMap[currentWord.id].slot = Math.min(wordMap[currentWord.id].slot + 1, 3);
+      Storage.updateWordStats(unitNum, currentWord.id, true);
+      inp.className = 'writing-input correct';
+      document.getElementById('feedbackArea').innerHTML =
+        `<span style="color:var(--green); font-weight:600;">✅ Richtig! Slot ${wordMap[currentWord.id].slot} erreicht.</span>`;
+    } else {
+      wordMap[currentWord.id].slot = 1;
+      Storage.updateWordStats(unitNum, currentWord.id, false);
+      inp.className = 'writing-input wrong';
+      inp.disabled  = true;
+      document.getElementById('feedbackArea').innerHTML =
+        `<span style="color:#C0392B;">❌ Falsch → zurück zu Slot 1.</span> Richtig: <strong>${correctAnswer}</strong>`;
+    }
+
+    Storage.incrementTodayCount(1);
+    waitingNext = true;
+    document.getElementById('confirmBtn').textContent = 'Weiter →';
+    updateSlotBars();
+  }
+
+  function restartRound() {
+    // Reset all to slot 1
+    Object.keys(wordMap).forEach(id => {
+      wordMap[id].slot = 1;
+      Storage.updateWordStats(unitNum, id, false); // crude reset via wrong
+    });
+    // Actually properly reset
+    const ud = Storage.getUnitData(unitNum);
+    Object.keys(ud.words).forEach(id => ud.words[id].slot = 1);
+    Storage.saveUnitData(unitNum, ud);
+    // Reload wordMap
+    wordMap = VociEngine.getSlotWords();
+    document.getElementById('roundCompleteScreen').style.display = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    nextWord();
+  }
+
+  function launchConfetti() {
+    const colors = ['#C0262A','#F39C12','#2D7A4F','#3498DB','#9B59B6','#E74C3C'];
+    for (let i = 0; i < 80; i++) {
+      const el = document.createElement('div');
+      el.className = 'confetti-piece';
+      el.style.cssText = `
+        left: ${Math.random()*100}vw;
+        top: ${Math.random()*-50}px;
+        background: ${colors[Math.floor(Math.random()*colors.length)]};
+        animation-delay: ${Math.random()*1.5}s;
+        width: ${6+Math.random()*8}px;
+        height: ${6+Math.random()*8}px;
+      `;
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 4000);
+    }
+  }
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); checkSlotAnswer(); }
+  });
+
+  init();
+</script>
+</body>
+</html>
