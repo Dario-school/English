@@ -1,0 +1,306 @@
+{
+  "unit": 17,
+  "title": "Unit 17 – Haunted houses",
+  "words": [
+    {
+      "id": "u17_001",
+      "de": "die Atmosphäre",
+      "en": "atmosphere"
+    },
+    {
+      "id": "u17_002",
+      "de": "das Schloss, die Burg",
+      "en": "castle"
+    },
+    {
+      "id": "u17_003",
+      "de": "der Geist",
+      "en": "ghost"
+    },
+    {
+      "id": "u17_004",
+      "de": "Spuk-",
+      "en": "haunted"
+    },
+    {
+      "id": "u17_005",
+      "de": "das Geräusch",
+      "en": "noise"
+    },
+    {
+      "id": "u17_006",
+      "de": "schreien, kreischen",
+      "en": "scream"
+    },
+    {
+      "id": "u17_007",
+      "de": "seufzen",
+      "en": "sigh"
+    },
+    {
+      "id": "u17_008",
+      "de": "schaurig, unheimlich, gespenstisch",
+      "en": "spooky"
+    },
+    {
+      "id": "u17_009",
+      "de": "flüstern",
+      "en": "whisper"
+    },
+    {
+      "id": "u17_010",
+      "de": "pfeifen",
+      "en": "whistle"
+    },
+    {
+      "id": "u17_011",
+      "de": "die Fledermaus",
+      "en": "bat"
+    },
+    {
+      "id": "u17_012",
+      "de": "das Landhaus",
+      "en": "country house"
+    },
+    {
+      "id": "u17_013",
+      "de": "weinen",
+      "en": "cry"
+    },
+    {
+      "id": "u17_014",
+      "de": "die Dunkelheit",
+      "en": "darkness"
+    },
+    {
+      "id": "u17_015",
+      "de": "fliehen, flüchten",
+      "en": "flee"
+    },
+    {
+      "id": "u17_016",
+      "de": "heiraten",
+      "en": "get married"
+    },
+    {
+      "id": "u17_017",
+      "de": "die Führung, der geführte Rundgang",
+      "en": "guided tour"
+    },
+    {
+      "id": "u17_018",
+      "de": "zischen, fauchen",
+      "en": "hiss"
+    },
+    {
+      "id": "u17_019",
+      "de": "heulen",
+      "en": "howl"
+    },
+    {
+      "id": "u17_020",
+      "de": "der König",
+      "en": "king"
+    },
+    {
+      "id": "u17_021",
+      "de": "stöhnen, klagen",
+      "en": "moan"
+    },
+    {
+      "id": "u17_022",
+      "de": "rascheln",
+      "en": "rustle"
+    },
+    {
+      "id": "u17_023",
+      "de": "der Schatten",
+      "en": "shadow"
+    },
+    {
+      "id": "u17_024",
+      "de": "das Geräusch, der Ton",
+      "en": "sound"
+    },
+    {
+      "id": "u17_025",
+      "de": "klingen",
+      "en": "sound (v)"
+    },
+    {
+      "id": "u17_026",
+      "de": "die Spinne",
+      "en": "spider"
+    },
+    {
+      "id": "u17_027",
+      "de": "umgeben von",
+      "en": "surrounded by"
+    },
+    {
+      "id": "u17_028",
+      "de": "umgebend, umliegend",
+      "en": "surrounding"
+    },
+    {
+      "id": "u17_029",
+      "de": "das Mittelalter",
+      "en": "the Middle Ages"
+    },
+    {
+      "id": "u17_030",
+      "de": "tragisch",
+      "en": "tragic"
+    },
+    {
+      "id": "u17_031",
+      "de": "der Krieger, die Kriegerin",
+      "en": "warrior"
+    },
+    {
+      "id": "u17_032",
+      "de": "erscheinen, auftauchen",
+      "en": "appear"
+    },
+    {
+      "id": "u17_033",
+      "de": "glauben",
+      "en": "believe"
+    },
+    {
+      "id": "u17_034",
+      "de": "das Blut",
+      "en": "blood"
+    },
+    {
+      "id": "u17_035",
+      "de": "die Kette",
+      "en": "chain"
+    },
+    {
+      "id": "u17_036",
+      "de": "hier: die Person (in einer Geschichte)",
+      "en": "character"
+    },
+    {
+      "id": "u17_037",
+      "de": "der Flur, der Korridor",
+      "en": "corridor"
+    },
+    {
+      "id": "u17_038",
+      "de": "der Tod",
+      "en": "death"
+    },
+    {
+      "id": "u17_039",
+      "de": "hier: der Effekt",
+      "en": "effect"
+    },
+    {
+      "id": "u17_040",
+      "de": "der Haushälter, die Haushälterin",
+      "en": "housekeeper"
+    },
+    {
+      "id": "u17_041",
+      "de": "der Preis",
+      "en": "price"
+    },
+    {
+      "id": "u17_042",
+      "de": "die indirekte Rede",
+      "en": "reported speech"
+    },
+    {
+      "id": "u17_043",
+      "de": "verkaufen",
+      "en": "sell"
+    },
+    {
+      "id": "u17_044",
+      "de": "der Fleck",
+      "en": "stain"
+    },
+    {
+      "id": "u17_045",
+      "de": "der Rachen, der Hals, die Kehle",
+      "en": "throat"
+    },
+    {
+      "id": "u17_046",
+      "de": "der Donner",
+      "en": "thunder"
+    },
+    {
+      "id": "u17_047",
+      "de": "stimmhaft",
+      "en": "voiced"
+    },
+    {
+      "id": "u17_048",
+      "de": "stimmlos",
+      "en": "voiceless"
+    },
+    {
+      "id": "u17_049",
+      "de": "die Lautstärke",
+      "en": "volume"
+    },
+    {
+      "id": "u17_050",
+      "de": "glauben an",
+      "en": "believe in"
+    },
+    {
+      "id": "u17_051",
+      "de": "erschrecken, Angst machen",
+      "en": "frighten"
+    },
+    {
+      "id": "u17_052",
+      "de": "der Geisterspaziergang",
+      "en": "ghost walk"
+    },
+    {
+      "id": "u17_053",
+      "de": "die Perspektive, der Blickwinkel",
+      "en": "perspective"
+    },
+    {
+      "id": "u17_054",
+      "de": "sich anstrengen",
+      "en": "try hard"
+    },
+    {
+      "id": "u17_055",
+      "de": "das Kostüm, die Verkleidung",
+      "en": "costume"
+    },
+    {
+      "id": "u17_056",
+      "de": "das Tempo",
+      "en": "pace"
+    },
+    {
+      "id": "u17_057",
+      "de": "langsamer werden",
+      "en": "slow down"
+    },
+    {
+      "id": "u17_058",
+      "de": "schneller werden, sich beeilen",
+      "en": "speed up"
+    },
+    {
+      "id": "u17_059",
+      "de": "das ist die richtige Einstellung",
+      "en": "that's the spirit"
+    },
+    {
+      "id": "u17_060",
+      "de": "der Ton, der Farbton",
+      "en": "tone"
+    }
+  ]
+}

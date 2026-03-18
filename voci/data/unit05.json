@@ -1,0 +1,386 @@
+{
+  "unit": 5,
+  "title": "Unit 5 – Weather dynamics",
+  "words": [
+    {
+      "id": "u05_001",
+      "de": "der Schneesturm, der Blizzard",
+      "en": "blizzard"
+    },
+    {
+      "id": "u05_002",
+      "de": "blasen",
+      "en": "blow"
+    },
+    {
+      "id": "u05_003",
+      "de": "ruhig",
+      "en": "calm"
+    },
+    {
+      "id": "u05_004",
+      "de": "die Wolke",
+      "en": "cloud"
+    },
+    {
+      "id": "u05_005",
+      "de": "der Hurrikan",
+      "en": "hurricane"
+    },
+    {
+      "id": "u05_006",
+      "de": "der Regen",
+      "en": "rain"
+    },
+    {
+      "id": "u05_007",
+      "de": "der Schnee",
+      "en": "snow"
+    },
+    {
+      "id": "u05_008",
+      "de": "der Sturm",
+      "en": "storm"
+    },
+    {
+      "id": "u05_009",
+      "de": "der Regenschirm",
+      "en": "umbrella"
+    },
+    {
+      "id": "u05_010",
+      "de": "das Wetter",
+      "en": "weather"
+    },
+    {
+      "id": "u05_011",
+      "de": "ein bisschen",
+      "en": "a bit"
+    },
+    {
+      "id": "u05_012",
+      "de": "eigentlich",
+      "en": "actually"
+    },
+    {
+      "id": "u05_013",
+      "de": "bewölkt",
+      "en": "cloudy"
+    },
+    {
+      "id": "u05_014",
+      "de": "kühl",
+      "en": "cool"
+    },
+    {
+      "id": "u05_015",
+      "de": "trocken",
+      "en": "dry"
+    },
+    {
+      "id": "u05_016",
+      "de": "schön",
+      "en": "fair"
+    },
+    {
+      "id": "u05_017",
+      "de": "hilfreich",
+      "en": "helpful"
+    },
+    {
+      "id": "u05_018",
+      "de": "es macht mir nichts aus",
+      "en": "I don't mind"
+    },
+    {
+      "id": "u05_019",
+      "de": "eisig",
+      "en": "icy"
+    },
+    {
+      "id": "u05_020",
+      "de": "irgendwie, ziemlich",
+      "en": "kind of"
+    },
+    {
+      "id": "u05_021",
+      "de": "glücklich, Glück habend",
+      "en": "lucky"
+    },
+    {
+      "id": "u05_022",
+      "de": "sich vergewissern",
+      "en": "make sure"
+    },
+    {
+      "id": "u05_023",
+      "de": "mild",
+      "en": "mild"
+    },
+    {
+      "id": "u05_024",
+      "de": "natürlich, selbstverständlich",
+      "en": "of course"
+    },
+    {
+      "id": "u05_025",
+      "de": "das Radio",
+      "en": "radio"
+    },
+    {
+      "id": "u05_026",
+      "de": "regnerisch",
+      "en": "rainy"
+    },
+    {
+      "id": "u05_027",
+      "de": "stürmisch",
+      "en": "stormy"
+    },
+    {
+      "id": "u05_028",
+      "de": "sonnig",
+      "en": "sunny"
+    },
+    {
+      "id": "u05_029",
+      "de": "warm",
+      "en": "warm"
+    },
+    {
+      "id": "u05_030",
+      "de": "nass",
+      "en": "wet"
+    },
+    {
+      "id": "u05_031",
+      "de": "windig",
+      "en": "windy"
+    },
+    {
+      "id": "u05_032",
+      "de": "der Winter",
+      "en": "winter"
+    },
+    {
+      "id": "u05_033",
+      "de": "der Luftdruck",
+      "en": "air pressure"
+    },
+    {
+      "id": "u05_034",
+      "de": "arrangieren",
+      "en": "arrange"
+    },
+    {
+      "id": "u05_035",
+      "de": "die Erde",
+      "en": "earth"
+    },
+    {
+      "id": "u05_036",
+      "de": "die Kraft, die Stärke, die Wucht",
+      "en": "force"
+    },
+    {
+      "id": "u05_037",
+      "de": "erhitzen, erwärmen",
+      "en": "heat"
+    },
+    {
+      "id": "u05_038",
+      "de": "ursprünglich",
+      "en": "originally"
+    },
+    {
+      "id": "u05_039",
+      "de": "die Skala",
+      "en": "scale"
+    },
+    {
+      "id": "u05_040",
+      "de": "die Geschwindigkeit, das Tempo",
+      "en": "speed"
+    },
+    {
+      "id": "u05_041",
+      "de": "die Oberfläche",
+      "en": "surface"
+    },
+    {
+      "id": "u05_042",
+      "de": "auf Beweise gestützt, aufgrund von Hinweisen",
+      "en": "based on evidence"
+    },
+    {
+      "id": "u05_043",
+      "de": "zelten, campieren",
+      "en": "camp"
+    },
+    {
+      "id": "u05_044",
+      "de": "die Kategorie",
+      "en": "category"
+    },
+    {
+      "id": "u05_045",
+      "de": "Schaden verursachen, anrichten",
+      "en": "cause damage"
+    },
+    {
+      "id": "u05_046",
+      "de": "die Küste",
+      "en": "coast"
+    },
+    {
+      "id": "u05_047",
+      "de": "weinen",
+      "en": "cry"
+    },
+    {
+      "id": "u05_048",
+      "de": "gefährlich",
+      "en": "dangerous"
+    },
+    {
+      "id": "u05_049",
+      "de": "hier: erklären für",
+      "en": "declare"
+    },
+    {
+      "id": "u05_050",
+      "de": "die Definition",
+      "en": "definition"
+    },
+    {
+      "id": "u05_051",
+      "de": "extrem, äusserste(r, s)",
+      "en": "extreme"
+    },
+    {
+      "id": "u05_052",
+      "de": "Erste-Hilfe-",
+      "en": "first-aid"
+    },
+    {
+      "id": "u05_053",
+      "de": "der Hut, die Mütze",
+      "en": "hat"
+    },
+    {
+      "id": "u05_054",
+      "de": "starker Schneefall",
+      "en": "heavy snowfall"
+    },
+    {
+      "id": "u05_055",
+      "de": "ich wurde geboren am",
+      "en": "I was born on"
+    },
+    {
+      "id": "u05_056",
+      "de": "schlechte Sicht",
+      "en": "low visibility"
+    },
+    {
+      "id": "u05_057",
+      "de": "das Flugzeug",
+      "en": "plane"
+    },
+    {
+      "id": "u05_058",
+      "de": "mächtig, kräftig",
+      "en": "powerful"
+    },
+    {
+      "id": "u05_059",
+      "de": "vorhersagen",
+      "en": "predict / make a prediction"
+    },
+    {
+      "id": "u05_060",
+      "de": "(drastisch) verändern, aufwühlen",
+      "en": "shake up"
+    },
+    {
+      "id": "u05_061",
+      "de": "der Himmel",
+      "en": "sky"
+    },
+    {
+      "id": "u05_062",
+      "de": "abheben, starten",
+      "en": "take off"
+    },
+    {
+      "id": "u05_063",
+      "de": "Fotos machen, fotografieren",
+      "en": "take pictures"
+    },
+    {
+      "id": "u05_064",
+      "de": "heute Abend",
+      "en": "tonight"
+    },
+    {
+      "id": "u05_065",
+      "de": "wertvoll",
+      "en": "valuable"
+    },
+    {
+      "id": "u05_066",
+      "de": "schwach",
+      "en": "weak"
+    },
+    {
+      "id": "u05_067",
+      "de": "das Holz",
+      "en": "wood"
+    },
+    {
+      "id": "u05_068",
+      "de": "zu einem späteren Zeitpunkt, später einmal",
+      "en": "at a later date"
+    },
+    {
+      "id": "u05_069",
+      "de": "den Sinn für ... verloren haben",
+      "en": "be out of touch with"
+    },
+    {
+      "id": "u05_070",
+      "de": "der Chef, die Chefin",
+      "en": "boss"
+    },
+    {
+      "id": "u05_071",
+      "de": "der Kollege, die Kollegin",
+      "en": "colleague"
+    },
+    {
+      "id": "u05_072",
+      "de": "dauernd reden über",
+      "en": "go on about"
+    },
+    {
+      "id": "u05_073",
+      "de": "krank",
+      "en": "ill"
+    },
+    {
+      "id": "u05_074",
+      "de": "in einer festen Reihenfolge",
+      "en": "in a fixed order"
+    },
+    {
+      "id": "u05_075",
+      "de": "der Witz",
+      "en": "joke"
+    },
+    {
+      "id": "u05_076",
+      "de": "die Realität, die Wirklichkeit",
+      "en": "reality"
+    }
+  ]
+}

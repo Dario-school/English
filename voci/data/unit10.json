@@ -1,0 +1,336 @@
+{
+  "unit": 10,
+  "title": "Unit 10 – Catchy tunes",
+  "words": [
+    {
+      "id": "u10_001",
+      "de": "hervorragend, fantastisch",
+      "en": "brilliant"
+    },
+    {
+      "id": "u10_002",
+      "de": "der Refrain",
+      "en": "chorus"
+    },
+    {
+      "id": "u10_003",
+      "de": "klatschen",
+      "en": "clap"
+    },
+    {
+      "id": "u10_004",
+      "de": "der Liedtext",
+      "en": "lyrics"
+    },
+    {
+      "id": "u10_005",
+      "de": "die Melodie",
+      "en": "melody"
+    },
+    {
+      "id": "u10_006",
+      "de": "die Laune, die Stimmung",
+      "en": "mood"
+    },
+    {
+      "id": "u10_007",
+      "de": "der Rhythmus",
+      "en": "rhythm"
+    },
+    {
+      "id": "u10_008",
+      "de": "hier: die Betonung",
+      "en": "stress"
+    },
+    {
+      "id": "u10_009",
+      "de": "der Stil",
+      "en": "style"
+    },
+    {
+      "id": "u10_010",
+      "de": "die Melodie",
+      "en": "tune"
+    },
+    {
+      "id": "u10_011",
+      "de": "jede(r, s)",
+      "en": "every"
+    },
+    {
+      "id": "u10_012",
+      "de": "faszinierend",
+      "en": "fascinating"
+    },
+    {
+      "id": "u10_013",
+      "de": "hören (passiv)",
+      "en": "hear"
+    },
+    {
+      "id": "u10_014",
+      "de": "hören, anhören, zuhören (aktiv)",
+      "en": "listen to"
+    },
+    {
+      "id": "u10_015",
+      "de": "laut",
+      "en": "loud"
+    },
+    {
+      "id": "u10_016",
+      "de": "machen, dass sich jemand (gut/schlecht) fühlt",
+      "en": "make someone feel (good/bad)"
+    },
+    {
+      "id": "u10_017",
+      "de": "die Musik",
+      "en": "music"
+    },
+    {
+      "id": "u10_018",
+      "de": "auch nicht",
+      "en": "neither"
+    },
+    {
+      "id": "u10_019",
+      "de": "eine grosse Rolle spielen",
+      "en": "play a big part"
+    },
+    {
+      "id": "u10_020",
+      "de": "der Sänger, die Sängerin",
+      "en": "singer"
+    },
+    {
+      "id": "u10_021",
+      "de": "das Lied",
+      "en": "song"
+    },
+    {
+      "id": "u10_022",
+      "de": "sich interessieren für",
+      "en": "be interested in"
+    },
+    {
+      "id": "u10_023",
+      "de": "der Takt",
+      "en": "beat"
+    },
+    {
+      "id": "u10_024",
+      "de": "der Akkord",
+      "en": "chord"
+    },
+    {
+      "id": "u10_025",
+      "de": "gut gehen, sich gut fühlen",
+      "en": "do fine"
+    },
+    {
+      "id": "u10_026",
+      "de": "das Schlagzeug",
+      "en": "drums"
+    },
+    {
+      "id": "u10_027",
+      "de": "energiegeladen",
+      "en": "energetic"
+    },
+    {
+      "id": "u10_028",
+      "de": "letzte(r, s)",
+      "en": "final"
+    },
+    {
+      "id": "u10_029",
+      "de": "dazupassen",
+      "en": "fit in"
+    },
+    {
+      "id": "u10_030",
+      "de": "die Flöte",
+      "en": "flute"
+    },
+    {
+      "id": "u10_031",
+      "de": "frustriert",
+      "en": "frustrated"
+    },
+    {
+      "id": "u10_032",
+      "de": "die Gitarre",
+      "en": "guitar"
+    },
+    {
+      "id": "u10_033",
+      "de": "hilflos",
+      "en": "helpless"
+    },
+    {
+      "id": "u10_034",
+      "de": "das Instrument",
+      "en": "instrument"
+    },
+    {
+      "id": "u10_035",
+      "de": "einen Wunsch in Erfüllung gehen lassen",
+      "en": "make a wish come true"
+    },
+    {
+      "id": "u10_036",
+      "de": "Musik in meinen Ohren",
+      "en": "music to my ears"
+    },
+    {
+      "id": "u10_037",
+      "de": "musikalisch, Musik-",
+      "en": "musical"
+    },
+    {
+      "id": "u10_038",
+      "de": "das Klavier",
+      "en": "piano"
+    },
+    {
+      "id": "u10_039",
+      "de": "nachdenklich",
+      "en": "thoughtful"
+    },
+    {
+      "id": "u10_040",
+      "de": "die Trompete",
+      "en": "trumpet"
+    },
+    {
+      "id": "u10_041",
+      "de": "die Violine, die Geige",
+      "en": "violin"
+    },
+    {
+      "id": "u10_042",
+      "de": "eindrucksvoll, super",
+      "en": "awesome"
+    },
+    {
+      "id": "u10_043",
+      "de": "furchtbar, schrecklich",
+      "en": "awful"
+    },
+    {
+      "id": "u10_044",
+      "de": "langweilig",
+      "en": "boring"
+    },
+    {
+      "id": "u10_045",
+      "de": "der Kritiker, die Kritikerin",
+      "en": "critic"
+    },
+    {
+      "id": "u10_046",
+      "de": "die Achtziger(jahre)",
+      "en": "eighties"
+    },
+    {
+      "id": "u10_047",
+      "de": "enthusiastisch, begeistert",
+      "en": "enthusiastic"
+    },
+    {
+      "id": "u10_048",
+      "de": "selbst wenn, auch wenn",
+      "en": "even if"
+    },
+    {
+      "id": "u10_049",
+      "de": "ehrlich",
+      "en": "honest"
+    },
+    {
+      "id": "u10_050",
+      "de": "es erinnert mich an",
+      "en": "it reminds me of"
+    },
+    {
+      "id": "u10_051",
+      "de": "wunderbar, reizend",
+      "en": "lovely"
+    },
+    {
+      "id": "u10_052",
+      "de": "der Musiker, die Musikerin",
+      "en": "musician"
+    },
+    {
+      "id": "u10_053",
+      "de": "die Neunziger(jahre)",
+      "en": "nineties"
+    },
+    {
+      "id": "u10_054",
+      "de": "altmodisch",
+      "en": "old-fashioned"
+    },
+    {
+      "id": "u10_055",
+      "de": "herausbringen, veröffentlichen",
+      "en": "release"
+    },
+    {
+      "id": "u10_056",
+      "de": "die Rezension, die Kritik",
+      "en": "review"
+    },
+    {
+      "id": "u10_057",
+      "de": "romantisch",
+      "en": "romantic"
+    },
+    {
+      "id": "u10_058",
+      "de": "einfach, simpel",
+      "en": "simple"
+    },
+    {
+      "id": "u10_059",
+      "de": "schläfrig",
+      "en": "sleepy"
+    },
+    {
+      "id": "u10_060",
+      "de": "gefühlvoll",
+      "en": "soulful"
+    },
+    {
+      "id": "u10_061",
+      "de": "atemberaubend, fantastisch",
+      "en": "spectacular"
+    },
+    {
+      "id": "u10_062",
+      "de": "hier: angenehm, lieblich",
+      "en": "sweet"
+    },
+    {
+      "id": "u10_063",
+      "de": "die Stimme",
+      "en": "voice"
+    },
+    {
+      "id": "u10_064",
+      "de": "hier: heiss, angesagt",
+      "en": "hot"
+    },
+    {
+      "id": "u10_065",
+      "de": "das Musikstück",
+      "en": "piece of music"
+    },
+    {
+      "id": "u10_066",
+      "de": "die Sachen, das Zeug",
+      "en": "stuff"
+    }
+  ]
+}

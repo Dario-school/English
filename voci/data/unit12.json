@@ -1,0 +1,531 @@
+{
+  "unit": 12,
+  "title": "Unit 12 – Hard times",
+  "words": [
+    {
+      "id": "u12_001",
+      "de": "das Kohlenbergwerk",
+      "en": "coal mine"
+    },
+    {
+      "id": "u12_002",
+      "de": "die Fabrik",
+      "en": "factory"
+    },
+    {
+      "id": "u12_003",
+      "de": "der Herr, der Meister",
+      "en": "master"
+    },
+    {
+      "id": "u12_004",
+      "de": "höflich",
+      "en": "polite"
+    },
+    {
+      "id": "u12_005",
+      "de": "der Porridge, der Haferbrei",
+      "en": "porridge"
+    },
+    {
+      "id": "u12_006",
+      "de": "stehlen",
+      "en": "steal"
+    },
+    {
+      "id": "u12_007",
+      "de": "Textil-",
+      "en": "textile"
+    },
+    {
+      "id": "u12_008",
+      "de": "das Viktorianische Zeitalter",
+      "en": "Victorian Age"
+    },
+    {
+      "id": "u12_009",
+      "de": "die Brieftasche, das Portemonnaie",
+      "en": "wallet"
+    },
+    {
+      "id": "u12_010",
+      "de": "das Armenhaus (im Viktorianischen England)",
+      "en": "workhouse"
+    },
+    {
+      "id": "u12_011",
+      "de": "sich etw. leisten",
+      "en": "afford"
+    },
+    {
+      "id": "u12_012",
+      "de": "das Alter",
+      "en": "age"
+    },
+    {
+      "id": "u12_013",
+      "de": "Arbeit allein (macht auch nicht glücklich)",
+      "en": "all work and no play"
+    },
+    {
+      "id": "u12_014",
+      "de": "abgesehen von, ausser",
+      "en": "apart from"
+    },
+    {
+      "id": "u12_015",
+      "de": "im Grunde, hauptsächlich",
+      "en": "basically"
+    },
+    {
+      "id": "u12_016",
+      "de": "sein wie",
+      "en": "be like"
+    },
+    {
+      "id": "u12_017",
+      "de": "die Bibel",
+      "en": "bible"
+    },
+    {
+      "id": "u12_018",
+      "de": "das Britische Empire (Weltreich)",
+      "en": "British Empire"
+    },
+    {
+      "id": "u12_019",
+      "de": "das Geschäft, der Handel",
+      "en": "business"
+    },
+    {
+      "id": "u12_020",
+      "de": "die Kreide",
+      "en": "chalk"
+    },
+    {
+      "id": "u12_021",
+      "de": "die Kinderarbeit",
+      "en": "child labour"
+    },
+    {
+      "id": "u12_022",
+      "de": "die Landschaft, das ländliche Gebiet",
+      "en": "countryside"
+    },
+    {
+      "id": "u12_023",
+      "de": "schmutzig",
+      "en": "dirty"
+    },
+    {
+      "id": "u12_024",
+      "de": "gebildet",
+      "en": "educated"
+    },
+    {
+      "id": "u12_025",
+      "de": "die Bildung, die Ausbildung",
+      "en": "education"
+    },
+    {
+      "id": "u12_026",
+      "de": "die Grundschule, die Primarschule",
+      "en": "elementary school"
+    },
+    {
+      "id": "u12_027",
+      "de": "ausgezeichnet",
+      "en": "excellent"
+    },
+    {
+      "id": "u12_028",
+      "de": "falsch",
+      "en": "false"
+    },
+    {
+      "id": "u12_029",
+      "de": "der Bauer, die Bäuerin",
+      "en": "farmer"
+    },
+    {
+      "id": "u12_030",
+      "de": "hier: gratis",
+      "en": "free"
+    },
+    {
+      "id": "u12_031",
+      "de": "der Minister, die Ministerin",
+      "en": "minister"
+    },
+    {
+      "id": "u12_032",
+      "de": "hier: die meisten",
+      "en": "most"
+    },
+    {
+      "id": "u12_033",
+      "de": "eng, schmal",
+      "en": "narrow"
+    },
+    {
+      "id": "u12_034",
+      "de": "die Politik",
+      "en": "politics"
+    },
+    {
+      "id": "u12_035",
+      "de": "die Prinzessin",
+      "en": "princess"
+    },
+    {
+      "id": "u12_036",
+      "de": "die Königin",
+      "en": "queen"
+    },
+    {
+      "id": "u12_037",
+      "de": "die Miete",
+      "en": "rent"
+    },
+    {
+      "id": "u12_038",
+      "de": "unterstützen",
+      "en": "support"
+    },
+    {
+      "id": "u12_039",
+      "de": "Zeit der Veränderung, Umwälzung",
+      "en": "time of change"
+    },
+    {
+      "id": "u12_040",
+      "de": "viktorianisch",
+      "en": "Victorian"
+    },
+    {
+      "id": "u12_041",
+      "de": "der Arbeiter, die Arbeiterin",
+      "en": "worker"
+    },
+    {
+      "id": "u12_042",
+      "de": "(nicht) mehr",
+      "en": "(not) anymore"
+    },
+    {
+      "id": "u12_043",
+      "de": "die Handlung",
+      "en": "action"
+    },
+    {
+      "id": "u12_044",
+      "de": "der Bart",
+      "en": "beard"
+    },
+    {
+      "id": "u12_045",
+      "de": "die Schale",
+      "en": "bowl"
+    },
+    {
+      "id": "u12_046",
+      "de": "das Brot",
+      "en": "bread"
+    },
+    {
+      "id": "u12_047",
+      "de": "die Kerze",
+      "en": "candle"
+    },
+    {
+      "id": "u12_048",
+      "de": "der Keller",
+      "en": "cellar"
+    },
+    {
+      "id": "u12_049",
+      "de": "das Weihnachtslied",
+      "en": "Christmas carol"
+    },
+    {
+      "id": "u12_050",
+      "de": "der Mantel",
+      "en": "coat"
+    },
+    {
+      "id": "u12_051",
+      "de": "der Gerichtssaal",
+      "en": "courtroom"
+    },
+    {
+      "id": "u12_052",
+      "de": "der Verbrecher, die Verbrecherin",
+      "en": "criminal"
+    },
+    {
+      "id": "u12_053",
+      "de": "die Kreuzung, der Scheideweg",
+      "en": "crossroad"
+    },
+    {
+      "id": "u12_054",
+      "de": "schliesslich, irgendwann",
+      "en": "eventually"
+    },
+    {
+      "id": "u12_055",
+      "de": "ein Formular ausfüllen",
+      "en": "fill in a form"
+    },
+    {
+      "id": "u12_056",
+      "de": "die Bratpfanne",
+      "en": "frying pan"
+    },
+    {
+      "id": "u12_057",
+      "de": "die Truppe, die Bande",
+      "en": "gang"
+    },
+    {
+      "id": "u12_058",
+      "de": "der Herr, der Gentleman",
+      "en": "gentleman"
+    },
+    {
+      "id": "u12_059",
+      "de": "der Saal",
+      "en": "hall"
+    },
+    {
+      "id": "u12_060",
+      "de": "hungrig",
+      "en": "hungry"
+    },
+    {
+      "id": "u12_061",
+      "de": "das Eisen",
+      "en": "iron"
+    },
+    {
+      "id": "u12_062",
+      "de": "leihen",
+      "en": "lend"
+    },
+    {
+      "id": "u12_063",
+      "de": "heiraten",
+      "en": "marry"
+    },
+    {
+      "id": "u12_064",
+      "de": "frohe Weihnachten",
+      "en": "merry Christmas"
+    },
+    {
+      "id": "u12_065",
+      "de": "die Mitternacht",
+      "en": "midnight"
+    },
+    {
+      "id": "u12_066",
+      "de": "die Fabrik, die Mühle",
+      "en": "mill"
+    },
+    {
+      "id": "u12_067",
+      "de": "der Roman",
+      "en": "novel"
+    },
+    {
+      "id": "u12_068",
+      "de": "nirgendwo",
+      "en": "nowhere"
+    },
+    {
+      "id": "u12_069",
+      "de": "natürlich nicht",
+      "en": "of course not"
+    },
+    {
+      "id": "u12_070",
+      "de": "das Waisenkind",
+      "en": "orphan"
+    },
+    {
+      "id": "u12_071",
+      "de": "der Besitzer, die Besitzerin",
+      "en": "owner"
+    },
+    {
+      "id": "u12_072",
+      "de": "die Pfanne",
+      "en": "pan"
+    },
+    {
+      "id": "u12_073",
+      "de": "ohnmächtig werden",
+      "en": "pass out"
+    },
+    {
+      "id": "u12_074",
+      "de": "der Weg, der Pfad",
+      "en": "path"
+    },
+    {
+      "id": "u12_075",
+      "de": "der Taschendieb, die Taschendiebin",
+      "en": "pickpocket"
+    },
+    {
+      "id": "u12_076",
+      "de": "die Verschmutzung, die Umweltverschmutzung",
+      "en": "pollution"
+    },
+    {
+      "id": "u12_077",
+      "de": "der Topf",
+      "en": "pot"
+    },
+    {
+      "id": "u12_078",
+      "de": "das Gebet",
+      "en": "prayer"
+    },
+    {
+      "id": "u12_079",
+      "de": "das Gefängnis",
+      "en": "prison"
+    },
+    {
+      "id": "u12_080",
+      "de": "die Wurst",
+      "en": "sausage"
+    },
+    {
+      "id": "u12_081",
+      "de": "die Kurzgeschichte",
+      "en": "short story"
+    },
+    {
+      "id": "u12_082",
+      "de": "(mein) Herr",
+      "en": "sir"
+    },
+    {
+      "id": "u12_083",
+      "de": "die Situation, die Lage",
+      "en": "situation"
+    },
+    {
+      "id": "u12_084",
+      "de": "der Stein",
+      "en": "stone"
+    },
+    {
+      "id": "u12_085",
+      "de": "das Abendessen",
+      "en": "supper"
+    },
+    {
+      "id": "u12_086",
+      "de": "der Dieb, die Diebin",
+      "en": "thief"
+    },
+    {
+      "id": "u12_087",
+      "de": "vertrauen",
+      "en": "trust"
+    },
+    {
+      "id": "u12_088",
+      "de": "die Uniform",
+      "en": "uniform"
+    },
+    {
+      "id": "u12_089",
+      "de": "waschen",
+      "en": "wash"
+    },
+    {
+      "id": "u12_090",
+      "de": "flüstern",
+      "en": "whisper"
+    },
+    {
+      "id": "u12_091",
+      "de": "die Arbeiterklasse",
+      "en": "working class"
+    },
+    {
+      "id": "u12_092",
+      "de": "Haben Sie etwas dagegen, ... zu ...?",
+      "en": "Would you mind ...ing ...?"
+    },
+    {
+      "id": "u12_093",
+      "de": "ja, natürlich",
+      "en": "yes, of course"
+    },
+    {
+      "id": "u12_094",
+      "de": "hier: das Gericht",
+      "en": "court"
+    },
+    {
+      "id": "u12_095",
+      "de": "entscheiden",
+      "en": "decide"
+    },
+    {
+      "id": "u12_096",
+      "de": "verteidigen",
+      "en": "defend"
+    },
+    {
+      "id": "u12_097",
+      "de": "zusätzlich",
+      "en": "extra"
+    },
+    {
+      "id": "u12_098",
+      "de": "geschehen",
+      "en": "happen"
+    },
+    {
+      "id": "u12_099",
+      "de": "der Richter, die Richterin",
+      "en": "judge"
+    },
+    {
+      "id": "u12_100",
+      "de": "der Raub, der Raubüberfall",
+      "en": "robbery"
+    },
+    {
+      "id": "u12_101",
+      "de": "retten",
+      "en": "save"
+    },
+    {
+      "id": "u12_102",
+      "de": "das Verteidigungsschreiben",
+      "en": "statement of defence"
+    },
+    {
+      "id": "u12_103",
+      "de": "der Prozess",
+      "en": "trial"
+    },
+    {
+      "id": "u12_104",
+      "de": "unfair",
+      "en": "unfair"
+    },
+    {
+      "id": "u12_105",
+      "de": "der Zeuge, die Zeugin",
+      "en": "witness"
+    }
+  ]
+}

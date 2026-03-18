@@ -1,0 +1,271 @@
+{
+  "unit": 14,
+  "title": "Unit 14 – Incredible India",
+  "words": [
+    {
+      "id": "u14_001",
+      "de": "der Chai (Tee)",
+      "en": "chai"
+    },
+    {
+      "id": "u14_002",
+      "de": "die Kleider",
+      "en": "clothes"
+    },
+    {
+      "id": "u14_003",
+      "de": "das Gespräch, die Unterhaltung",
+      "en": "conversation"
+    },
+    {
+      "id": "u14_004",
+      "de": "der Brauch, die Sitte",
+      "en": "custom"
+    },
+    {
+      "id": "u14_005",
+      "de": "das Gericht (Speise)",
+      "en": "dish"
+    },
+    {
+      "id": "u14_006",
+      "de": "grüssen, begrüssen",
+      "en": "greet"
+    },
+    {
+      "id": "u14_007",
+      "de": "indisch",
+      "en": "Indian"
+    },
+    {
+      "id": "u14_008",
+      "de": "höflich",
+      "en": "polite"
+    },
+    {
+      "id": "u14_009",
+      "de": "der Sari",
+      "en": "sari"
+    },
+    {
+      "id": "u14_010",
+      "de": "sollen",
+      "en": "shall"
+    },
+    {
+      "id": "u14_011",
+      "de": "der Akzent",
+      "en": "accent"
+    },
+    {
+      "id": "u14_012",
+      "de": "das Curry",
+      "en": "curry"
+    },
+    {
+      "id": "u14_013",
+      "de": "der Elefant",
+      "en": "elephant"
+    },
+    {
+      "id": "u14_014",
+      "de": "der Guru, der spirituelle Lehrer",
+      "en": "guru"
+    },
+    {
+      "id": "u14_015",
+      "de": "selbst, sich selbst (weiblich)",
+      "en": "herself"
+    },
+    {
+      "id": "u14_016",
+      "de": "selbst, sich selbst (männlich)",
+      "en": "himself"
+    },
+    {
+      "id": "u14_017",
+      "de": "unglaublich",
+      "en": "incredible"
+    },
+    {
+      "id": "u14_018",
+      "de": "Indien",
+      "en": "India"
+    },
+    {
+      "id": "u14_019",
+      "de": "selbst, sich selbst (sächlich)",
+      "en": "itself"
+    },
+    {
+      "id": "u14_020",
+      "de": "der Berg, das Gebirge",
+      "en": "mountain"
+    },
+    {
+      "id": "u14_021",
+      "de": "selbst, uns selbst",
+      "en": "ourselves"
+    },
+    {
+      "id": "u14_022",
+      "de": "der Schlafanzug",
+      "en": "pyjamas"
+    },
+    {
+      "id": "u14_023",
+      "de": "das Reflexivpronomen",
+      "en": "reflexive pronoun"
+    },
+    {
+      "id": "u14_024",
+      "de": "das Shampoo",
+      "en": "shampoo"
+    },
+    {
+      "id": "u14_025",
+      "de": "der Süden",
+      "en": "south"
+    },
+    {
+      "id": "u14_026",
+      "de": "selbst, sich selbst (Plural)",
+      "en": "themselves"
+    },
+    {
+      "id": "u14_027",
+      "de": "typisch",
+      "en": "typical"
+    },
+    {
+      "id": "u14_028",
+      "de": "selbst, dich selbst",
+      "en": "yourself"
+    },
+    {
+      "id": "u14_029",
+      "de": "angemessen",
+      "en": "appropriately"
+    },
+    {
+      "id": "u14_030",
+      "de": "vermeiden",
+      "en": "avoid"
+    },
+    {
+      "id": "u14_031",
+      "de": "der Rucksacktourist, die Rucksacktouristin",
+      "en": "backpacker"
+    },
+    {
+      "id": "u14_032",
+      "de": "sich verhalten, sich benehmen",
+      "en": "behave"
+    },
+    {
+      "id": "u14_033",
+      "de": "die Flasche",
+      "en": "bottle"
+    },
+    {
+      "id": "u14_034",
+      "de": "farbenfroh, bunt",
+      "en": "colourful"
+    },
+    {
+      "id": "u14_035",
+      "de": "üblich, weit verbreitet",
+      "en": "common"
+    },
+    {
+      "id": "u14_036",
+      "de": "das Kleid",
+      "en": "dress"
+    },
+    {
+      "id": "u14_037",
+      "de": "alltäglich, Alltags-",
+      "en": "everyday"
+    },
+    {
+      "id": "u14_038",
+      "de": "die Acht, die Zahl/Form Acht",
+      "en": "figure of eight"
+    },
+    {
+      "id": "u14_039",
+      "de": "riesig",
+      "en": "huge"
+    },
+    {
+      "id": "u14_040",
+      "de": "unhöflich",
+      "en": "impolite"
+    },
+    {
+      "id": "u14_041",
+      "de": "die Interaktion, die Gesprächssituation",
+      "en": "interaction"
+    },
+    {
+      "id": "u14_042",
+      "de": "der Internetzugang",
+      "en": "internet access"
+    },
+    {
+      "id": "u14_043",
+      "de": "lärmig, laut",
+      "en": "noisy"
+    },
+    {
+      "id": "u14_044",
+      "de": "der Reisepass",
+      "en": "passport"
+    },
+    {
+      "id": "u14_045",
+      "de": "der Respekt, die Achtung",
+      "en": "respect"
+    },
+    {
+      "id": "u14_046",
+      "de": "die Hände schütteln",
+      "en": "shake hands"
+    },
+    {
+      "id": "u14_047",
+      "de": "das Hemd",
+      "en": "shirt"
+    },
+    {
+      "id": "u14_048",
+      "de": "der Anblick, die Sehenswürdigkeit",
+      "en": "sight"
+    },
+    {
+      "id": "u14_049",
+      "de": "gesellschaftlich",
+      "en": "social"
+    },
+    {
+      "id": "u14_050",
+      "de": "das Gewürz",
+      "en": "spice"
+    },
+    {
+      "id": "u14_051",
+      "de": "der Tee",
+      "en": "tea"
+    },
+    {
+      "id": "u14_052",
+      "de": "der Daumen",
+      "en": "thumb"
+    },
+    {
+      "id": "u14_053",
+      "de": "besuchen",
+      "en": "visit"
+    }
+  ]
+}

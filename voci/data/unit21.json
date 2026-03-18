@@ -1,0 +1,441 @@
+{
+  "unit": 21,
+  "title": "Unit 21 – Backpacking",
+  "words": [
+    {
+      "id": "u21_001",
+      "de": "von den Ureinwohnern Australiens",
+      "en": "Aboriginal"
+    },
+    {
+      "id": "u21_002",
+      "de": "Australien",
+      "en": "Australia"
+    },
+    {
+      "id": "u21_003",
+      "de": "der Rucksacktourist, die Rucksacktouristin",
+      "en": "backpacker"
+    },
+    {
+      "id": "u21_004",
+      "de": "hier: der Apotheker, die Apothekerin",
+      "en": "chemist"
+    },
+    {
+      "id": "u21_005",
+      "de": "die Kopfschmerzen",
+      "en": "headache"
+    },
+    {
+      "id": "u21_006",
+      "de": "das Känguru",
+      "en": "kangaroo"
+    },
+    {
+      "id": "u21_007",
+      "de": "die Landschaft",
+      "en": "landscape"
+    },
+    {
+      "id": "u21_008",
+      "de": "die Medizin, das Medikament",
+      "en": "medicine"
+    },
+    {
+      "id": "u21_009",
+      "de": "die Tablette, die Pille",
+      "en": "pill"
+    },
+    {
+      "id": "u21_010",
+      "de": "die Region",
+      "en": "region"
+    },
+    {
+      "id": "u21_011",
+      "de": "alt, antik",
+      "en": "ancient"
+    },
+    {
+      "id": "u21_012",
+      "de": "der Australier, die Australierin; australisch",
+      "en": "Australian"
+    },
+    {
+      "id": "u21_013",
+      "de": "verfügbar, erhältlich",
+      "en": "available"
+    },
+    {
+      "id": "u21_014",
+      "de": "brennen",
+      "en": "burn"
+    },
+    {
+      "id": "u21_015",
+      "de": "die Hauptstadt",
+      "en": "capital"
+    },
+    {
+      "id": "u21_016",
+      "de": "die Koralle",
+      "en": "coral"
+    },
+    {
+      "id": "u21_017",
+      "de": "das Krokodil",
+      "en": "crocodile"
+    },
+    {
+      "id": "u21_018",
+      "de": "der Delfin",
+      "en": "dolphin"
+    },
+    {
+      "id": "u21_019",
+      "de": "endlos",
+      "en": "endless"
+    },
+    {
+      "id": "u21_020",
+      "de": "äusserst wichtig",
+      "en": "essential"
+    },
+    {
+      "id": "u21_021",
+      "de": "garantieren",
+      "en": "guarantee"
+    },
+    {
+      "id": "u21_022",
+      "de": "ideal",
+      "en": "ideal"
+    },
+    {
+      "id": "u21_023",
+      "de": "das Insekt",
+      "en": "insect"
+    },
+    {
+      "id": "u21_024",
+      "de": "örtlich, lokal",
+      "en": "local"
+    },
+    {
+      "id": "u21_025",
+      "de": "der Nationalpark",
+      "en": "national park"
+    },
+    {
+      "id": "u21_026",
+      "de": "der Pinguin",
+      "en": "penguin"
+    },
+    {
+      "id": "u21_027",
+      "de": "heilig",
+      "en": "sacred"
+    },
+    {
+      "id": "u21_028",
+      "de": "der Hai",
+      "en": "shark"
+    },
+    {
+      "id": "u21_029",
+      "de": "die Art, die Spezies",
+      "en": "species"
+    },
+    {
+      "id": "u21_030",
+      "de": "der Sonnenaufgang",
+      "en": "sunrise"
+    },
+    {
+      "id": "u21_031",
+      "de": "der Sonnenuntergang",
+      "en": "sunset"
+    },
+    {
+      "id": "u21_032",
+      "de": "hart, zäh",
+      "en": "tough"
+    },
+    {
+      "id": "u21_033",
+      "de": "tropisch",
+      "en": "tropical"
+    },
+    {
+      "id": "u21_034",
+      "de": "hier: die Wildtiere",
+      "en": "wildlife"
+    },
+    {
+      "id": "u21_035",
+      "de": "im Ausland, ins Ausland",
+      "en": "abroad"
+    },
+    {
+      "id": "u21_036",
+      "de": "die Unterkunft",
+      "en": "accommodation"
+    },
+    {
+      "id": "u21_037",
+      "de": "allergisch",
+      "en": "allergic"
+    },
+    {
+      "id": "u21_038",
+      "de": "der Krankenwagen",
+      "en": "ambulance"
+    },
+    {
+      "id": "u21_039",
+      "de": "der Termin, die Verabredung",
+      "en": "appointment"
+    },
+    {
+      "id": "u21_040",
+      "de": "der Mitarbeiter, die Mitarbeiterin",
+      "en": "assistant"
+    },
+    {
+      "id": "u21_041",
+      "de": "in der Apotheke",
+      "en": "at the chemist's"
+    },
+    {
+      "id": "u21_042",
+      "de": "der Rucksack",
+      "en": "backpack"
+    },
+    {
+      "id": "u21_043",
+      "de": "der Verband",
+      "en": "bandage"
+    },
+    {
+      "id": "u21_044",
+      "de": "das Frühstück, Zmorge (AuE)",
+      "en": "brekkie (AuE)"
+    },
+    {
+      "id": "u21_045",
+      "de": "erwischen",
+      "en": "catch"
+    },
+    {
+      "id": "u21_046",
+      "de": "die Erkältung, das Kältegefühl",
+      "en": "chill"
+    },
+    {
+      "id": "u21_047",
+      "de": "bestätigen",
+      "en": "confirm"
+    },
+    {
+      "id": "u21_048",
+      "de": "Papa",
+      "en": "Dad"
+    },
+    {
+      "id": "u21_049",
+      "de": "verschieben",
+      "en": "delay"
+    },
+    {
+      "id": "u21_050",
+      "de": "der Durchfall",
+      "en": "diarrhoea"
+    },
+    {
+      "id": "u21_051",
+      "de": "Australien (und/oder Neuseeland)",
+      "en": "down under"
+    },
+    {
+      "id": "u21_052",
+      "de": "die Ausnahme",
+      "en": "exception"
+    },
+    {
+      "id": "u21_053",
+      "de": "die zusätzliche Gebühr, der Aufpreis",
+      "en": "extra fee"
+    },
+    {
+      "id": "u21_054",
+      "de": "hier: zumachen, befestigen",
+      "en": "fasten"
+    },
+    {
+      "id": "u21_055",
+      "de": "das Fieber",
+      "en": "fever"
+    },
+    {
+      "id": "u21_056",
+      "de": "die Erste-Hilfe-Ausrüstung",
+      "en": "first aid kit"
+    },
+    {
+      "id": "u21_057",
+      "de": "der Kühlschrank",
+      "en": "fridge"
+    },
+    {
+      "id": "u21_058",
+      "de": "der Hafen",
+      "en": "harbour"
+    },
+    {
+      "id": "u21_059",
+      "de": "das Spital",
+      "en": "hospital"
+    },
+    {
+      "id": "u21_060",
+      "de": "die Krankheit",
+      "en": "illness"
+    },
+    {
+      "id": "u21_061",
+      "de": "die Verletzung",
+      "en": "injury"
+    },
+    {
+      "id": "u21_062",
+      "de": "glücklicherweise",
+      "en": "luckily"
+    },
+    {
+      "id": "u21_063",
+      "de": "der Kamerad, die Kameradin",
+      "en": "mate"
+    },
+    {
+      "id": "u21_064",
+      "de": "das Durcheinander, die Unordnung",
+      "en": "mess"
+    },
+    {
+      "id": "u21_065",
+      "de": "die Milch",
+      "en": "milk"
+    },
+    {
+      "id": "u21_066",
+      "de": "zudem",
+      "en": "moreover"
+    },
+    {
+      "id": "u21_067",
+      "de": "Mama",
+      "en": "Mum"
+    },
+    {
+      "id": "u21_068",
+      "de": "auf keinen Fall, ausgeschlossen",
+      "en": "no way"
+    },
+    {
+      "id": "u21_069",
+      "de": "die Operation",
+      "en": "operation"
+    },
+    {
+      "id": "u21_070",
+      "de": "das Schmerzmittel",
+      "en": "painkiller"
+    },
+    {
+      "id": "u21_071",
+      "de": "sich weigern, ablehnen",
+      "en": "refuse"
+    },
+    {
+      "id": "u21_072",
+      "de": "der Zimmergenosse, die Zimmergenossin",
+      "en": "roommate"
+    },
+    {
+      "id": "u21_073",
+      "de": "die Schere",
+      "en": "scissors"
+    },
+    {
+      "id": "u21_074",
+      "de": "der Gurt",
+      "en": "seatbelt"
+    },
+    {
+      "id": "u21_075",
+      "de": "die Besichtigung von Sehenswürdigkeiten",
+      "en": "sightseeing"
+    },
+    {
+      "id": "u21_076",
+      "de": "schnarchen",
+      "en": "snore"
+    },
+    {
+      "id": "u21_077",
+      "de": "das Personal",
+      "en": "staff"
+    },
+    {
+      "id": "u21_078",
+      "de": "wohnen in, übernachten in",
+      "en": "stay at"
+    },
+    {
+      "id": "u21_079",
+      "de": "das Bauchweh",
+      "en": "stomach ache"
+    },
+    {
+      "id": "u21_080",
+      "de": "überwältigend, umwerfend",
+      "en": "stunning"
+    },
+    {
+      "id": "u21_081",
+      "de": "der Sonnenbrand",
+      "en": "sunburn"
+    },
+    {
+      "id": "u21_082",
+      "de": "der Supermarkt",
+      "en": "supermarket"
+    },
+    {
+      "id": "u21_083",
+      "de": "deshalb, deswegen",
+      "en": "therefore"
+    },
+    {
+      "id": "u21_084",
+      "de": "der Reiseleiter, die Reiseleiterin",
+      "en": "tour guide"
+    },
+    {
+      "id": "u21_085",
+      "de": "der Reiseblog",
+      "en": "travel blog"
+    },
+    {
+      "id": "u21_086",
+      "de": "wild",
+      "en": "wild"
+    },
+    {
+      "id": "u21_087",
+      "de": "innerhalb (von)",
+      "en": "within"
+    }
+  ]
+}

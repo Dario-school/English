@@ -1,0 +1,436 @@
+{
+  "unit": 16,
+  "title": "Unit 16 – Down Fifth Avenue",
+  "words": [
+    {
+      "id": "u16_001",
+      "de": "die Avenue, der Boulevard",
+      "en": "avenue"
+    },
+    {
+      "id": "u16_002",
+      "de": "die Bemerkung",
+      "en": "comment"
+    },
+    {
+      "id": "u16_003",
+      "de": "das Delikatessengeschäft",
+      "en": "deli"
+    },
+    {
+      "id": "u16_004",
+      "de": "die Kehrseite",
+      "en": "downside"
+    },
+    {
+      "id": "u16_005",
+      "de": "berühmt",
+      "en": "famous"
+    },
+    {
+      "id": "u16_006",
+      "de": "die Anschlussfrage, die Folgefrage",
+      "en": "follow-up question"
+    },
+    {
+      "id": "u16_007",
+      "de": "die Kreuzung (AmE)",
+      "en": "intersection (AmE)"
+    },
+    {
+      "id": "u16_008",
+      "de": "der Anblick, die Sehenswürdigkeit",
+      "en": "sight"
+    },
+    {
+      "id": "u16_009",
+      "de": "die Freiheitsstatue",
+      "en": "Statue of Liberty"
+    },
+    {
+      "id": "u16_010",
+      "de": "die U-Bahn (AmE)",
+      "en": "subway (AmE)"
+    },
+    {
+      "id": "u16_011",
+      "de": "die Bank",
+      "en": "bench"
+    },
+    {
+      "id": "u16_012",
+      "de": "das Taxi",
+      "en": "cab"
+    },
+    {
+      "id": "u16_013",
+      "de": "(kreis)rund",
+      "en": "circular"
+    },
+    {
+      "id": "u16_014",
+      "de": "hier: hinunter",
+      "en": "down"
+    },
+    {
+      "id": "u16_015",
+      "de": "das Dutzend",
+      "en": "dozen"
+    },
+    {
+      "id": "u16_016",
+      "de": "das Merkmal",
+      "en": "feature"
+    },
+    {
+      "id": "u16_017",
+      "de": "der erste Eindruck",
+      "en": "first impression"
+    },
+    {
+      "id": "u16_018",
+      "de": "die Freiheit",
+      "en": "freedom"
+    },
+    {
+      "id": "u16_019",
+      "de": "aussteigen",
+      "en": "get off"
+    },
+    {
+      "id": "u16_020",
+      "de": "die Regierung",
+      "en": "government"
+    },
+    {
+      "id": "u16_021",
+      "de": "beeindruckt",
+      "en": "impressed"
+    },
+    {
+      "id": "u16_022",
+      "de": "beeindruckend",
+      "en": "impressive"
+    },
+    {
+      "id": "u16_023",
+      "de": "buchstäblich",
+      "en": "literally"
+    },
+    {
+      "id": "u16_024",
+      "de": "die Zeit aus den Augen verlieren",
+      "en": "lose track of time"
+    },
+    {
+      "id": "u16_025",
+      "de": "von Bedeutung sein",
+      "en": "matter"
+    },
+    {
+      "id": "u16_026",
+      "de": "für die Öffentlichkeit zugänglich",
+      "en": "open to the public"
+    },
+    {
+      "id": "u16_027",
+      "de": "der Ort",
+      "en": "place"
+    },
+    {
+      "id": "u16_028",
+      "de": "hier: Eintrag (auf einem Internet-Forum)",
+      "en": "post"
+    },
+    {
+      "id": "u16_029",
+      "de": "das Geschenk",
+      "en": "present"
+    },
+    {
+      "id": "u16_030",
+      "de": "wahrscheinlich",
+      "en": "probably"
+    },
+    {
+      "id": "u16_031",
+      "de": "hier: filmen, drehen",
+      "en": "shoot"
+    },
+    {
+      "id": "u16_032",
+      "de": "sprachlos",
+      "en": "speechless"
+    },
+    {
+      "id": "u16_033",
+      "de": "der Bahnhof, die U-Bahnstation",
+      "en": "station"
+    },
+    {
+      "id": "u16_034",
+      "de": "gerade",
+      "en": "straight"
+    },
+    {
+      "id": "u16_035",
+      "de": "gross, hoch",
+      "en": "tall"
+    },
+    {
+      "id": "u16_036",
+      "de": "das Theater",
+      "en": "theatre"
+    },
+    {
+      "id": "u16_037",
+      "de": "USA (Vereinigte Staaten von Amerika)",
+      "en": "USA"
+    },
+    {
+      "id": "u16_038",
+      "de": "während",
+      "en": "while"
+    },
+    {
+      "id": "u16_039",
+      "de": "was auch immer",
+      "en": "you name it"
+    },
+    {
+      "id": "u16_040",
+      "de": "die Adresse",
+      "en": "address"
+    },
+    {
+      "id": "u16_041",
+      "de": "die Wohnung (AmE)",
+      "en": "apartment (AmE)"
+    },
+    {
+      "id": "u16_042",
+      "de": "hier: die Attraktion",
+      "en": "attraction"
+    },
+    {
+      "id": "u16_043",
+      "de": "die Bank",
+      "en": "bank"
+    },
+    {
+      "id": "u16_044",
+      "de": "der/die Bankangestellte/-r",
+      "en": "bank clerk"
+    },
+    {
+      "id": "u16_045",
+      "de": "die Rechnung (AmE)",
+      "en": "check (AmE)"
+    },
+    {
+      "id": "u16_046",
+      "de": "das Stadtleben, Wohnen in der Stadt",
+      "en": "city living"
+    },
+    {
+      "id": "u16_047",
+      "de": "farbenfroh, farbig",
+      "en": "colourful (BrE) / colorful (AmE)"
+    },
+    {
+      "id": "u16_048",
+      "de": "in der Innenstadt, im Stadtzentrum (AmE)",
+      "en": "downtown (AmE)"
+    },
+    {
+      "id": "u16_049",
+      "de": "jemanden zum Wahnsinn treiben",
+      "en": "drive someone crazy"
+    },
+    {
+      "id": "u16_050",
+      "de": "der Austauschbesuch",
+      "en": "exchange visit"
+    },
+    {
+      "id": "u16_051",
+      "de": "die Fälschung",
+      "en": "fake"
+    },
+    {
+      "id": "u16_052",
+      "de": "die Güter",
+      "en": "goods"
+    },
+    {
+      "id": "u16_053",
+      "de": "ehrlich",
+      "en": "honestly"
+    },
+    {
+      "id": "u16_054",
+      "de": "meiner Meinung nach",
+      "en": "in my opinion"
+    },
+    {
+      "id": "u16_055",
+      "de": "der Interviewer, die Interviewerin",
+      "en": "interviewer"
+    },
+    {
+      "id": "u16_056",
+      "de": "das Joggen",
+      "en": "jogging"
+    },
+    {
+      "id": "u16_057",
+      "de": "am Laufen halten",
+      "en": "keep going"
+    },
+    {
+      "id": "u16_058",
+      "de": "lieben",
+      "en": "love"
+    },
+    {
+      "id": "u16_059",
+      "de": "pünktlich",
+      "en": "on time"
+    },
+    {
+      "id": "u16_060",
+      "de": "die Oper",
+      "en": "opera"
+    },
+    {
+      "id": "u16_061",
+      "de": "der Bewohner, die Bewohnerin",
+      "en": "resident"
+    },
+    {
+      "id": "u16_062",
+      "de": "das Trottoir, der Gehweg (AmE)",
+      "en": "sidewalk (AmE)"
+    },
+    {
+      "id": "u16_063",
+      "de": "die Silbe",
+      "en": "syllable"
+    },
+    {
+      "id": "u16_064",
+      "de": "trendy, modisch",
+      "en": "trendy"
+    },
+    {
+      "id": "u16_065",
+      "de": "sich Sorgen machen um",
+      "en": "worry about"
+    },
+    {
+      "id": "u16_066",
+      "de": "der Parkplatz (BrE)",
+      "en": "car park (BrE)"
+    },
+    {
+      "id": "u16_067",
+      "de": "der Abfalleimer (BrE)",
+      "en": "dustbin (BrE)"
+    },
+    {
+      "id": "u16_068",
+      "de": "das Erdgeschoss (AmE)",
+      "en": "first floor (AmE)"
+    },
+    {
+      "id": "u16_069",
+      "de": "der Abfalleimer (AmE)",
+      "en": "garbage can (AmE)"
+    },
+    {
+      "id": "u16_070",
+      "de": "der Garten",
+      "en": "garden"
+    },
+    {
+      "id": "u16_071",
+      "de": "das Benzin (AmE)",
+      "en": "gas (AmE)"
+    },
+    {
+      "id": "u16_072",
+      "de": "das Erdgeschoss (BrE)",
+      "en": "ground floor (BrE)"
+    },
+    {
+      "id": "u16_073",
+      "de": "die Autobahn (AmE)",
+      "en": "highway (AmE)"
+    },
+    {
+      "id": "u16_074",
+      "de": "der Lastwagen (BrE)",
+      "en": "lorry (BrE)"
+    },
+    {
+      "id": "u16_075",
+      "de": "die Autobahn (BrE)",
+      "en": "motorway (BrE)"
+    },
+    {
+      "id": "u16_076",
+      "de": "der Parkplatz (AmE)",
+      "en": "parking lot (AmE)"
+    },
+    {
+      "id": "u16_077",
+      "de": "das Benzin (BrE)",
+      "en": "petrol (BrE)"
+    },
+    {
+      "id": "u16_078",
+      "de": "die Eisenbahn (AmE)",
+      "en": "railroad (AmE)"
+    },
+    {
+      "id": "u16_079",
+      "de": "hier: stumm",
+      "en": "silent"
+    },
+    {
+      "id": "u16_080",
+      "de": "der Lastwagen (AmE)",
+      "en": "truck (AmE)"
+    },
+    {
+      "id": "u16_081",
+      "de": "der Hof, der Garten (AmE)",
+      "en": "yard (AmE)"
+    },
+    {
+      "id": "u16_082",
+      "de": "verrückt",
+      "en": "crazy"
+    },
+    {
+      "id": "u16_083",
+      "de": "der Notfall",
+      "en": "emergency"
+    },
+    {
+      "id": "u16_084",
+      "de": "ungesetzlich, illegal",
+      "en": "illegal"
+    },
+    {
+      "id": "u16_085",
+      "de": "überraschend, erstaunlich",
+      "en": "surprising"
+    },
+    {
+      "id": "u16_086",
+      "de": "unterirdisch, unter der Erde",
+      "en": "underground"
+    }
+  ]
+}

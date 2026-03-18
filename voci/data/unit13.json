@@ -1,0 +1,311 @@
+{
+  "unit": 13,
+  "title": "Unit 13 – Intriguing devices",
+  "words": [
+    {
+      "id": "u13_001",
+      "de": "die Kamera, der Fotoapparat",
+      "en": "camera"
+    },
+    {
+      "id": "u13_002",
+      "de": "der Computer",
+      "en": "computer"
+    },
+    {
+      "id": "u13_003",
+      "de": "das Gerät, der Apparat",
+      "en": "device"
+    },
+    {
+      "id": "u13_004",
+      "de": "elektronisch",
+      "en": "electronic"
+    },
+    {
+      "id": "u13_005",
+      "de": "lustig, witzig",
+      "en": "funny"
+    },
+    {
+      "id": "u13_006",
+      "de": "geheimnisvoll, mysteriös",
+      "en": "mysterious"
+    },
+    {
+      "id": "u13_007",
+      "de": "der Fotograf, die Fotografin",
+      "en": "photographer"
+    },
+    {
+      "id": "u13_008",
+      "de": "der Roboter",
+      "en": "robot"
+    },
+    {
+      "id": "u13_009",
+      "de": "romantisch",
+      "en": "romantic"
+    },
+    {
+      "id": "u13_010",
+      "de": "der Bildschirm",
+      "en": "screen"
+    },
+    {
+      "id": "u13_011",
+      "de": "der Vorteil",
+      "en": "advantage"
+    },
+    {
+      "id": "u13_012",
+      "de": "klug, gescheit",
+      "en": "clever"
+    },
+    {
+      "id": "u13_013",
+      "de": "kompliziert",
+      "en": "complicated"
+    },
+    {
+      "id": "u13_014",
+      "de": "flach",
+      "en": "flat"
+    },
+    {
+      "id": "u13_015",
+      "de": "die witzige Tatsache",
+      "en": "fun fact"
+    },
+    {
+      "id": "u13_016",
+      "de": "die Geschichte",
+      "en": "history"
+    },
+    {
+      "id": "u13_017",
+      "de": "faszinierend, interessant",
+      "en": "intriguing"
+    },
+    {
+      "id": "u13_018",
+      "de": "das Leder",
+      "en": "leather"
+    },
+    {
+      "id": "u13_019",
+      "de": "hier: leicht",
+      "en": "light"
+    },
+    {
+      "id": "u13_020",
+      "de": "aus Holz gemacht",
+      "en": "made of wood"
+    },
+    {
+      "id": "u13_021",
+      "de": "der Spiegel",
+      "en": "mirror"
+    },
+    {
+      "id": "u13_022",
+      "de": "das Modell",
+      "en": "model"
+    },
+    {
+      "id": "u13_023",
+      "de": "die Fotografie",
+      "en": "photograph"
+    },
+    {
+      "id": "u13_024",
+      "de": "rund, rundlich",
+      "en": "round"
+    },
+    {
+      "id": "u13_025",
+      "de": "die Science-Fiction",
+      "en": "science fiction"
+    },
+    {
+      "id": "u13_026",
+      "de": "das Selfie",
+      "en": "selfie"
+    },
+    {
+      "id": "u13_027",
+      "de": "das Selbstporträt",
+      "en": "self-portrait"
+    },
+    {
+      "id": "u13_028",
+      "de": "die Form, die Gestalt",
+      "en": "shape"
+    },
+    {
+      "id": "u13_029",
+      "de": "langsam",
+      "en": "slow"
+    },
+    {
+      "id": "u13_030",
+      "de": "Social Media, soziale Medien",
+      "en": "social media"
+    },
+    {
+      "id": "u13_031",
+      "de": "speichern, lagern",
+      "en": "store"
+    },
+    {
+      "id": "u13_032",
+      "de": "Fotos/Bilder machen",
+      "en": "take photos / pictures"
+    },
+    {
+      "id": "u13_033",
+      "de": "die Technologie, die Technik",
+      "en": "technology"
+    },
+    {
+      "id": "u13_034",
+      "de": "annehmen, vermuten",
+      "en": "assume"
+    },
+    {
+      "id": "u13_035",
+      "de": "der Ball, die Kugel",
+      "en": "ball"
+    },
+    {
+      "id": "u13_036",
+      "de": "hier: kaputt",
+      "en": "broken"
+    },
+    {
+      "id": "u13_037",
+      "de": "die (Zimmer)decke",
+      "en": "ceiling"
+    },
+    {
+      "id": "u13_038",
+      "de": "der Kaffee",
+      "en": "coffee"
+    },
+    {
+      "id": "u13_039",
+      "de": "verwirrt",
+      "en": "confused"
+    },
+    {
+      "id": "u13_040",
+      "de": "der Schreibtisch",
+      "en": "desk"
+    },
+    {
+      "id": "u13_041",
+      "de": "das Ende, der Schluss",
+      "en": "ending"
+    },
+    {
+      "id": "u13_042",
+      "de": "betreten, eintippen",
+      "en": "enter"
+    },
+    {
+      "id": "u13_043",
+      "de": "Glück haben",
+      "en": "have luck"
+    },
+    {
+      "id": "u13_044",
+      "de": "der Mensch, das menschliche Wesen",
+      "en": "human"
+    },
+    {
+      "id": "u13_045",
+      "de": "sofort, gleich",
+      "en": "immediately"
+    },
+    {
+      "id": "u13_046",
+      "de": "der Knopf, der Drehknopf",
+      "en": "knob"
+    },
+    {
+      "id": "u13_047",
+      "de": "durcheinanderbringen, vermasseln",
+      "en": "mess up"
+    },
+    {
+      "id": "u13_048",
+      "de": "hier: die Macht, die Kraft",
+      "en": "power"
+    },
+    {
+      "id": "u13_049",
+      "de": "der Prototyp",
+      "en": "prototype"
+    },
+    {
+      "id": "u13_050",
+      "de": "hier: zurückkehren",
+      "en": "return"
+    },
+    {
+      "id": "u13_051",
+      "de": "wiederverwendbar",
+      "en": "reusable"
+    },
+    {
+      "id": "u13_052",
+      "de": "unheimlich, furchterregend",
+      "en": "scary"
+    },
+    {
+      "id": "u13_053",
+      "de": "ernst, ernsthaft",
+      "en": "serious"
+    },
+    {
+      "id": "u13_054",
+      "de": "lächeln",
+      "en": "smile"
+    },
+    {
+      "id": "u13_055",
+      "de": "die Lösung",
+      "en": "solution"
+    },
+    {
+      "id": "u13_056",
+      "de": "plötzlich",
+      "en": "suddenly"
+    },
+    {
+      "id": "u13_057",
+      "de": "der Touchscreen",
+      "en": "touch screen"
+    },
+    {
+      "id": "u13_058",
+      "de": "unvollendet",
+      "en": "unfinished"
+    },
+    {
+      "id": "u13_059",
+      "de": "üblich, gewöhnlich",
+      "en": "usual"
+    },
+    {
+      "id": "u13_060",
+      "de": "drahtlos",
+      "en": "wireless"
+    },
+    {
+      "id": "u13_061",
+      "de": "hier: funktionieren",
+      "en": "work"
+    }
+  ]
+}

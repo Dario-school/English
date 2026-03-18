@@ -1,0 +1,316 @@
+{
+  "unit": 2,
+  "title": "Unit 2 – Without words",
+  "words": [
+    {
+      "id": "u02_001",
+      "de": "aggressiv, energisch",
+      "en": "aggressive"
+    },
+    {
+      "id": "u02_002",
+      "de": "das Tier",
+      "en": "animal"
+    },
+    {
+      "id": "u02_003",
+      "de": "chemisch",
+      "en": "chemical"
+    },
+    {
+      "id": "u02_004",
+      "de": "der Schimpanse",
+      "en": "chimpanzee"
+    },
+    {
+      "id": "u02_005",
+      "de": "kommunizieren",
+      "en": "communicate"
+    },
+    {
+      "id": "u02_006",
+      "de": "der Tanz",
+      "en": "dance"
+    },
+    {
+      "id": "u02_007",
+      "de": "das Pheromon",
+      "en": "pheromone"
+    },
+    {
+      "id": "u02_008",
+      "de": "das Zeichen, das Signal",
+      "en": "signal"
+    },
+    {
+      "id": "u02_009",
+      "de": "das Symbol",
+      "en": "symbol"
+    },
+    {
+      "id": "u02_010",
+      "de": "der Wal",
+      "en": "whale"
+    },
+    {
+      "id": "u02_011",
+      "de": "Angst haben, sich fürchten",
+      "en": "afraid"
+    },
+    {
+      "id": "u02_012",
+      "de": "zornig",
+      "en": "angry"
+    },
+    {
+      "id": "u02_013",
+      "de": "die Tierkommunikation",
+      "en": "animal communication"
+    },
+    {
+      "id": "u02_014",
+      "de": "ruhig",
+      "en": "calm"
+    },
+    {
+      "id": "u02_015",
+      "de": "die Katze",
+      "en": "cat"
+    },
+    {
+      "id": "u02_016",
+      "de": "das Ohr",
+      "en": "ear"
+    },
+    {
+      "id": "u02_017",
+      "de": "aufgeregt, begeistert",
+      "en": "excited"
+    },
+    {
+      "id": "u02_018",
+      "de": "springen",
+      "en": "jump"
+    },
+    {
+      "id": "u02_019",
+      "de": "heben",
+      "en": "lift"
+    },
+    {
+      "id": "u02_020",
+      "de": "der Mund, das Maul",
+      "en": "mouth"
+    },
+    {
+      "id": "u02_021",
+      "de": "entspannt, locker",
+      "en": "relaxed"
+    },
+    {
+      "id": "u02_022",
+      "de": "etwas, ein wenig",
+      "en": "slightly"
+    },
+    {
+      "id": "u02_023",
+      "de": "die Biene",
+      "en": "bee"
+    },
+    {
+      "id": "u02_024",
+      "de": "herausfinden",
+      "en": "find out"
+    },
+    {
+      "id": "u02_025",
+      "de": "der Wissenschaftler, die Wissenschaftlerin",
+      "en": "scientist"
+    },
+    {
+      "id": "u02_026",
+      "de": "langsam",
+      "en": "slowly"
+    },
+    {
+      "id": "u02_027",
+      "de": "riechen",
+      "en": "smell"
+    },
+    {
+      "id": "u02_028",
+      "de": "schlagen",
+      "en": "beat"
+    },
+    {
+      "id": "u02_029",
+      "de": "verstopft, blockiert",
+      "en": "blocked"
+    },
+    {
+      "id": "u02_030",
+      "de": "beschäftigt, belebt",
+      "en": "busy"
+    },
+    {
+      "id": "u02_031",
+      "de": "die Blume",
+      "en": "flower"
+    },
+    {
+      "id": "u02_032",
+      "de": "gegenüberliegend, entgegengesetzt",
+      "en": "opposite"
+    },
+    {
+      "id": "u02_033",
+      "de": "die Sonne",
+      "en": "sun"
+    },
+    {
+      "id": "u02_034",
+      "de": "abgesehen von",
+      "en": "apart from"
+    },
+    {
+      "id": "u02_035",
+      "de": "der Feind, die Feindin",
+      "en": "enemy"
+    },
+    {
+      "id": "u02_036",
+      "de": "normalerweise",
+      "en": "normally"
+    },
+    {
+      "id": "u02_037",
+      "de": "bewahren, erhalten",
+      "en": "preserve"
+    },
+    {
+      "id": "u02_038",
+      "de": "die Reaktion",
+      "en": "reaction"
+    },
+    {
+      "id": "u02_039",
+      "de": "entfernen",
+      "en": "remove"
+    },
+    {
+      "id": "u02_040",
+      "de": "die Haut",
+      "en": "skin"
+    },
+    {
+      "id": "u02_041",
+      "de": "das Brettspiel",
+      "en": "board game"
+    },
+    {
+      "id": "u02_042",
+      "de": "das Jahrzehnt",
+      "en": "decade"
+    },
+    {
+      "id": "u02_043",
+      "de": "das Gefühl, die Emotion",
+      "en": "emotion"
+    },
+    {
+      "id": "u02_044",
+      "de": "gleichermassen, ebenso",
+      "en": "equally"
+    },
+    {
+      "id": "u02_045",
+      "de": "der Wald",
+      "en": "forest"
+    },
+    {
+      "id": "u02_046",
+      "de": "einen Spaziergang machen",
+      "en": "go for a walk"
+    },
+    {
+      "id": "u02_047",
+      "de": "schnell",
+      "en": "quick"
+    },
+    {
+      "id": "u02_048",
+      "de": "ruhig",
+      "en": "quiet"
+    },
+    {
+      "id": "u02_049",
+      "de": "die Zeichensprache",
+      "en": "sign language"
+    },
+    {
+      "id": "u02_050",
+      "de": "geeignet, passend",
+      "en": "suitable"
+    },
+    {
+      "id": "u02_051",
+      "de": "so wie es Kinder machen",
+      "en": "the way children do"
+    },
+    {
+      "id": "u02_052",
+      "de": "bekannt, berühmt",
+      "en": "well-known"
+    },
+    {
+      "id": "u02_053",
+      "de": "hell, grell, leuchtend",
+      "en": "bright"
+    },
+    {
+      "id": "u02_054",
+      "de": "die Gefahr",
+      "en": "danger"
+    },
+    {
+      "id": "u02_055",
+      "de": "der Gesichtsausdruck",
+      "en": "facial expression"
+    },
+    {
+      "id": "u02_056",
+      "de": "das Vorderbein",
+      "en": "front leg"
+    },
+    {
+      "id": "u02_057",
+      "de": "das Pferd",
+      "en": "horse"
+    },
+    {
+      "id": "u02_058",
+      "de": "auf eine interessante Art",
+      "en": "in an interesting way"
+    },
+    {
+      "id": "u02_059",
+      "de": "treten, ausschlagen",
+      "en": "kick"
+    },
+    {
+      "id": "u02_060",
+      "de": "sich kümmern um",
+      "en": "look after"
+    },
+    {
+      "id": "u02_061",
+      "de": "das Geräusch",
+      "en": "noise"
+    },
+    {
+      "id": "u02_062",
+      "de": "warnen",
+      "en": "warn"
+    }
+  ]
+}

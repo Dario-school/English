@@ -1,0 +1,306 @@
+{
+  "unit": 7,
+  "title": "Unit 7 – Patchwork city",
+  "words": [
+    {
+      "id": "u07_001",
+      "de": "Asien",
+      "en": "Asia"
+    },
+    {
+      "id": "u07_002",
+      "de": "die Wohltätigkeit, die Wohltätigkeitsorganisation",
+      "en": "charity"
+    },
+    {
+      "id": "u07_003",
+      "de": "der Dialekt",
+      "en": "dialect"
+    },
+    {
+      "id": "u07_004",
+      "de": "das Festival",
+      "en": "festival"
+    },
+    {
+      "id": "u07_005",
+      "de": "der Einwanderer, die Einwanderin",
+      "en": "immigrant"
+    },
+    {
+      "id": "u07_006",
+      "de": "die Muttersprache",
+      "en": "mother tongue"
+    },
+    {
+      "id": "u07_007",
+      "de": "das Viertel, das Quartier",
+      "en": "neighbourhood"
+    },
+    {
+      "id": "u07_008",
+      "de": "der Flicken",
+      "en": "patch"
+    },
+    {
+      "id": "u07_009",
+      "de": "das Patchwork",
+      "en": "patchwork"
+    },
+    {
+      "id": "u07_010",
+      "de": "die Steppdecke, der Quilt",
+      "en": "quilt"
+    },
+    {
+      "id": "u07_011",
+      "de": "Kanada",
+      "en": "Canada"
+    },
+    {
+      "id": "u07_012",
+      "de": "der Kanadier, die Kanadierin",
+      "en": "Canadian"
+    },
+    {
+      "id": "u07_013",
+      "de": "Chinesisch",
+      "en": "Chinese"
+    },
+    {
+      "id": "u07_014",
+      "de": "der Bürger, die Bürgerin",
+      "en": "citizen"
+    },
+    {
+      "id": "u07_015",
+      "de": "aufregend, spannend",
+      "en": "exciting"
+    },
+    {
+      "id": "u07_016",
+      "de": "der Bauernhof",
+      "en": "farm"
+    },
+    {
+      "id": "u07_017",
+      "de": "Frankreich",
+      "en": "France"
+    },
+    {
+      "id": "u07_018",
+      "de": "häufig",
+      "en": "frequently"
+    },
+    {
+      "id": "u07_019",
+      "de": "Italienisch",
+      "en": "Italian"
+    },
+    {
+      "id": "u07_020",
+      "de": "Italien",
+      "en": "Italy"
+    },
+    {
+      "id": "u07_021",
+      "de": "der See",
+      "en": "lake"
+    },
+    {
+      "id": "u07_022",
+      "de": "der Fehler, der Irrtum",
+      "en": "mistake"
+    },
+    {
+      "id": "u07_023",
+      "de": "Nordamerika",
+      "en": "North America"
+    },
+    {
+      "id": "u07_024",
+      "de": "der Prozentsatz",
+      "en": "percentage"
+    },
+    {
+      "id": "u07_025",
+      "de": "fehlerlos, perfekt",
+      "en": "perfectly"
+    },
+    {
+      "id": "u07_026",
+      "de": "Polnisch",
+      "en": "Polish"
+    },
+    {
+      "id": "u07_027",
+      "de": "Russisch",
+      "en": "Russian"
+    },
+    {
+      "id": "u07_028",
+      "de": "Spanien",
+      "en": "Spain"
+    },
+    {
+      "id": "u07_029",
+      "de": "Spanisch",
+      "en": "Spanish"
+    },
+    {
+      "id": "u07_030",
+      "de": "der Sprecher, die Sprecherin",
+      "en": "speaker"
+    },
+    {
+      "id": "u07_031",
+      "de": "der Sonnenschein",
+      "en": "sunshine"
+    },
+    {
+      "id": "u07_032",
+      "de": "der Verkehr",
+      "en": "traffic"
+    },
+    {
+      "id": "u07_033",
+      "de": "einzigartig",
+      "en": "unique"
+    },
+    {
+      "id": "u07_034",
+      "de": "asiatisch",
+      "en": "Asian"
+    },
+    {
+      "id": "u07_035",
+      "de": "die Bushaltestelle",
+      "en": "bus stop"
+    },
+    {
+      "id": "u07_036",
+      "de": "Chinatown, das Chinesenviertel",
+      "en": "Chinatown"
+    },
+    {
+      "id": "u07_037",
+      "de": "der Nachteil",
+      "en": "disadvantage"
+    },
+    {
+      "id": "u07_038",
+      "de": "Amerikanische Ureinwohner-",
+      "en": "Native American"
+    },
+    {
+      "id": "u07_039",
+      "de": "das Schwimmbecken",
+      "en": "swimming pool"
+    },
+    {
+      "id": "u07_040",
+      "de": "Werbung machen für, inserieren",
+      "en": "advertise"
+    },
+    {
+      "id": "u07_041",
+      "de": "die Werbung, das Inserat",
+      "en": "advertisement"
+    },
+    {
+      "id": "u07_042",
+      "de": "feiern",
+      "en": "celebrate"
+    },
+    {
+      "id": "u07_043",
+      "de": "die Feier",
+      "en": "celebration"
+    },
+    {
+      "id": "u07_044",
+      "de": "die Menschenmenge",
+      "en": "crowd"
+    },
+    {
+      "id": "u07_045",
+      "de": "das Taxi",
+      "en": "taxi"
+    },
+    {
+      "id": "u07_046",
+      "de": "die Toilette, das WC",
+      "en": "toilet"
+    },
+    {
+      "id": "u07_047",
+      "de": "der Besucher, die Besucherin",
+      "en": "visitor"
+    },
+    {
+      "id": "u07_048",
+      "de": "der Anfänger, die Anfängerin",
+      "en": "beginner"
+    },
+    {
+      "id": "u07_049",
+      "de": "trainieren",
+      "en": "coach"
+    },
+    {
+      "id": "u07_050",
+      "de": "die Vielfalt",
+      "en": "diversity"
+    },
+    {
+      "id": "u07_051",
+      "de": "die Identität",
+      "en": "identity"
+    },
+    {
+      "id": "u07_052",
+      "de": "sich integrieren",
+      "en": "integrate"
+    },
+    {
+      "id": "u07_053",
+      "de": "die Absicht, das Vorhaben",
+      "en": "intention"
+    },
+    {
+      "id": "u07_054",
+      "de": "das Heimatland",
+      "en": "native country"
+    },
+    {
+      "id": "u07_055",
+      "de": "die Herkunft",
+      "en": "origins"
+    },
+    {
+      "id": "u07_056",
+      "de": "das Foto",
+      "en": "photo"
+    },
+    {
+      "id": "u07_057",
+      "de": "die Stärke",
+      "en": "strength"
+    },
+    {
+      "id": "u07_058",
+      "de": "der Beitrag",
+      "en": "contribution"
+    },
+    {
+      "id": "u07_059",
+      "de": "teilen, unterteilen",
+      "en": "divide"
+    },
+    {
+      "id": "u07_060",
+      "de": "gleich",
+      "en": "equal"
+    }
+  ]
+}

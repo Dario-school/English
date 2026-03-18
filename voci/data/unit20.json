@@ -1,0 +1,371 @@
+{
+  "unit": 20,
+  "title": "Unit 20 – Sell, sell, sell",
+  "words": [
+    {
+      "id": "u20_001",
+      "de": "Werbung machen für, inserieren",
+      "en": "advertise"
+    },
+    {
+      "id": "u20_002",
+      "de": "die Werbung, das Inserat",
+      "en": "advertisement"
+    },
+    {
+      "id": "u20_003",
+      "de": "die Werbung, die Werbebranche",
+      "en": "advertising"
+    },
+    {
+      "id": "u20_004",
+      "de": "die Marke",
+      "en": "brand"
+    },
+    {
+      "id": "u20_005",
+      "de": "die Kampagne",
+      "en": "campaign"
+    },
+    {
+      "id": "u20_006",
+      "de": "hier: die Botschaft",
+      "en": "message"
+    },
+    {
+      "id": "u20_007",
+      "de": "das Produkt",
+      "en": "product"
+    },
+    {
+      "id": "u20_008",
+      "de": "der Dienst, die Dienstleistung",
+      "en": "service"
+    },
+    {
+      "id": "u20_009",
+      "de": "der Slogan",
+      "en": "slogan"
+    },
+    {
+      "id": "u20_010",
+      "de": "die Zielgruppe",
+      "en": "target group"
+    },
+    {
+      "id": "u20_011",
+      "de": "die Anzeige, das Inserat",
+      "en": "ad"
+    },
+    {
+      "id": "u20_012",
+      "de": "die Werbeagentur",
+      "en": "advertising agency"
+    },
+    {
+      "id": "u20_013",
+      "de": "die App",
+      "en": "app"
+    },
+    {
+      "id": "u20_014",
+      "de": "zielen auf",
+      "en": "be aimed at"
+    },
+    {
+      "id": "u20_015",
+      "de": "das Benehmen, das Verhalten",
+      "en": "behaviour"
+    },
+    {
+      "id": "u20_016",
+      "de": "die Schokolade",
+      "en": "chocolate"
+    },
+    {
+      "id": "u20_017",
+      "de": "der Werbespot",
+      "en": "commercial"
+    },
+    {
+      "id": "u20_018",
+      "de": "praktisch, bequem",
+      "en": "convenient"
+    },
+    {
+      "id": "u20_019",
+      "de": "beeinflussen",
+      "en": "influence"
+    },
+    {
+      "id": "u20_020",
+      "de": "der Influencer, die Influencerin",
+      "en": "influencer"
+    },
+    {
+      "id": "u20_021",
+      "de": "offensichtlich",
+      "en": "obvious"
+    },
+    {
+      "id": "u20_022",
+      "de": "werben für",
+      "en": "promote"
+    },
+    {
+      "id": "u20_023",
+      "de": "der öffentliche Verkehr",
+      "en": "public transport"
+    },
+    {
+      "id": "u20_024",
+      "de": "kürzlich",
+      "en": "recently"
+    },
+    {
+      "id": "u20_025",
+      "de": "vegan",
+      "en": "vegan"
+    },
+    {
+      "id": "u20_026",
+      "de": "der Zuschauer, die Zuschauerin",
+      "en": "viewer"
+    },
+    {
+      "id": "u20_027",
+      "de": "der Gutschein",
+      "en": "voucher"
+    },
+    {
+      "id": "u20_028",
+      "de": "das Spülmittel",
+      "en": "washing-up liquid"
+    },
+    {
+      "id": "u20_029",
+      "de": "analysieren",
+      "en": "analyse"
+    },
+    {
+      "id": "u20_030",
+      "de": "der Fliesstext",
+      "en": "body of text"
+    },
+    {
+      "id": "u20_031",
+      "de": "kühn",
+      "en": "bold"
+    },
+    {
+      "id": "u20_032",
+      "de": "hier: die Pause",
+      "en": "break"
+    },
+    {
+      "id": "u20_033",
+      "de": "der Grossbuchstabe",
+      "en": "capital letter"
+    },
+    {
+      "id": "u20_034",
+      "de": "Europa",
+      "en": "Europe"
+    },
+    {
+      "id": "u20_035",
+      "de": "die Mode",
+      "en": "fashion"
+    },
+    {
+      "id": "u20_036",
+      "de": "ganzseitig",
+      "en": "full-page"
+    },
+    {
+      "id": "u20_037",
+      "de": "preisgünstig, preiswert",
+      "en": "good-value"
+    },
+    {
+      "id": "u20_038",
+      "de": "der Zuhörer, die Zuhörerin",
+      "en": "listener"
+    },
+    {
+      "id": "u20_039",
+      "de": "das Logo, das Firmenzeichen",
+      "en": "logo"
+    },
+    {
+      "id": "u20_040",
+      "de": "optimistisch",
+      "en": "optimistic"
+    },
+    {
+      "id": "u20_041",
+      "de": "Porto und Verpackung",
+      "en": "postage and packing"
+    },
+    {
+      "id": "u20_042",
+      "de": "das gedruckte Inserat",
+      "en": "print ad"
+    },
+    {
+      "id": "u20_043",
+      "de": "der Reim",
+      "en": "rhyme"
+    },
+    {
+      "id": "u20_044",
+      "de": "der Kleinbuchstabe",
+      "en": "small letter"
+    },
+    {
+      "id": "u20_045",
+      "de": "herausragen",
+      "en": "stand out"
+    },
+    {
+      "id": "u20_046",
+      "de": "das Abonnement",
+      "en": "subscription"
+    },
+    {
+      "id": "u20_047",
+      "de": "den Hauptpreis gewinnen",
+      "en": "win the lottery"
+    },
+    {
+      "id": "u20_048",
+      "de": "der Alkohol",
+      "en": "alcohol"
+    },
+    {
+      "id": "u20_049",
+      "de": "mit grossem Gewinn",
+      "en": "at a big profit"
+    },
+    {
+      "id": "u20_050",
+      "de": "die Verhaltensänderung",
+      "en": "behaviour change"
+    },
+    {
+      "id": "u20_051",
+      "de": "preiswerter",
+      "en": "better value"
+    },
+    {
+      "id": "u20_052",
+      "de": "sich die Zähne putzen",
+      "en": "brush one's teeth"
+    },
+    {
+      "id": "u20_053",
+      "de": "das Konzept",
+      "en": "concept"
+    },
+    {
+      "id": "u20_054",
+      "de": "herunterladen, downloaden",
+      "en": "download"
+    },
+    {
+      "id": "u20_055",
+      "de": "die ethnischen Minderheiten",
+      "en": "ethnic minorities"
+    },
+    {
+      "id": "u20_056",
+      "de": "zu verkaufen",
+      "en": "for sale"
+    },
+    {
+      "id": "u20_057",
+      "de": "rumhängen",
+      "en": "hang out"
+    },
+    {
+      "id": "u20_058",
+      "de": "mieten",
+      "en": "hire"
+    },
+    {
+      "id": "u20_059",
+      "de": "der Haushalt",
+      "en": "household"
+    },
+    {
+      "id": "u20_060",
+      "de": "interaktiv",
+      "en": "interactive"
+    },
+    {
+      "id": "u20_061",
+      "de": "der Mediaplaner, die Mediaplanerin",
+      "en": "media planner"
+    },
+    {
+      "id": "u20_062",
+      "de": "es spielt keine Rolle",
+      "en": "no matter"
+    },
+    {
+      "id": "u20_063",
+      "de": "der bezahlte Artikel",
+      "en": "paid-for article"
+    },
+    {
+      "id": "u20_064",
+      "de": "die Forschung",
+      "en": "research"
+    },
+    {
+      "id": "u20_065",
+      "de": "hier: das Stadium",
+      "en": "stage"
+    },
+    {
+      "id": "u20_066",
+      "de": "die Studentenvereinigung",
+      "en": "students' union"
+    },
+    {
+      "id": "u20_067",
+      "de": "der/die Teenie",
+      "en": "teen"
+    },
+    {
+      "id": "u20_068",
+      "de": "sich herausstellen, dass",
+      "en": "turn out to be"
+    },
+    {
+      "id": "u20_069",
+      "de": "die Website",
+      "en": "website"
+    },
+    {
+      "id": "u20_070",
+      "de": "nochmals machen",
+      "en": "redo"
+    },
+    {
+      "id": "u20_071",
+      "de": "entfernen",
+      "en": "remove"
+    },
+    {
+      "id": "u20_072",
+      "de": "ersetzen",
+      "en": "replace"
+    },
+    {
+      "id": "u20_073",
+      "de": "neu schreiben",
+      "en": "rewrite"
+    }
+  ]
+}

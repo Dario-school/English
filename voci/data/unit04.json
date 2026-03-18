@@ -1,0 +1,356 @@
+{
+  "unit": 4,
+  "title": "Unit 4 – Exploring",
+  "words": [
+    {
+      "id": "u04_001",
+      "de": "der südliche Polarkreis",
+      "en": "Antarctic Circle"
+    },
+    {
+      "id": "u04_002",
+      "de": "die Antarktis",
+      "en": "Antarctica"
+    },
+    {
+      "id": "u04_003",
+      "de": "der Kapitän, die Kapitänin",
+      "en": "captain"
+    },
+    {
+      "id": "u04_004",
+      "de": "das Klima",
+      "en": "climate"
+    },
+    {
+      "id": "u04_005",
+      "de": "der Kontinent",
+      "en": "continent"
+    },
+    {
+      "id": "u04_006",
+      "de": "exotisch, fremdländisch",
+      "en": "exotic"
+    },
+    {
+      "id": "u04_007",
+      "de": "die Expedition, die Forschungsreise",
+      "en": "expedition"
+    },
+    {
+      "id": "u04_008",
+      "de": "der/die Einheimische/-r",
+      "en": "native"
+    },
+    {
+      "id": "u04_009",
+      "de": "die Ozonschicht",
+      "en": "ozone layer"
+    },
+    {
+      "id": "u04_010",
+      "de": "der Matrose, die Matrosin",
+      "en": "sailor"
+    },
+    {
+      "id": "u04_011",
+      "de": "erstaunlich, toll",
+      "en": "amazing"
+    },
+    {
+      "id": "u04_012",
+      "de": "der Künstler, die Künstlerin",
+      "en": "artist"
+    },
+    {
+      "id": "u04_013",
+      "de": "der Hintergrund",
+      "en": "background"
+    },
+    {
+      "id": "u04_014",
+      "de": "der Vogel",
+      "en": "bird"
+    },
+    {
+      "id": "u04_015",
+      "de": "sorgfältig, aufmerksam",
+      "en": "carefully"
+    },
+    {
+      "id": "u04_016",
+      "de": "der Konsonant",
+      "en": "consonant"
+    },
+    {
+      "id": "u04_017",
+      "de": "die Entfernung, die Distanz",
+      "en": "distance"
+    },
+    {
+      "id": "u04_018",
+      "de": "leer",
+      "en": "empty"
+    },
+    {
+      "id": "u04_019",
+      "de": "erforschen, untersuchen",
+      "en": "explore"
+    },
+    {
+      "id": "u04_020",
+      "de": "der Forscher, die Forscherin, Entdecker/-in",
+      "en": "explorer"
+    },
+    {
+      "id": "u04_021",
+      "de": "der/die Landarbeiter/-in",
+      "en": "farm worker"
+    },
+    {
+      "id": "u04_022",
+      "de": "das Fischernetz",
+      "en": "fishing net"
+    },
+    {
+      "id": "u04_023",
+      "de": "komisch, merkwürdig",
+      "en": "funny"
+    },
+    {
+      "id": "u04_024",
+      "de": "das Glas",
+      "en": "glass"
+    },
+    {
+      "id": "u04_025",
+      "de": "Er stammt aus der Schweiz.",
+      "en": "He is a native Swiss."
+    },
+    {
+      "id": "u04_026",
+      "de": "der Kartenzeichner, die Kartenzeichnerin",
+      "en": "map maker"
+    },
+    {
+      "id": "u04_027",
+      "de": "die Mathematik",
+      "en": "mathematics"
+    },
+    {
+      "id": "u04_028",
+      "de": "aussprechen",
+      "en": "pronounce"
+    },
+    {
+      "id": "u04_029",
+      "de": "die Aussprache",
+      "en": "pronunciation"
+    },
+    {
+      "id": "u04_030",
+      "de": "die Route, die Strecke",
+      "en": "route"
+    },
+    {
+      "id": "u04_031",
+      "de": "der (Schiffs-)Kapitän, die Kapitänin",
+      "en": "sea captain"
+    },
+    {
+      "id": "u04_032",
+      "de": "Sie stammt aus Österreich.",
+      "en": "She is a native of Austria."
+    },
+    {
+      "id": "u04_033",
+      "de": "das Schiff",
+      "en": "ship"
+    },
+    {
+      "id": "u04_034",
+      "de": "schreien, rufen",
+      "en": "shout"
+    },
+    {
+      "id": "u04_035",
+      "de": "gestresst",
+      "en": "stressed"
+    },
+    {
+      "id": "u04_036",
+      "de": "talentiert, begabt",
+      "en": "talented"
+    },
+    {
+      "id": "u04_037",
+      "de": "die Südsee",
+      "en": "the South Seas"
+    },
+    {
+      "id": "u04_038",
+      "de": "das Werkzeug",
+      "en": "tool"
+    },
+    {
+      "id": "u04_039",
+      "de": "übersetzen",
+      "en": "translate"
+    },
+    {
+      "id": "u04_040",
+      "de": "der Vokal",
+      "en": "vowel"
+    },
+    {
+      "id": "u04_041",
+      "de": "winken",
+      "en": "wave"
+    },
+    {
+      "id": "u04_042",
+      "de": "Wir sind italienische Muttersprachler.",
+      "en": "We are native speakers of Italian."
+    },
+    {
+      "id": "u04_043",
+      "de": "die Waffe",
+      "en": "weapon"
+    },
+    {
+      "id": "u04_044",
+      "de": "der Schriftsteller, die Schriftstellerin",
+      "en": "writer"
+    },
+    {
+      "id": "u04_045",
+      "de": "das Abenteuer, das Erlebnis",
+      "en": "adventure"
+    },
+    {
+      "id": "u04_046",
+      "de": "Teil sein von, gehören zu",
+      "en": "be part of"
+    },
+    {
+      "id": "u04_047",
+      "de": "die Kamera, der Fotoapparat",
+      "en": "camera"
+    },
+    {
+      "id": "u04_048",
+      "de": "vorsichtig, sorgfältig",
+      "en": "careful"
+    },
+    {
+      "id": "u04_049",
+      "de": "die Klimaveränderung",
+      "en": "climate change"
+    },
+    {
+      "id": "u04_050",
+      "de": "sich unterscheiden",
+      "en": "differ"
+    },
+    {
+      "id": "u04_051",
+      "de": "gefrieren",
+      "en": "freeze"
+    },
+    {
+      "id": "u04_052",
+      "de": "stecken bleiben",
+      "en": "get stuck"
+    },
+    {
+      "id": "u04_053",
+      "de": "global, weltweit",
+      "en": "global"
+    },
+    {
+      "id": "u04_054",
+      "de": "das Loch",
+      "en": "hole"
+    },
+    {
+      "id": "u04_055",
+      "de": "das Eis",
+      "en": "ice"
+    },
+    {
+      "id": "u04_056",
+      "de": "am Ende der Welt",
+      "en": "in the middle of nowhere"
+    },
+    {
+      "id": "u04_057",
+      "de": "hier: steigen lassen",
+      "en": "launch"
+    },
+    {
+      "id": "u04_058",
+      "de": "die (Land-)Karte",
+      "en": "map"
+    },
+    {
+      "id": "u04_059",
+      "de": "beobachten",
+      "en": "observe"
+    },
+    {
+      "id": "u04_060",
+      "de": "stolz",
+      "en": "proud"
+    },
+    {
+      "id": "u04_061",
+      "de": "die Forschungsstation",
+      "en": "research station"
+    },
+    {
+      "id": "u04_062",
+      "de": "die Probe, das Muster",
+      "en": "sample"
+    },
+    {
+      "id": "u04_063",
+      "de": "seit 8 Uhr",
+      "en": "since 8 o'clock"
+    },
+    {
+      "id": "u04_064",
+      "de": "der Schnee",
+      "en": "snow"
+    },
+    {
+      "id": "u04_065",
+      "de": "der Südpol",
+      "en": "South Pole"
+    },
+    {
+      "id": "u04_066",
+      "de": "Ferien verbringen",
+      "en": "spend holidays"
+    },
+    {
+      "id": "u04_067",
+      "de": "der Trend",
+      "en": "trend"
+    },
+    {
+      "id": "u04_068",
+      "de": "die Erstellung von Wetterprognosen",
+      "en": "weather forecasting"
+    },
+    {
+      "id": "u04_069",
+      "de": "das Wetter",
+      "en": "weather"
+    },
+    {
+      "id": "u04_070",
+      "de": "der Wind",
+      "en": "wind"
+    }
+  ]
+}

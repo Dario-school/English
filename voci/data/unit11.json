@@ -1,0 +1,476 @@
+{
+  "unit": 11,
+  "title": "Unit 11 – Reaching for the stars",
+  "words": [
+    {
+      "id": "u11_001",
+      "de": "der Astronaut, die Astronautin",
+      "en": "astronaut"
+    },
+    {
+      "id": "u11_002",
+      "de": "befestigen",
+      "en": "attach"
+    },
+    {
+      "id": "u11_003",
+      "de": "das Lager, das Camp",
+      "en": "camp"
+    },
+    {
+      "id": "u11_004",
+      "de": "die Crew, die Besatzung",
+      "en": "crew"
+    },
+    {
+      "id": "u11_005",
+      "de": "das Alltagsleben, die Alltagsroutine",
+      "en": "daily routine"
+    },
+    {
+      "id": "u11_006",
+      "de": "fasziniert",
+      "en": "fascinated"
+    },
+    {
+      "id": "u11_007",
+      "de": "fortschweben",
+      "en": "float off"
+    },
+    {
+      "id": "u11_008",
+      "de": "reparieren",
+      "en": "repair"
+    },
+    {
+      "id": "u11_009",
+      "de": "hier: der Weltraum",
+      "en": "space"
+    },
+    {
+      "id": "u11_010",
+      "de": "das Raumfahrzeug",
+      "en": "spacecraft"
+    },
+    {
+      "id": "u11_011",
+      "de": "die Abkürzung",
+      "en": "abbreviation"
+    },
+    {
+      "id": "u11_012",
+      "de": "Teil der Arbeit sein, zur Arbeit gehören",
+      "en": "be part of the job"
+    },
+    {
+      "id": "u11_013",
+      "de": "die Folge, die Konsequenz",
+      "en": "consequence"
+    },
+    {
+      "id": "u11_014",
+      "de": "der Kopfhörer",
+      "en": "earphone"
+    },
+    {
+      "id": "u11_015",
+      "de": "hier: befestigen",
+      "en": "fix"
+    },
+    {
+      "id": "u11_016",
+      "de": "sich fertig machen",
+      "en": "get ready"
+    },
+    {
+      "id": "u11_017",
+      "de": "sich waschen",
+      "en": "get washed"
+    },
+    {
+      "id": "u11_018",
+      "de": "der Handschuh",
+      "en": "glove"
+    },
+    {
+      "id": "u11_019",
+      "de": "der Helm",
+      "en": "helmet"
+    },
+    {
+      "id": "u11_020",
+      "de": "der Journalist, die Journalistin",
+      "en": "journalist"
+    },
+    {
+      "id": "u11_021",
+      "de": "bedeuten",
+      "en": "mean"
+    },
+    {
+      "id": "u11_022",
+      "de": "das Mikrofon",
+      "en": "microphone"
+    },
+    {
+      "id": "u11_023",
+      "de": "draussen, ausserhalb von",
+      "en": "outside"
+    },
+    {
+      "id": "u11_024",
+      "de": "nach den Sternen greifen",
+      "en": "reach for the stars"
+    },
+    {
+      "id": "u11_025",
+      "de": "die Sicherheit",
+      "en": "safety"
+    },
+    {
+      "id": "u11_026",
+      "de": "der Termin-, Zeitplan",
+      "en": "schedule"
+    },
+    {
+      "id": "u11_027",
+      "de": "die Sitzung, die Stunde",
+      "en": "session"
+    },
+    {
+      "id": "u11_028",
+      "de": "das Ufo (unbekanntes Flugobjekt)",
+      "en": "UFO"
+    },
+    {
+      "id": "u11_029",
+      "de": "(auf)wecken",
+      "en": "wake"
+    },
+    {
+      "id": "u11_030",
+      "de": "einige",
+      "en": "a few"
+    },
+    {
+      "id": "u11_031",
+      "de": "viel, viele",
+      "en": "a lot (of)"
+    },
+    {
+      "id": "u11_032",
+      "de": "der Schauspieler, die Schauspielerin",
+      "en": "actor / actress"
+    },
+    {
+      "id": "u11_033",
+      "de": "ehrgeizig",
+      "en": "ambitious"
+    },
+    {
+      "id": "u11_034",
+      "de": "athletisch, sportlich",
+      "en": "athletic"
+    },
+    {
+      "id": "u11_035",
+      "de": "attraktiv",
+      "en": "attractive"
+    },
+    {
+      "id": "u11_036",
+      "de": "fasziniert sein von",
+      "en": "be fascinated by"
+    },
+    {
+      "id": "u11_037",
+      "de": "mutig, tapfer",
+      "en": "brave"
+    },
+    {
+      "id": "u11_038",
+      "de": "hier: begabt, klug",
+      "en": "bright"
+    },
+    {
+      "id": "u11_039",
+      "de": "die Karriere, die Laufbahn",
+      "en": "career"
+    },
+    {
+      "id": "u11_040",
+      "de": "der Zimmermann, der Schreiner",
+      "en": "carpenter"
+    },
+    {
+      "id": "u11_041",
+      "de": "der Koch, die Köchin",
+      "en": "chef"
+    },
+    {
+      "id": "u11_042",
+      "de": "kompetent, sachverständig",
+      "en": "competent"
+    },
+    {
+      "id": "u11_043",
+      "de": "der Programmierer, die Programmiererin",
+      "en": "computer programmer"
+    },
+    {
+      "id": "u11_044",
+      "de": "kooperativ, entgegenkommend",
+      "en": "cooperative"
+    },
+    {
+      "id": "u11_045",
+      "de": "kreativ",
+      "en": "creative"
+    },
+    {
+      "id": "u11_046",
+      "de": "die Erfahrung",
+      "en": "experience"
+    },
+    {
+      "id": "u11_047",
+      "de": "der Feuerwehrmann, die Feuerwehrfrau",
+      "en": "firefighter"
+    },
+    {
+      "id": "u11_048",
+      "de": "Vollzeit, ganztags",
+      "en": "full-time"
+    },
+    {
+      "id": "u11_049",
+      "de": "grosszügig",
+      "en": "generous"
+    },
+    {
+      "id": "u11_050",
+      "de": "der Coiffeur, die Coiffeuse",
+      "en": "hairdresser"
+    },
+    {
+      "id": "u11_051",
+      "de": "der Rechtsanwalt, die Rechtsanwältin",
+      "en": "lawyer"
+    },
+    {
+      "id": "u11_052",
+      "de": "faul, träge",
+      "en": "lazy"
+    },
+    {
+      "id": "u11_053",
+      "de": "der Mechaniker, die Mechanikerin",
+      "en": "mechanic"
+    },
+    {
+      "id": "u11_054",
+      "de": "niemand, keiner",
+      "en": "nobody"
+    },
+    {
+      "id": "u11_055",
+      "de": "der Krankenpfleger, die Krankenpflegerin",
+      "en": "nurse"
+    },
+    {
+      "id": "u11_056",
+      "de": "die Gelegenheit, die Chance",
+      "en": "opportunity"
+    },
+    {
+      "id": "u11_057",
+      "de": "Teilzeit, halbtags",
+      "en": "part-time"
+    },
+    {
+      "id": "u11_058",
+      "de": "perfekt, hier: wie geschaffen",
+      "en": "perfect"
+    },
+    {
+      "id": "u11_059",
+      "de": "der Polizist, die Polizistin",
+      "en": "policeman / policewoman"
+    },
+    {
+      "id": "u11_060",
+      "de": "praktisch",
+      "en": "practical"
+    },
+    {
+      "id": "u11_061",
+      "de": "pünktlich",
+      "en": "punctual"
+    },
+    {
+      "id": "u11_062",
+      "de": "vernünftig",
+      "en": "reasonable"
+    },
+    {
+      "id": "u11_063",
+      "de": "zuverlässig",
+      "en": "reliable"
+    },
+    {
+      "id": "u11_064",
+      "de": "die Anforderung",
+      "en": "requirement"
+    },
+    {
+      "id": "u11_065",
+      "de": "der Sekretär, die Sekretärin",
+      "en": "secretary"
+    },
+    {
+      "id": "u11_066",
+      "de": "der Sicherheitsbeamte, die Sicherheitsbeamtin",
+      "en": "security guard"
+    },
+    {
+      "id": "u11_067",
+      "de": "der/die Ladenangestellte/-r, Verkäufer/-in",
+      "en": "shop assistant"
+    },
+    {
+      "id": "u11_068",
+      "de": "schlank",
+      "en": "slim"
+    },
+    {
+      "id": "u11_069",
+      "de": "ordentlich",
+      "en": "tidy"
+    },
+    {
+      "id": "u11_070",
+      "de": "arbeitslos",
+      "en": "unemployed"
+    },
+    {
+      "id": "u11_071",
+      "de": "die Bewerbung",
+      "en": "application"
+    },
+    {
+      "id": "u11_072",
+      "de": "die Staatsbürgerschaft",
+      "en": "citizenship"
+    },
+    {
+      "id": "u11_073",
+      "de": "das Geburtsdatum",
+      "en": "date of birth"
+    },
+    {
+      "id": "u11_074",
+      "de": "europäisch",
+      "en": "European"
+    },
+    {
+      "id": "u11_075",
+      "de": "hier: das Formular",
+      "en": "form"
+    },
+    {
+      "id": "u11_076",
+      "de": "das Geschlecht",
+      "en": "gender"
+    },
+    {
+      "id": "u11_077",
+      "de": "gemeinsam haben",
+      "en": "have in common"
+    },
+    {
+      "id": "u11_078",
+      "de": "einschliesslich",
+      "en": "including"
+    },
+    {
+      "id": "u11_079",
+      "de": "das Handy, das Mobiltelefon",
+      "en": "mobile (phone)"
+    },
+    {
+      "id": "u11_080",
+      "de": "Norwegen",
+      "en": "Norway"
+    },
+    {
+      "id": "u11_081",
+      "de": "der Teilnehmer, die Teilnehmerin",
+      "en": "participant"
+    },
+    {
+      "id": "u11_082",
+      "de": "die Physik",
+      "en": "physics"
+    },
+    {
+      "id": "u11_083",
+      "de": "die Postleitzahl",
+      "en": "postal code"
+    },
+    {
+      "id": "u11_084",
+      "de": "das Projekt, das Vorhaben",
+      "en": "project"
+    },
+    {
+      "id": "u11_085",
+      "de": "die Raketenphysik",
+      "en": "rocket science"
+    },
+    {
+      "id": "u11_086",
+      "de": "(natur)wissenschaftlich",
+      "en": "scientific"
+    },
+    {
+      "id": "u11_087",
+      "de": "das Geschick, die Fähigkeit, die Fertigkeit",
+      "en": "skill"
+    },
+    {
+      "id": "u11_088",
+      "de": "die Leitung übernehmen",
+      "en": "take control of"
+    },
+    {
+      "id": "u11_089",
+      "de": "der Kandidat, die Kandidatin, Bewerber/-in",
+      "en": "candidate"
+    },
+    {
+      "id": "u11_090",
+      "de": "überzeugen",
+      "en": "convince"
+    },
+    {
+      "id": "u11_091",
+      "de": "der förmliche, offizielle Brief",
+      "en": "formal letter"
+    },
+    {
+      "id": "u11_092",
+      "de": "ausgebucht",
+      "en": "fully booked"
+    },
+    {
+      "id": "u11_093",
+      "de": "das Bewerbungsschreiben",
+      "en": "letter of application"
+    },
+    {
+      "id": "u11_094",
+      "de": "unterschreiben",
+      "en": "sign"
+    }
+  ]
+}

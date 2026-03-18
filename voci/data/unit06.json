@@ -1,0 +1,316 @@
+{
+  "unit": 6,
+  "title": "Unit 6 – The deep blue",
+  "words": [
+    {
+      "id": "u06_001",
+      "de": "die Umgebung, die Umwelt",
+      "en": "environment"
+    },
+    {
+      "id": "u06_002",
+      "de": "das Forum",
+      "en": "forum"
+    },
+    {
+      "id": "u06_003",
+      "de": "das Stück, der Teil",
+      "en": "fragment"
+    },
+    {
+      "id": "u06_004",
+      "de": "der Müllfleck (Ansammlung von Plastik im Pazifik)",
+      "en": "garbage patch"
+    },
+    {
+      "id": "u06_005",
+      "de": "online, Online-",
+      "en": "online"
+    },
+    {
+      "id": "u06_006",
+      "de": "der Pazifische Ozean, der Pazifik",
+      "en": "Pacific Ocean"
+    },
+    {
+      "id": "u06_007",
+      "de": "das Plastik",
+      "en": "plastic"
+    },
+    {
+      "id": "u06_008",
+      "de": "das Quiz, das Ratespiel",
+      "en": "quiz"
+    },
+    {
+      "id": "u06_009",
+      "de": "die Oberfläche",
+      "en": "surface"
+    },
+    {
+      "id": "u06_010",
+      "de": "der Abfall",
+      "en": "waste"
+    },
+    {
+      "id": "u06_011",
+      "de": "so ... wie",
+      "en": "as ... as"
+    },
+    {
+      "id": "u06_012",
+      "de": "sammeln",
+      "en": "collect"
+    },
+    {
+      "id": "u06_013",
+      "de": "die Sammlung",
+      "en": "collection"
+    },
+    {
+      "id": "u06_014",
+      "de": "der Kontext, der Zusammenhang",
+      "en": "context"
+    },
+    {
+      "id": "u06_015",
+      "de": "das Blaue Meer",
+      "en": "deep blue"
+    },
+    {
+      "id": "u06_016",
+      "de": "eindeutig, definitiv",
+      "en": "definitely"
+    },
+    {
+      "id": "u06_017",
+      "de": "verschwinden",
+      "en": "disappear"
+    },
+    {
+      "id": "u06_018",
+      "de": "gelangen, landen",
+      "en": "end up"
+    },
+    {
+      "id": "u06_019",
+      "de": "unmöglich",
+      "en": "impossible"
+    },
+    {
+      "id": "u06_020",
+      "de": "nördlich, Nord-",
+      "en": "north"
+    },
+    {
+      "id": "u06_021",
+      "de": "insgesamt, im Grossen und Ganzen",
+      "en": "overall"
+    },
+    {
+      "id": "u06_022",
+      "de": "die PET-Flasche",
+      "en": "PET bottle"
+    },
+    {
+      "id": "u06_023",
+      "de": "aufheben",
+      "en": "pick up"
+    },
+    {
+      "id": "u06_024",
+      "de": "das Stück",
+      "en": "piece"
+    },
+    {
+      "id": "u06_025",
+      "de": "der Fluss",
+      "en": "river"
+    },
+    {
+      "id": "u06_026",
+      "de": "irgendwo",
+      "en": "somewhere"
+    },
+    {
+      "id": "u06_027",
+      "de": "wegwerfen",
+      "en": "throw away"
+    },
+    {
+      "id": "u06_028",
+      "de": "winzig",
+      "en": "tiny"
+    },
+    {
+      "id": "u06_029",
+      "de": "transportieren",
+      "en": "transport"
+    },
+    {
+      "id": "u06_030",
+      "de": "das Aussehen",
+      "en": "appearance"
+    },
+    {
+      "id": "u06_031",
+      "de": "atmen",
+      "en": "breathe"
+    },
+    {
+      "id": "u06_032",
+      "de": "die Kreatur, das Geschöpf",
+      "en": "creature"
+    },
+    {
+      "id": "u06_033",
+      "de": "die Scheibe",
+      "en": "disc"
+    },
+    {
+      "id": "u06_034",
+      "de": "faszinierend",
+      "en": "fascinating"
+    },
+    {
+      "id": "u06_035",
+      "de": "gebären",
+      "en": "give birth"
+    },
+    {
+      "id": "u06_036",
+      "de": "kaum",
+      "en": "hardly"
+    },
+    {
+      "id": "u06_037",
+      "de": "legen",
+      "en": "lay"
+    },
+    {
+      "id": "u06_038",
+      "de": "die Länge",
+      "en": "length"
+    },
+    {
+      "id": "u06_039",
+      "de": "hauptsächlich, grösstenteils",
+      "en": "mostly"
+    },
+    {
+      "id": "u06_040",
+      "de": "die Grösse",
+      "en": "size"
+    },
+    {
+      "id": "u06_041",
+      "de": "sich langsam bewegend",
+      "en": "slow-moving"
+    },
+    {
+      "id": "u06_042",
+      "de": "die besondere Tatsache",
+      "en": "special fact"
+    },
+    {
+      "id": "u06_043",
+      "de": "der Punkt, die Stelle",
+      "en": "spot"
+    },
+    {
+      "id": "u06_044",
+      "de": "dick, zähflüssig",
+      "en": "thick"
+    },
+    {
+      "id": "u06_045",
+      "de": "das Opfer",
+      "en": "victim"
+    },
+    {
+      "id": "u06_046",
+      "de": "das Gewicht",
+      "en": "weight"
+    },
+    {
+      "id": "u06_047",
+      "de": "der Strand",
+      "en": "beach"
+    },
+    {
+      "id": "u06_048",
+      "de": "gehören",
+      "en": "belong to"
+    },
+    {
+      "id": "u06_049",
+      "de": "Umwelt-",
+      "en": "environmental"
+    },
+    {
+      "id": "u06_050",
+      "de": "füttern",
+      "en": "feed"
+    },
+    {
+      "id": "u06_051",
+      "de": "die Fischzuchtanlage",
+      "en": "fish farm"
+    },
+    {
+      "id": "u06_052",
+      "de": "um zu",
+      "en": "in order to"
+    },
+    {
+      "id": "u06_053",
+      "de": "das Etikett, der Aufkleber",
+      "en": "label"
+    },
+    {
+      "id": "u06_054",
+      "de": "teilweise",
+      "en": "partly"
+    },
+    {
+      "id": "u06_055",
+      "de": "die Antwort, die Erwiderung",
+      "en": "reply"
+    },
+    {
+      "id": "u06_056",
+      "de": "damit, sodass",
+      "en": "so that"
+    },
+    {
+      "id": "u06_057",
+      "de": "überleben",
+      "en": "survive"
+    },
+    {
+      "id": "u06_058",
+      "de": "aktiv werden",
+      "en": "get active"
+    },
+    {
+      "id": "u06_059",
+      "de": "schützen",
+      "en": "protect"
+    },
+    {
+      "id": "u06_060",
+      "de": "traurig",
+      "en": "sad"
+    },
+    {
+      "id": "u06_061",
+      "de": "der Social-Media-Kanal",
+      "en": "social media channel"
+    },
+    {
+      "id": "u06_062",
+      "de": "ausschalten",
+      "en": "switch off"
+    }
+  ]
+}

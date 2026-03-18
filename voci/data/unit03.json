@@ -1,0 +1,526 @@
+{
+  "unit": 3,
+  "title": "Unit 3 – Healthy living",
+  "words": [
+    {
+      "id": "u03_001",
+      "de": "die Kantine, die Mensa",
+      "en": "canteen"
+    },
+    {
+      "id": "u03_002",
+      "de": "die Ernährung, die Nahrung, die Diät",
+      "en": "diet"
+    },
+    {
+      "id": "u03_003",
+      "de": "die Bewegung, die sportliche Betätigung",
+      "en": "exercise"
+    },
+    {
+      "id": "u03_004",
+      "de": "die Frucht, die Früchte",
+      "en": "fruit"
+    },
+    {
+      "id": "u03_005",
+      "de": "die Gesundheit",
+      "en": "health"
+    },
+    {
+      "id": "u03_006",
+      "de": "die Zutat, der Bestandteil",
+      "en": "ingredient"
+    },
+    {
+      "id": "u03_007",
+      "de": "das ungesunde Essen",
+      "en": "junk food"
+    },
+    {
+      "id": "u03_008",
+      "de": "die Ernährung",
+      "en": "nutrition"
+    },
+    {
+      "id": "u03_009",
+      "de": "das Rezept",
+      "en": "recipe"
+    },
+    {
+      "id": "u03_010",
+      "de": "das Gemüse",
+      "en": "vegetable"
+    },
+    {
+      "id": "u03_011",
+      "de": "absolut, völlig",
+      "en": "absolutely"
+    },
+    {
+      "id": "u03_012",
+      "de": "aktiv",
+      "en": "active"
+    },
+    {
+      "id": "u03_013",
+      "de": "den ganzen Tag",
+      "en": "all day"
+    },
+    {
+      "id": "u03_014",
+      "de": "irgendjemand",
+      "en": "anybody"
+    },
+    {
+      "id": "u03_015",
+      "de": "um Rat fragen",
+      "en": "ask for advice"
+    },
+    {
+      "id": "u03_016",
+      "de": "zufrieden sein mit",
+      "en": "be happy with"
+    },
+    {
+      "id": "u03_017",
+      "de": "das Gehirn",
+      "en": "brain"
+    },
+    {
+      "id": "u03_018",
+      "de": "mit dem Fahrrad",
+      "en": "by bike"
+    },
+    {
+      "id": "u03_019",
+      "de": "die Pommes frites",
+      "en": "chips"
+    },
+    {
+      "id": "u03_020",
+      "de": "verbinden",
+      "en": "combine"
+    },
+    {
+      "id": "u03_021",
+      "de": "komfortabel, bequem",
+      "en": "comfortable"
+    },
+    {
+      "id": "u03_022",
+      "de": "velo fahren",
+      "en": "cycle"
+    },
+    {
+      "id": "u03_023",
+      "de": "sich befassen mit",
+      "en": "deal with"
+    },
+    {
+      "id": "u03_024",
+      "de": "nicht einverstanden sein, anderer Meinung sein",
+      "en": "disagree"
+    },
+    {
+      "id": "u03_025",
+      "de": "das Fastfood",
+      "en": "fast food"
+    },
+    {
+      "id": "u03_026",
+      "de": "der Fussball",
+      "en": "football"
+    },
+    {
+      "id": "u03_027",
+      "de": "wütend werden",
+      "en": "get angry"
+    },
+    {
+      "id": "u03_028",
+      "de": "gesund",
+      "en": "healthy"
+    },
+    {
+      "id": "u03_029",
+      "de": "die Bedeutung",
+      "en": "importance"
+    },
+    {
+      "id": "u03_030",
+      "de": "der Zeigefinger",
+      "en": "index finger"
+    },
+    {
+      "id": "u03_031",
+      "de": "zu Fuss",
+      "en": "on foot"
+    },
+    {
+      "id": "u03_032",
+      "de": "das Schwimmbad, der Swimmingpool",
+      "en": "pool"
+    },
+    {
+      "id": "u03_033",
+      "de": "anordnen",
+      "en": "rank"
+    },
+    {
+      "id": "u03_034",
+      "de": "das Selbstvertrauen",
+      "en": "self-confidence"
+    },
+    {
+      "id": "u03_035",
+      "de": "schwimmen",
+      "en": "swim"
+    },
+    {
+      "id": "u03_036",
+      "de": "10 Minuten brauchen, dauern",
+      "en": "take 10 minutes"
+    },
+    {
+      "id": "u03_037",
+      "de": "Das ist Blödsinn!",
+      "en": "That's rubbish!"
+    },
+    {
+      "id": "u03_038",
+      "de": "völlig",
+      "en": "totally"
+    },
+    {
+      "id": "u03_039",
+      "de": "zweimal",
+      "en": "twice"
+    },
+    {
+      "id": "u03_040",
+      "de": "warten auf",
+      "en": "wait for"
+    },
+    {
+      "id": "u03_041",
+      "de": "das Wohl",
+      "en": "well-being"
+    },
+    {
+      "id": "u03_042",
+      "de": "pro Tag",
+      "en": "a day"
+    },
+    {
+      "id": "u03_043",
+      "de": "der Rat",
+      "en": "advice"
+    },
+    {
+      "id": "u03_044",
+      "de": "kompliziert",
+      "en": "complicated"
+    },
+    {
+      "id": "u03_045",
+      "de": "frisch",
+      "en": "fresh"
+    },
+    {
+      "id": "u03_046",
+      "de": "viel",
+      "en": "plenty of"
+    },
+    {
+      "id": "u03_047",
+      "de": "rauchen",
+      "en": "smoke"
+    },
+    {
+      "id": "u03_048",
+      "de": "der Tipp",
+      "en": "tip"
+    },
+    {
+      "id": "u03_049",
+      "de": "die Wahrheit",
+      "en": "truth"
+    },
+    {
+      "id": "u03_050",
+      "de": "nicht ertragen können",
+      "en": "can't stand"
+    },
+    {
+      "id": "u03_051",
+      "de": "überall",
+      "en": "everywhere"
+    },
+    {
+      "id": "u03_052",
+      "de": "äusserst",
+      "en": "extremely"
+    },
+    {
+      "id": "u03_053",
+      "de": "vertraut",
+      "en": "familiar"
+    },
+    {
+      "id": "u03_054",
+      "de": "das Fett",
+      "en": "fat"
+    },
+    {
+      "id": "u03_055",
+      "de": "hassen",
+      "en": "hate"
+    },
+    {
+      "id": "u03_056",
+      "de": "verstecken",
+      "en": "hide"
+    },
+    {
+      "id": "u03_057",
+      "de": "der Geschmack",
+      "en": "taste"
+    },
+    {
+      "id": "u03_058",
+      "de": "unglücklicherweise",
+      "en": "unfortunately"
+    },
+    {
+      "id": "u03_059",
+      "de": "der Broccoli",
+      "en": "broccoli"
+    },
+    {
+      "id": "u03_060",
+      "de": "sich konzentrieren",
+      "en": "concentrate"
+    },
+    {
+      "id": "u03_061",
+      "de": "die Konzentration",
+      "en": "concentration"
+    },
+    {
+      "id": "u03_062",
+      "de": "der Koch, die Köchin",
+      "en": "cook"
+    },
+    {
+      "id": "u03_063",
+      "de": "die Pommes-Chips",
+      "en": "crisps"
+    },
+    {
+      "id": "u03_064",
+      "de": "der Blattsalat",
+      "en": "lettuce"
+    },
+    {
+      "id": "u03_065",
+      "de": "die Speisekarte, das Menü",
+      "en": "menu"
+    },
+    {
+      "id": "u03_066",
+      "de": "der Pfirsich",
+      "en": "peach"
+    },
+    {
+      "id": "u03_067",
+      "de": "die Kartoffel",
+      "en": "potato"
+    },
+    {
+      "id": "u03_068",
+      "de": "hochwertiges Fleisch",
+      "en": "quality meat"
+    },
+    {
+      "id": "u03_069",
+      "de": "die Erdbeere",
+      "en": "strawberry"
+    },
+    {
+      "id": "u03_070",
+      "de": "irgendwo",
+      "en": "anywhere"
+    },
+    {
+      "id": "u03_071",
+      "de": "die Kombination",
+      "en": "combination"
+    },
+    {
+      "id": "u03_072",
+      "de": "der Rahm",
+      "en": "cream"
+    },
+    {
+      "id": "u03_073",
+      "de": "die Schale, die Schüssel",
+      "en": "dish"
+    },
+    {
+      "id": "u03_074",
+      "de": "ausser, bis auf",
+      "en": "except (for)"
+    },
+    {
+      "id": "u03_075",
+      "de": "die Gewohnheit",
+      "en": "habit"
+    },
+    {
+      "id": "u03_076",
+      "de": "die Kräuter",
+      "en": "herbs"
+    },
+    {
+      "id": "u03_077",
+      "de": "das Langstreckenrennen",
+      "en": "long-distance race"
+    },
+    {
+      "id": "u03_078",
+      "de": "unterdessen",
+      "en": "meanwhile"
+    },
+    {
+      "id": "u03_079",
+      "de": "mischen",
+      "en": "mix"
+    },
+    {
+      "id": "u03_080",
+      "de": "die Zwiebel",
+      "en": "onion"
+    },
+    {
+      "id": "u03_081",
+      "de": "der Pfeffer",
+      "en": "pepper"
+    },
+    {
+      "id": "u03_082",
+      "de": "reich",
+      "en": "rich"
+    },
+    {
+      "id": "u03_083",
+      "de": "das Salz",
+      "en": "salt"
+    },
+    {
+      "id": "u03_084",
+      "de": "das Mehl",
+      "en": "flour"
+    },
+    {
+      "id": "u03_085",
+      "de": "die Zitrone",
+      "en": "lemon"
+    },
+    {
+      "id": "u03_086",
+      "de": "Schweizerdeutsch",
+      "en": "Swiss German"
+    },
+    {
+      "id": "u03_087",
+      "de": "die Übersetzung",
+      "en": "translation"
+    },
+    {
+      "id": "u03_088",
+      "de": "die Vanille",
+      "en": "vanilla"
+    },
+    {
+      "id": "u03_089",
+      "de": "ein wenig Milch",
+      "en": "a drop of milk"
+    },
+    {
+      "id": "u03_090",
+      "de": "pro Woche",
+      "en": "a week"
+    },
+    {
+      "id": "u03_091",
+      "de": "zählbar",
+      "en": "countable"
+    },
+    {
+      "id": "u03_092",
+      "de": "zum Frühstück",
+      "en": "for breakfast"
+    },
+    {
+      "id": "u03_093",
+      "de": "zum Abendessen",
+      "en": "for dinner"
+    },
+    {
+      "id": "u03_094",
+      "de": "zum Mittagessen",
+      "en": "for lunch"
+    },
+    {
+      "id": "u03_095",
+      "de": "wie viele",
+      "en": "how many"
+    },
+    {
+      "id": "u03_096",
+      "de": "wie viel",
+      "en": "how much"
+    },
+    {
+      "id": "u03_097",
+      "de": "der Liter",
+      "en": "litre"
+    },
+    {
+      "id": "u03_098",
+      "de": "unzählbar",
+      "en": "uncountable"
+    },
+    {
+      "id": "u03_099",
+      "de": "die Anweisung",
+      "en": "instruction"
+    },
+    {
+      "id": "u03_100",
+      "de": "froh, erfreut, zufrieden",
+      "en": "pleased"
+    },
+    {
+      "id": "u03_101",
+      "de": "schockierend",
+      "en": "shocking"
+    },
+    {
+      "id": "u03_102",
+      "de": "strecken",
+      "en": "stretch"
+    },
+    {
+      "id": "u03_103",
+      "de": "schrecklich",
+      "en": "terrible"
+    },
+    {
+      "id": "u03_104",
+      "de": "der Zeh",
+      "en": "toe"
+    }
+  ]
+}

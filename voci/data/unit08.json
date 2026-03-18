@@ -1,0 +1,276 @@
+{
+  "unit": 8,
+  "title": "Unit 8 – Dreams of flying",
+  "words": [
+    {
+      "id": "u08_001",
+      "de": "das Flugzeug",
+      "en": "aeroplane"
+    },
+    {
+      "id": "u08_002",
+      "de": "der Flughafen",
+      "en": "airport"
+    },
+    {
+      "id": "u08_003",
+      "de": "die Mitteilung, die Durchsage",
+      "en": "announcement"
+    },
+    {
+      "id": "u08_004",
+      "de": "die Herausforderung",
+      "en": "challenge"
+    },
+    {
+      "id": "u08_005",
+      "de": "der Flug",
+      "en": "flight"
+    },
+    {
+      "id": "u08_006",
+      "de": "der Passagier, die Passagierin",
+      "en": "passenger"
+    },
+    {
+      "id": "u08_007",
+      "de": "der Pionier, die Pionierin",
+      "en": "pioneer"
+    },
+    {
+      "id": "u08_008",
+      "de": "die Vorhersage, die Prognose",
+      "en": "prediction"
+    },
+    {
+      "id": "u08_009",
+      "de": "spontan",
+      "en": "spontaneous"
+    },
+    {
+      "id": "u08_010",
+      "de": "der Flügel, der Gebäudeflügel",
+      "en": "wing"
+    },
+    {
+      "id": "u08_011",
+      "de": "das Luftfahrzeug, das Flugzeug",
+      "en": "aircraft"
+    },
+    {
+      "id": "u08_012",
+      "de": "das Flugzeug",
+      "en": "airplane"
+    },
+    {
+      "id": "u08_013",
+      "de": "das vielseitige Talent, der Alleskönner",
+      "en": "all-rounder"
+    },
+    {
+      "id": "u08_014",
+      "de": "der Wettbewerb, der Wettkampf",
+      "en": "competition"
+    },
+    {
+      "id": "u08_015",
+      "de": "verunglücken, abstürzen",
+      "en": "crash"
+    },
+    {
+      "id": "u08_016",
+      "de": "der Motor",
+      "en": "engine"
+    },
+    {
+      "id": "u08_017",
+      "de": "der Ingenieur, die Ingenieurin",
+      "en": "engineer"
+    },
+    {
+      "id": "u08_018",
+      "de": "die Feder",
+      "en": "feather"
+    },
+    {
+      "id": "u08_019",
+      "de": "ganz aufgeregt werden, sich begeistern",
+      "en": "get excited"
+    },
+    {
+      "id": "u08_020",
+      "de": "schmelzen",
+      "en": "melt"
+    },
+    {
+      "id": "u08_021",
+      "de": "die Leidenschaft",
+      "en": "passion"
+    },
+    {
+      "id": "u08_022",
+      "de": "leidenschaftlich",
+      "en": "passionate"
+    },
+    {
+      "id": "u08_023",
+      "de": "der Pilot, die Pilotin",
+      "en": "pilot"
+    },
+    {
+      "id": "u08_024",
+      "de": "sogenannt",
+      "en": "so-called"
+    },
+    {
+      "id": "u08_025",
+      "de": "weich",
+      "en": "soft"
+    },
+    {
+      "id": "u08_026",
+      "de": "erfolgreich",
+      "en": "successful"
+    },
+    {
+      "id": "u08_027",
+      "de": "das Wachs",
+      "en": "wax"
+    },
+    {
+      "id": "u08_028",
+      "de": "die Fluggesellschaft",
+      "en": "airline"
+    },
+    {
+      "id": "u08_029",
+      "de": "das Gepäck",
+      "en": "baggage"
+    },
+    {
+      "id": "u08_030",
+      "de": "zu spät kommen, Verspätung haben",
+      "en": "be late"
+    },
+    {
+      "id": "u08_031",
+      "de": "die Bordkarte",
+      "en": "boarding pass"
+    },
+    {
+      "id": "u08_032",
+      "de": "die Einsteigezeit",
+      "en": "boarding time"
+    },
+    {
+      "id": "u08_033",
+      "de": "die Businessclass",
+      "en": "business class"
+    },
+    {
+      "id": "u08_034",
+      "de": "absagen",
+      "en": "cancel"
+    },
+    {
+      "id": "u08_035",
+      "de": "der Check-in, der Abflugschalter",
+      "en": "check-in desk"
+    },
+    {
+      "id": "u08_036",
+      "de": "der Abflug, die Abfahrt",
+      "en": "departure"
+    },
+    {
+      "id": "u08_037",
+      "de": "während",
+      "en": "during"
+    },
+    {
+      "id": "u08_038",
+      "de": "die Touristenklasse",
+      "en": "economy class"
+    },
+    {
+      "id": "u08_039",
+      "de": "das Abfluggate",
+      "en": "gate"
+    },
+    {
+      "id": "u08_040",
+      "de": "neueste(r, s)",
+      "en": "latest"
+    },
+    {
+      "id": "u08_041",
+      "de": "hier: verpassen",
+      "en": "miss"
+    },
+    {
+      "id": "u08_042",
+      "de": "im Namen von",
+      "en": "on behalf of"
+    },
+    {
+      "id": "u08_043",
+      "de": "angenehm",
+      "en": "pleasant"
+    },
+    {
+      "id": "u08_044",
+      "de": "hier: (weiter)gehen",
+      "en": "proceed"
+    },
+    {
+      "id": "u08_045",
+      "de": "der Abflug, das Abheben des Flugzeugs",
+      "en": "take-off"
+    },
+    {
+      "id": "u08_046",
+      "de": "die Aktualisierung, die neue Information",
+      "en": "update"
+    },
+    {
+      "id": "u08_047",
+      "de": "(be)rechnen",
+      "en": "calculate"
+    },
+    {
+      "id": "u08_048",
+      "de": "(ab)messen",
+      "en": "measure"
+    },
+    {
+      "id": "u08_049",
+      "de": "der Schiedsrichter, die Schiedsrichterin",
+      "en": "referee"
+    },
+    {
+      "id": "u08_050",
+      "de": "das Resultat",
+      "en": "result"
+    },
+    {
+      "id": "u08_051",
+      "de": "der Punktestand",
+      "en": "score"
+    },
+    {
+      "id": "u08_052",
+      "de": "die Suchmaschine",
+      "en": "search engine"
+    },
+    {
+      "id": "u08_053",
+      "de": "der Suchbegriff",
+      "en": "search term"
+    },
+    {
+      "id": "u08_054",
+      "de": "werfen",
+      "en": "throw"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "unit": 9,
+  "title": "Unit 9 – Weird and wonderful games",
+  "words": [
+    {
+      "id": "u09_001",
+      "de": "der Dudelsack",
+      "en": "bagpipes"
+    },
+    {
+      "id": "u09_002",
+      "de": "hervorragend, fantastisch",
+      "en": "brilliant"
+    },
+    {
+      "id": "u09_003",
+      "de": "der Wettbewerb, der Wettkampf",
+      "en": "competition"
+    },
+    {
+      "id": "u09_004",
+      "de": "die Veranstaltung, das Ereignis",
+      "en": "event"
+    },
+    {
+      "id": "u09_005",
+      "de": "die Hochlandspiele",
+      "en": "Highland Games"
+    },
+    {
+      "id": "u09_006",
+      "de": "erfinden",
+      "en": "invent"
+    },
+    {
+      "id": "u09_007",
+      "de": "der Preis",
+      "en": "prize"
+    },
+    {
+      "id": "u09_008",
+      "de": "werfen",
+      "en": "throw"
+    },
+    {
+      "id": "u09_009",
+      "de": "werfen",
+      "en": "toss"
+    },
+    {
+      "id": "u09_010",
+      "de": "das Dorffest",
+      "en": "village fête"
+    },
+    {
+      "id": "u09_011",
+      "de": "erstaunlich, toll",
+      "en": "amazing"
+    },
+    {
+      "id": "u09_012",
+      "de": "die Abmachung, die Verabredung",
+      "en": "arrangement"
+    },
+    {
+      "id": "u09_013",
+      "de": "anwesend sein bei, besuchen",
+      "en": "attend"
+    },
+    {
+      "id": "u09_014",
+      "de": "bereit sein, dabei sein",
+      "en": "be game"
+    },
+    {
+      "id": "u09_015",
+      "de": "brillant, hervorragend",
+      "en": "brilliantly"
+    },
+    {
+      "id": "u09_016",
+      "de": "kompliziert",
+      "en": "complicated"
+    },
+    {
+      "id": "u09_017",
+      "de": "das Konzert",
+      "en": "concert"
+    },
+    {
+      "id": "u09_018",
+      "de": "fantastisch",
+      "en": "fantastic"
+    },
+    {
+      "id": "u09_019",
+      "de": "Spass haben",
+      "en": "have fun"
+    },
+    {
+      "id": "u09_020",
+      "de": "schwer",
+      "en": "heavy"
+    },
+    {
+      "id": "u09_021",
+      "de": "der Hügel",
+      "en": "hill"
+    },
+    {
+      "id": "u09_022",
+      "de": "das Metall",
+      "en": "metal"
+    },
+    {
+      "id": "u09_023",
+      "de": "der Mittag",
+      "en": "noon"
+    },
+    {
+      "id": "u09_024",
+      "de": "merkwürdig",
+      "en": "strange"
+    },
+    {
+      "id": "u09_025",
+      "de": "seltsam, komisch",
+      "en": "weird"
+    },
+    {
+      "id": "u09_026",
+      "de": "wunderbar",
+      "en": "wonderful"
+    },
+    {
+      "id": "u09_027",
+      "de": "unten",
+      "en": "at the bottom"
+    },
+    {
+      "id": "u09_028",
+      "de": "oben",
+      "en": "at the top"
+    },
+    {
+      "id": "u09_029",
+      "de": "dürfen",
+      "en": "be allowed to"
+    },
+    {
+      "id": "u09_030",
+      "de": "die Ecke",
+      "en": "corner"
+    },
+    {
+      "id": "u09_031",
+      "de": "unterhaltsam",
+      "en": "entertaining"
+    },
+    {
+      "id": "u09_032",
+      "de": "die Unterhaltung",
+      "en": "entertainment"
+    },
+    {
+      "id": "u09_033",
+      "de": "die Ausrüstung, die Ausstattung",
+      "en": "equipment"
+    },
+    {
+      "id": "u09_034",
+      "de": "den Weg finden (zu)",
+      "en": "find one's way (to)"
+    },
+    {
+      "id": "u09_035",
+      "de": "der Endpunkt, der Zielort",
+      "en": "finishing point"
+    },
+    {
+      "id": "u09_036",
+      "de": "der Vordergrund",
+      "en": "foreground"
+    },
+    {
+      "id": "u09_037",
+      "de": "links oben, oben links in der Ecke",
+      "en": "in the top left-hand corner"
+    },
+    {
+      "id": "u09_038",
+      "de": "umwerfen, treffen",
+      "en": "knock down / over"
+    },
+    {
+      "id": "u09_039",
+      "de": "heutzutage",
+      "en": "nowadays"
+    },
+    {
+      "id": "u09_040",
+      "de": "beliebt",
+      "en": "popular"
+    },
+    {
+      "id": "u09_041",
+      "de": "rechts",
+      "en": "right-hand"
+    },
+    {
+      "id": "u09_042",
+      "de": "der Ausgangspunkt",
+      "en": "starting point"
+    },
+    {
+      "id": "u09_043",
+      "de": "stattfinden",
+      "en": "take place"
+    },
+    {
+      "id": "u09_044",
+      "de": "jemandem den Weg beschreiben",
+      "en": "tell someone the way"
+    },
+    {
+      "id": "u09_045",
+      "de": "binden",
+      "en": "tie"
+    },
+    {
+      "id": "u09_046",
+      "de": "ungewöhnlich",
+      "en": "unusual"
+    },
+    {
+      "id": "u09_047",
+      "de": "der/die Freiwillige/-r",
+      "en": "volunteer"
+    },
+    {
+      "id": "u09_048",
+      "de": "der Gewinner, die Gewinnerin",
+      "en": "winner"
+    },
+    {
+      "id": "u09_049",
+      "de": "die Haltung, die Einstellung",
+      "en": "attitude"
+    },
+    {
+      "id": "u09_050",
+      "de": "das/ins Ziel treffen",
+      "en": "hit the target"
+    },
+    {
+      "id": "u09_051",
+      "de": "ziemlich, ganz, völlig",
+      "en": "quite"
+    },
+    {
+      "id": "u09_052",
+      "de": "ziemlich, eher",
+      "en": "rather"
+    },
+    {
+      "id": "u09_053",
+      "de": "wirklich",
+      "en": "really"
+    },
+    {
+      "id": "u09_054",
+      "de": "brauchen, benötigen",
+      "en": "require"
+    },
+    {
+      "id": "u09_055",
+      "de": "die Skizze",
+      "en": "sketch"
+    },
+    {
+      "id": "u09_056",
+      "de": "der Raum, der Platz",
+      "en": "space"
+    }
+  ]
+}

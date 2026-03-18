@@ -1,0 +1,306 @@
+{
+  "unit": 19,
+  "title": "Unit 19 – Green ideas",
+  "words": [
+    {
+      "id": "u19_001",
+      "de": "die Elektrizität, der Strom",
+      "en": "electricity"
+    },
+    {
+      "id": "u19_002",
+      "de": "die Energie",
+      "en": "energy"
+    },
+    {
+      "id": "u19_003",
+      "de": "der Treibstoff",
+      "en": "fuel"
+    },
+    {
+      "id": "u19_004",
+      "de": "die Erderwärmung",
+      "en": "global warming"
+    },
+    {
+      "id": "u19_005",
+      "de": "der Lebensstil",
+      "en": "lifestyle"
+    },
+    {
+      "id": "u19_006",
+      "de": "Atom-, Kern-",
+      "en": "nuclear"
+    },
+    {
+      "id": "u19_007",
+      "de": "das Benzin",
+      "en": "petrol"
+    },
+    {
+      "id": "u19_008",
+      "de": "herstellen, produzieren",
+      "en": "produce"
+    },
+    {
+      "id": "u19_009",
+      "de": "recyceln, wiederaufbereiten",
+      "en": "recycle"
+    },
+    {
+      "id": "u19_010",
+      "de": "Sonnen-, Solar-",
+      "en": "solar"
+    },
+    {
+      "id": "u19_011",
+      "de": "erreichen",
+      "en": "achieve"
+    },
+    {
+      "id": "u19_012",
+      "de": "der Aktivist, die Aktivistin",
+      "en": "activist"
+    },
+    {
+      "id": "u19_013",
+      "de": "die Ankunft",
+      "en": "arrival"
+    },
+    {
+      "id": "u19_014",
+      "de": "Kohlendioxid, Kohlenstoffdioxid",
+      "en": "carbon dioxide"
+    },
+    {
+      "id": "u19_015",
+      "de": "die Konferenz, die Tagung",
+      "en": "conference"
+    },
+    {
+      "id": "u19_016",
+      "de": "die Krise",
+      "en": "crisis"
+    },
+    {
+      "id": "u19_017",
+      "de": "für immer",
+      "en": "forever"
+    },
+    {
+      "id": "u19_018",
+      "de": "die fossilen Brennstoffe",
+      "en": "fossil fuels"
+    },
+    {
+      "id": "u19_019",
+      "de": "das Gas",
+      "en": "gas"
+    },
+    {
+      "id": "u19_020",
+      "de": "die Auswirkung, der Einfluss",
+      "en": "impact"
+    },
+    {
+      "id": "u19_021",
+      "de": "jede Menge",
+      "en": "loads (of)"
+    },
+    {
+      "id": "u19_022",
+      "de": "Luzern",
+      "en": "Lucerne"
+    },
+    {
+      "id": "u19_023",
+      "de": "natürliche(r, s)",
+      "en": "natural"
+    },
+    {
+      "id": "u19_024",
+      "de": "erneuerbar",
+      "en": "renewable"
+    },
+    {
+      "id": "u19_025",
+      "de": "verantwortlich",
+      "en": "responsible"
+    },
+    {
+      "id": "u19_026",
+      "de": "der Sonnenkollektor",
+      "en": "solar panel"
+    },
+    {
+      "id": "u19_027",
+      "de": "solarbetrieben",
+      "en": "solar-powered"
+    },
+    {
+      "id": "u19_028",
+      "de": "lösen",
+      "en": "solve"
+    },
+    {
+      "id": "u19_029",
+      "de": "die Quelle",
+      "en": "source"
+    },
+    {
+      "id": "u19_030",
+      "de": "wechseln",
+      "en": "switch"
+    },
+    {
+      "id": "u19_031",
+      "de": "der Ferne Osten",
+      "en": "the Far East"
+    },
+    {
+      "id": "u19_032",
+      "de": "der Mittlere Osten",
+      "en": "the Middle East"
+    },
+    {
+      "id": "u19_033",
+      "de": "der Stau",
+      "en": "traffic jam"
+    },
+    {
+      "id": "u19_034",
+      "de": "das Fahrzeug",
+      "en": "vehicle"
+    },
+    {
+      "id": "u19_035",
+      "de": "das Gerät, das Haushaltsgerät",
+      "en": "appliance"
+    },
+    {
+      "id": "u19_036",
+      "de": "das Bad",
+      "en": "bath"
+    },
+    {
+      "id": "u19_037",
+      "de": "die Glühbirne",
+      "en": "bulb"
+    },
+    {
+      "id": "u19_038",
+      "de": "energiearm",
+      "en": "low-energy"
+    },
+    {
+      "id": "u19_039",
+      "de": "das Mobiltelefon, das Handy",
+      "en": "mobile phone"
+    },
+    {
+      "id": "u19_040",
+      "de": "im Standby-Betrieb",
+      "en": "on standby"
+    },
+    {
+      "id": "u19_041",
+      "de": "das Dach",
+      "en": "roof"
+    },
+    {
+      "id": "u19_042",
+      "de": "der Abfall, der Kehricht",
+      "en": "rubbish"
+    },
+    {
+      "id": "u19_043",
+      "de": "die Dusche",
+      "en": "shower"
+    },
+    {
+      "id": "u19_044",
+      "de": "ausschalten",
+      "en": "switch off"
+    },
+    {
+      "id": "u19_045",
+      "de": "der Wasserhahn",
+      "en": "tap"
+    },
+    {
+      "id": "u19_046",
+      "de": "abschalten, ausschalten",
+      "en": "turn off"
+    },
+    {
+      "id": "u19_047",
+      "de": "die Waschmaschine",
+      "en": "washing machine"
+    },
+    {
+      "id": "u19_048",
+      "de": "die Windturbine",
+      "en": "wind turbine"
+    },
+    {
+      "id": "u19_049",
+      "de": "die Alternative",
+      "en": "alternative"
+    },
+    {
+      "id": "u19_050",
+      "de": "die Klimaveränderung",
+      "en": "climate change"
+    },
+    {
+      "id": "u19_051",
+      "de": "leistungsstark, effizient",
+      "en": "efficient"
+    },
+    {
+      "id": "u19_052",
+      "de": "nicht erneuerbar",
+      "en": "non-renewable"
+    },
+    {
+      "id": "u19_053",
+      "de": "das Kernkraftwerk",
+      "en": "nuclear power plant"
+    },
+    {
+      "id": "u19_054",
+      "de": "das Erdöl",
+      "en": "petroleum"
+    },
+    {
+      "id": "u19_055",
+      "de": "die Radioaktivität",
+      "en": "radioactivity"
+    },
+    {
+      "id": "u19_056",
+      "de": "verringern, reduzieren",
+      "en": "reduce"
+    },
+    {
+      "id": "u19_057",
+      "de": "die Firma, das Unternehmen",
+      "en": "company"
+    },
+    {
+      "id": "u19_058",
+      "de": "gesamt, ganz",
+      "en": "entire"
+    },
+    {
+      "id": "u19_059",
+      "de": "hier: der Chef, die Chefin",
+      "en": "head"
+    },
+    {
+      "id": "u19_060",
+      "de": "der Anhänger, die Anhängerin",
+      "en": "supporter"
+    }
+  ]
+}
