@@ -1,0 +1,131 @@
+{
+  "unit": 10,
+  "title": "Unit 10 – Catchy tunes",
+  "words": [
+    {
+      "id": "u10_001",
+      "de": "der Refrain",
+      "en": "chorus"
+    },
+    {
+      "id": "u10_002",
+      "de": "klatschen",
+      "en": "clap"
+    },
+    {
+      "id": "u10_003",
+      "de": "der Liedtext",
+      "en": "lyrics"
+    },
+    {
+      "id": "u10_004",
+      "de": "die Melodie",
+      "en": "melody"
+    },
+    {
+      "id": "u10_005",
+      "de": "die Laune",
+      "en": "mood"
+    },
+    {
+      "id": "u10_006",
+      "de": "der Rhythmus",
+      "en": "rhythm"
+    },
+    {
+      "id": "u10_007",
+      "de": "der Stil",
+      "en": "style"
+    },
+    {
+      "id": "u10_008",
+      "de": "faszinierend",
+      "en": "fascinating"
+    },
+    {
+      "id": "u10_009",
+      "de": "laut",
+      "en": "loud"
+    },
+    {
+      "id": "u10_010",
+      "de": "der Sänger",
+      "en": "singer"
+    },
+    {
+      "id": "u10_011",
+      "de": "das Lied",
+      "en": "song"
+    },
+    {
+      "id": "u10_012",
+      "de": "das Instrument",
+      "en": "instrument"
+    },
+    {
+      "id": "u10_013",
+      "de": "die Gitarre",
+      "en": "guitar"
+    },
+    {
+      "id": "u10_014",
+      "de": "das Klavier",
+      "en": "piano"
+    },
+    {
+      "id": "u10_015",
+      "de": "die Geige",
+      "en": "violin"
+    },
+    {
+      "id": "u10_016",
+      "de": "die Trompete",
+      "en": "trumpet"
+    },
+    {
+      "id": "u10_017",
+      "de": "die Flöte",
+      "en": "flute"
+    },
+    {
+      "id": "u10_018",
+      "de": "eindrucksvoll",
+      "en": "awesome"
+    },
+    {
+      "id": "u10_019",
+      "de": "furchtbar",
+      "en": "awful"
+    },
+    {
+      "id": "u10_020",
+      "de": "langweilig",
+      "en": "boring"
+    },
+    {
+      "id": "u10_021",
+      "de": "der Musiker",
+      "en": "musician"
+    },
+    {
+      "id": "u10_022",
+      "de": "altmodisch",
+      "en": "old-fashioned"
+    },
+    {
+      "id": "u10_023",
+      "de": "der Takt",
+      "en": "beat"
+    },
+    {
+      "id": "u10_024",
+      "de": "der Akkord",
+      "en": "chord"
+    },
+    {
+      "id": "u10_025",
+      "de": "energiegeladen",
+      "en": "energetic"
+    }
+  ]
+}
