@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  --red:        #C0262A;
-  --red-dark:   #8C1A1D;
-  --red-light:  #F5D5D6;
+  --red:        #03ac13;
+  --red-dark:   #234f1e;
+  --red-light:  #00bf00;
   --cream:      #FAF8F5;
   --white:      #FFFFFF;
   --ink:        #1A1A1A;
