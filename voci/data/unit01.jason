@@ -1,0 +1,441 @@
+{
+  "unit": 1,
+  "title": "Unit 1 – Going places",
+  "words": [
+    {
+      "id": "u01_001",
+      "de": "das Tagebuch",
+      "en": "diary"
+    },
+    {
+      "id": "u01_002",
+      "de": "die Herberge, (billiges) Hotel",
+      "en": "hostel"
+    },
+    {
+      "id": "u01_003",
+      "de": "der Schottenrock, Kilt",
+      "en": "kilt"
+    },
+    {
+      "id": "u01_004",
+      "de": "die Eisenbahn",
+      "en": "railway"
+    },
+    {
+      "id": "u01_005",
+      "de": "der Empfang, die Rezeption",
+      "en": "reception"
+    },
+    {
+      "id": "u01_006",
+      "de": "Schottland",
+      "en": "Scotland"
+    },
+    {
+      "id": "u01_007",
+      "de": "der Tartan, das Schottenmuster",
+      "en": "tartan"
+    },
+    {
+      "id": "u01_008",
+      "de": "der Dieb, die Diebin",
+      "en": "thief"
+    },
+    {
+      "id": "u01_009",
+      "de": "die Karte, das Billet",
+      "en": "ticket"
+    },
+    {
+      "id": "u01_010",
+      "de": "die Führung, der Rundgang",
+      "en": "tour"
+    },
+    {
+      "id": "u01_011",
+      "de": "einander",
+      "en": "each other"
+    },
+    {
+      "id": "u01_012",
+      "de": "es weit bringen",
+      "en": "go places"
+    },
+    {
+      "id": "u01_013",
+      "de": "die Reise",
+      "en": "journey"
+    },
+    {
+      "id": "u01_014",
+      "de": "kein(e, er, es)",
+      "en": "none"
+    },
+    {
+      "id": "u01_015",
+      "de": "überhaupt nicht",
+      "en": "not at all"
+    },
+    {
+      "id": "u01_016",
+      "de": "die Actionszene",
+      "en": "action scene"
+    },
+    {
+      "id": "u01_017",
+      "de": "neben",
+      "en": "besides"
+    },
+    {
+      "id": "u01_018",
+      "de": "der Ausdruck, die Äusserung",
+      "en": "expression"
+    },
+    {
+      "id": "u01_019",
+      "de": "dort drüben",
+      "en": "over there"
+    },
+    {
+      "id": "u01_020",
+      "de": "schottisch",
+      "en": "Scottish"
+    },
+    {
+      "id": "u01_021",
+      "de": "die Schönheit",
+      "en": "beauty"
+    },
+    {
+      "id": "u01_022",
+      "de": "das Fahrrad",
+      "en": "bike"
+    },
+    {
+      "id": "u01_023",
+      "de": "im Voraus buchen",
+      "en": "book ahead"
+    },
+    {
+      "id": "u01_024",
+      "de": "das Schloss, die Burg",
+      "en": "castle"
+    },
+    {
+      "id": "u01_025",
+      "de": "das Kino",
+      "en": "cinema"
+    },
+    {
+      "id": "u01_026",
+      "de": "Liebe/r/s, Sehr geehrte/r/s (Briefanrede)",
+      "en": "dear"
+    },
+    {
+      "id": "u01_027",
+      "de": "entdecken",
+      "en": "discover"
+    },
+    {
+      "id": "u01_028",
+      "de": "der Eintrag (in einem Wörterbuch)",
+      "en": "entry"
+    },
+    {
+      "id": "u01_029",
+      "de": "austauschen, umtauschen",
+      "en": "exchange"
+    },
+    {
+      "id": "u01_030",
+      "de": "entschuldigen",
+      "en": "excuse"
+    },
+    {
+      "id": "u01_031",
+      "de": "teuer",
+      "en": "expensive"
+    },
+    {
+      "id": "u01_032",
+      "de": "berühmt",
+      "en": "famous"
+    },
+    {
+      "id": "u01_033",
+      "de": "der Flug",
+      "en": "flight"
+    },
+    {
+      "id": "u01_034",
+      "de": "eine Reise machen, einen Ausflug machen",
+      "en": "go on a trip to"
+    },
+    {
+      "id": "u01_035",
+      "de": "der (Fremden-)Führer, die Führerin",
+      "en": "guide"
+    },
+    {
+      "id": "u01_036",
+      "de": "ein Picknick machen",
+      "en": "have a picnic"
+    },
+    {
+      "id": "u01_037",
+      "de": "links",
+      "en": "left"
+    },
+    {
+      "id": "u01_038",
+      "de": "die Freude, das Vergnügen",
+      "en": "pleasure"
+    },
+    {
+      "id": "u01_039",
+      "de": "das Lokal, die Kneipe",
+      "en": "pub"
+    },
+    {
+      "id": "u01_040",
+      "de": "entdecken",
+      "en": "spot"
+    },
+    {
+      "id": "u01_041",
+      "de": "gerade(aus)",
+      "en": "straight"
+    },
+    {
+      "id": "u01_042",
+      "de": "der Tourist, die Touristin",
+      "en": "tourist"
+    },
+    {
+      "id": "u01_043",
+      "de": "die Jugendherberge",
+      "en": "youth hostel"
+    },
+    {
+      "id": "u01_044",
+      "de": "die Atmosphäre, die Stimmung",
+      "en": "atmosphere"
+    },
+    {
+      "id": "u01_045",
+      "de": "Glück haben",
+      "en": "be lucky / in luck"
+    },
+    {
+      "id": "u01_046",
+      "de": "das Boot, das Schiff",
+      "en": "boat"
+    },
+    {
+      "id": "u01_047",
+      "de": "die Frühstückszeiten (in einem Hotel)",
+      "en": "breakfast hours"
+    },
+    {
+      "id": "u01_048",
+      "de": "tschüss",
+      "en": "bye"
+    },
+    {
+      "id": "u01_049",
+      "de": "bar, cash",
+      "en": "in cash"
+    },
+    {
+      "id": "u01_050",
+      "de": "billig",
+      "en": "cheap"
+    },
+    {
+      "id": "u01_051",
+      "de": "das Check-in-Formular",
+      "en": "check-in form"
+    },
+    {
+      "id": "u01_052",
+      "de": "der Anschluss",
+      "en": "connection"
+    },
+    {
+      "id": "u01_053",
+      "de": "die E-Mail",
+      "en": "email"
+    },
+    {
+      "id": "u01_054",
+      "de": "der Vorname",
+      "en": "first name"
+    },
+    {
+      "id": "u01_055",
+      "de": "freundlich",
+      "en": "friendly"
+    },
+    {
+      "id": "u01_056",
+      "de": "herumkommen, vorankommen",
+      "en": "get around"
+    },
+    {
+      "id": "u01_057",
+      "de": "der Gast",
+      "en": "guest"
+    },
+    {
+      "id": "u01_058",
+      "de": "die Handtasche",
+      "en": "handbag"
+    },
+    {
+      "id": "u01_059",
+      "de": "rumhängen",
+      "en": "hang around"
+    },
+    {
+      "id": "u01_060",
+      "de": "eine wundervolle Zeit verbringen",
+      "en": "have a wonderful time"
+    },
+    {
+      "id": "u01_061",
+      "de": "die Insel",
+      "en": "island"
+    },
+    {
+      "id": "u01_062",
+      "de": "die Frau, die Dame",
+      "en": "lady"
+    },
+    {
+      "id": "u01_063",
+      "de": "gnädige Frau, Dame",
+      "en": "Madam"
+    },
+    {
+      "id": "u01_064",
+      "de": "einen Unterschied machen",
+      "en": "make a difference"
+    },
+    {
+      "id": "u01_065",
+      "de": "das Herrchen",
+      "en": "master"
+    },
+    {
+      "id": "u01_066",
+      "de": "die Mahlzeit, das Essen",
+      "en": "meal"
+    },
+    {
+      "id": "u01_067",
+      "de": "in der Nähe",
+      "en": "nearby"
+    },
+    {
+      "id": "u01_068",
+      "de": "der Passagier, die Passagierin",
+      "en": "passenger"
+    },
+    {
+      "id": "u01_069",
+      "de": "pro Nacht",
+      "en": "per night"
+    },
+    {
+      "id": "u01_070",
+      "de": "perfekter Sitz (bei Kleidern), optimale Passform",
+      "en": "perfect fit"
+    },
+    {
+      "id": "u01_071",
+      "de": "der/die Polizeibeamte/-r",
+      "en": "police officer"
+    },
+    {
+      "id": "u01_072",
+      "de": "der Bahnhof",
+      "en": "railway station"
+    },
+    {
+      "id": "u01_073",
+      "de": "der Empfangschef, die Empfangsdame",
+      "en": "receptionist"
+    },
+    {
+      "id": "u01_074",
+      "de": "die Hin- und Rückfahrkarte, das Retourbillet",
+      "en": "return ticket"
+    },
+    {
+      "id": "u01_075",
+      "de": "die Hauptverkehrszeit, die Stosszeit",
+      "en": "rush hour"
+    },
+    {
+      "id": "u01_076",
+      "de": "sicher, ungefährlich",
+      "en": "safe"
+    },
+    {
+      "id": "u01_077",
+      "de": "die Einzelfahrkarte",
+      "en": "single ticket"
+    },
+    {
+      "id": "u01_078",
+      "de": "stehlen",
+      "en": "steal"
+    },
+    {
+      "id": "u01_079",
+      "de": "der Nachname, der Familienname",
+      "en": "surname"
+    },
+    {
+      "id": "u01_080",
+      "de": "der/die Verdächtige/-r",
+      "en": "suspect"
+    },
+    {
+      "id": "u01_081",
+      "de": "dünn",
+      "en": "thin"
+    },
+    {
+      "id": "u01_082",
+      "de": "die Tradition, der Brauch",
+      "en": "tradition"
+    },
+    {
+      "id": "u01_083",
+      "de": "traditionell",
+      "en": "traditional"
+    },
+    {
+      "id": "u01_084",
+      "de": "englischsprachig",
+      "en": "English-speaking"
+    },
+    {
+      "id": "u01_085",
+      "de": "sich entspannen",
+      "en": "relax"
+    },
+    {
+      "id": "u01_086",
+      "de": "das Feld (auf einem Spielbrett)",
+      "en": "square"
+    },
+    {
+      "id": "u01_087",
+      "de": "handeln, etwas tun",
+      "en": "take action"
+    }
+  ]
+}
