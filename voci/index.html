@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vokabeln – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="../index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="index.html" class="active">Vokabeln</a>
+      <a href="../grammar/index.html">Grammatik</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <h1>Vokabeln</h1>
+    <p>Wähle eine oder mehrere Units, dann die Sprachrichtung und den Lernmodus.</p>
+  </div>
+
+  <div class="container">
+
+    <!-- Unit Selection -->
+    <div class="section-title">1. Unit(s) auswählen</div>
+    <div style="display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap; align-items:center;">
+      <button class="btn btn-outline btn-sm" onclick="selectAll()">Alle auswählen</button>
+      <button class="btn btn-outline btn-sm" onclick="clearAll()">Alle abwählen</button>
+      <span id="selectedInfo" style="font-size:0.85rem; color:var(--ink-muted);"></span>
+    </div>
+    <div class="unit-list" id="unitList"></div>
+
+    <!-- Direction -->
+    <div style="margin: 32px 0 16px;">
+      <div class="section-title">2. Sprachrichtung</div>
+      <div class="direction-toggle">
+        <button class="direction-btn active" id="btnDeEn" onclick="setDir('de_en')">🇩🇪 → 🇬🇧 Deutsch → Englisch</button>
+        <button class="direction-btn" id="btnEnDe" onclick="setDir('en_de')">🇬🇧 → 🇩🇪 Englisch → Deutsch</button>
+      </div>
+    </div>
+
+    <!-- Mode Selection -->
+    <div style="margin: 32px 0 16px;">
+      <div class="section-title">3. Lernmodus wählen</div>
+      <div class="mode-grid" id="modeGrid">
+        <div class="mode-item" id="modeFC" onclick="startMode('flashcards')">
+          <div class="mode-icon">🃏</div>
+          <strong>Karteikarten</strong>
+          <small>Karte umdrehen, Richtig/Falsch</small>
+        </div>
+        <div class="mode-item" id="modeMA" onclick="startMode('matching')">
+          <div class="mode-icon">🔗</div>
+          <strong>Zuordnen</strong>
+          <small>5 Wörter zuordnen – auf Zeit!</small>
+        </div>
+        <div class="mode-item" id="modeWR" onclick="startMode('writing')">
+          <div class="mode-icon">✍️</div>
+          <strong>Schreiben</strong>
+          <small>Wort eintippen und prüfen</small>
+        </div>
+        <div class="mode-item" id="modeSL" onclick="startMode('slots')">
+          <div class="mode-icon">📦</div>
+          <strong>Slot-Lernen</strong>
+          <small>Leitner-System (nur Einzelunit)</small>
+        </div>
+      </div>
+    </div>
+
+    <div id="slotWarning" style="display:none;" class="hint-box">
+      ⚠️ Das Slot-Lernen ist nur für eine einzelne Unit verfügbar (kein Kombinations-Modus).
+    </div>
+
+  </div>
+</main>
+
+<script src="../js/storage.js"></script>
+<script>
+  // Theme
+  function applyTheme() {
+    document.body.classList.toggle('dark', Storage.getDarkMode());
+    document.getElementById('themeToggle').textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  }
+  applyTheme();
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    Storage.setDarkMode(!Storage.getDarkMode());
+    applyTheme();
+  });
+
+  const UNIT_NAMES = ['Going places','Without words','Healthy living','Exploring','Weather dynamics',
+    'The deep blue','Patchwork city','Dreams of flying','Weird & wonderful games','Catchy tunes',
+    'Reaching for the stars','Hard times','Intriguing devices','Incredible India','Further faster higher',
+    'Down Fifth Avenue','Haunted houses','Its showtime','Green ideas','Sell sell sell','Backpacking'];
+
+  let selectedUnits = [];
+  let direction = 'de_en';
+
+  // Restore last combination
+  const lastCombo = Storage.getLastCombination();
+
+  // Build unit grid
+  function buildUnitGrid() {
+    const list = document.getElementById('unitList');
+    list.innerHTML = '';
+    for (let i = 1; i <= 21; i++) {
+      const ud = Storage.getUnitData(i);
+      const hasProgress = Object.keys(ud.words).length > 0;
+      const sel = selectedUnits.includes(i);
+      list.innerHTML += `<div class="unit-item ${sel ? 'selected' : ''}" id="unit_${i}" onclick="toggleUnit(${i})">
+        ${hasProgress ? '<div class="unit-badge"></div>' : ''}
+        <div class="unit-num">${i}</div>
+        <div class="unit-title">${UNIT_NAMES[i-1]}</div>
+        <div class="unit-sub">Unit ${i}</div>
+      </div>`;
+    }
+    updateSelectedInfo();
+  }
+
+  function toggleUnit(n) {
+    const idx = selectedUnits.indexOf(n);
+    if (idx >= 0) selectedUnits.splice(idx, 1);
+    else selectedUnits.push(n);
+    buildUnitGrid();
+    updateSlotWarning();
+  }
+  function selectAll() { selectedUnits = Array.from({length:21}, (_,i) => i+1); buildUnitGrid(); updateSlotWarning(); }
+  function clearAll()  { selectedUnits = []; buildUnitGrid(); updateSlotWarning(); }
+
+  function updateSelectedInfo() {
+    const el = document.getElementById('selectedInfo');
+    el.textContent = selectedUnits.length === 0 ? 'Keine Units gewählt'
+      : selectedUnits.length === 1 ? `Unit ${selectedUnits[0]} gewählt`
+      : `${selectedUnits.length} Units gewählt: ${selectedUnits.join(', ')}`;
+  }
+
+  function setDir(d) {
+    direction = d;
+    document.getElementById('btnDeEn').classList.toggle('active', d === 'de_en');
+    document.getElementById('btnEnDe').classList.toggle('active', d === 'en_de');
+  }
+
+  function updateSlotWarning() {
+    document.getElementById('slotWarning').style.display =
+      (selectedUnits.length > 1) ? 'block' : 'none';
+  }
+
+  function startMode(mode) {
+    if (selectedUnits.length === 0) {
+      alert('Bitte zuerst eine oder mehrere Units auswählen.');
+      return;
+    }
+    if (mode === 'slots' && selectedUnits.length > 1) {
+      alert('Slot-Lernen ist nur für eine einzelne Unit verfügbar.');
+      return;
+    }
+    const params = new URLSearchParams({ units: selectedUnits.join(','), dir: direction });
+    location.href = `${mode}.html?${params}`;
+  }
+
+  // Restore
+  if (lastCombo.length > 0) selectedUnits = lastCombo;
+  buildUnitGrid();
+</script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karteikarten – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="index.html">← Zurück</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<!-- Loading -->
+<div id="loadingScreen" style="text-align:center; padding: 80px 24px;">
+  <div style="font-size:3rem; margin-bottom:16px;">⏳</div>
+  <p>Wörter werden geladen…</p>
+</div>
+
+<!-- Exercise -->
+<div id="exerciseScreen" style="display:none;">
+  <div class="container" style="max-width: 640px;">
+    <div style="padding: 24px 0 0;">
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      </div>
+      <div class="progress-info">
+        <span id="progressText">0 / 0</span>
+        <span id="scoreText">✅ 0  ❌ 0</span>
+      </div>
+    </div>
+
+    <div class="flashcard-scene" id="cardScene" onclick="flipCard()">
+      <div class="flashcard" id="card">
+        <div class="flashcard-face flashcard-front">
+          <div class="flashcard-word" id="cardFront">–</div>
+          <div class="flashcard-hint" id="cardFrontHint"></div>
+          <div class="flashcard-action-hint">Klicken zum Umdrehen · Leertaste</div>
+        </div>
+        <div class="flashcard-face flashcard-back">
+          <div class="flashcard-word" id="cardBack">–</div>
+          <div class="flashcard-hint" id="cardBackHint"></div>
+          <div class="flashcard-action-hint">Klicken zum Umdrehen · Leertaste</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="actionButtons" style="display:none; justify-content:center; gap:16px; flex-wrap:wrap; margin:8px 0 32px;">
+      <button class="btn btn-wrong btn-lg" onclick="markResult(false)">❌ Falsch</button>
+      <button class="btn btn-correct btn-lg" onclick="markResult(true)">✅ Richtig</button>
+    </div>
+    <div id="flipHint" style="text-align:center; margin-bottom:32px;">
+      <button class="btn btn-outline" onclick="flipCard()">Karte umdrehen 🔄</button>
+    </div>
+  </div>
+</div>
+
+<!-- Result -->
+<div id="resultScreen" style="display:none;">
+  <div class="container">
+    <div class="result-card">
+      <div style="font-size:3rem; margin-bottom:8px;" id="resultEmoji">🎉</div>
+      <h2>Runde abgeschlossen!</h2>
+      <div class="result-score" id="resultScore">–%</div>
+      <p class="result-subtitle" id="resultSub"></p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:24px;">
+        <button class="btn btn-primary" onclick="restart()">🔄 Nochmal</button>
+        <a href="index.html" class="btn btn-outline">← Einheiten</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/storage.js"></script>
+<script src="../js/voci-engine.js"></script>
+<script>
+  // Theme
+  const themeBtn = document.getElementById('themeToggle');
+  document.body.classList.toggle('dark', Storage.getDarkMode());
+  themeBtn.textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  themeBtn.addEventListener('click', () => { Storage.setDarkMode(!Storage.getDarkMode()); location.reload(); });
+
+  const params = new URLSearchParams(location.search);
+  const unitNums = params.get('units').split(',').map(Number);
+  const dir = params.get('dir') || 'de_en';
+  let isFlipped = false;
+  let correct = 0, wrong = 0;
+
+  async function init() {
+    await VociEngine.loadUnits(unitNums);
+    VociEngine.setDirection(dir);
+    VociEngine.startQueue(true);
+    document.getElementById('loadingScreen').style.display = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    showCard();
+  }
+
+  function showCard() {
+    if (VociEngine.isDone()) { showResult(); return; }
+    const w = VociEngine.currentWord();
+    isFlipped = false;
+    document.getElementById('card').classList.remove('flipped');
+    document.getElementById('cardFront').textContent = VociEngine.prompt(w);
+    document.getElementById('cardBack').textContent  = VociEngine.answer(w);
+    document.getElementById('cardFrontHint').textContent  = dir === 'de_en' ? '🇩🇪' : '🇬🇧';
+    document.getElementById('cardBackHint').textContent   = dir === 'de_en' ? '🇬🇧' : '🇩🇪';
+    document.getElementById('actionButtons').style.display = 'none';
+    document.getElementById('flipHint').style.display = 'block';
+    updateProgress();
+  }
+
+  function flipCard() {
+    isFlipped = !isFlipped;
+    document.getElementById('card').classList.toggle('flipped', isFlipped);
+    if (isFlipped) {
+      document.getElementById('actionButtons').style.display = 'flex';
+      document.getElementById('flipHint').style.display = 'none';
+    }
+  }
+
+  function markResult(ok) {
+    const w = VociEngine.currentWord();
+    VociEngine.recordResult(w.id, ok);
+    if (ok) correct++; else wrong++;
+    VociEngine.advance();
+    showCard();
+  }
+
+  function updateProgress() {
+    const total = VociEngine.totalWords();
+    const pos   = VociEngine.currentPos();
+    document.getElementById('progressFill').style.width = `${(pos/total)*100}%`;
+    document.getElementById('progressText').textContent = `${pos} / ${total}`;
+    document.getElementById('scoreText').textContent    = `✅ ${correct}  ❌ ${wrong}`;
+  }
+
+  function showResult() {
+    document.getElementById('exerciseScreen').style.display = 'none';
+    document.getElementById('resultScreen').style.display   = 'block';
+    const sum = VociEngine.getSessionSummary();
+    document.getElementById('resultScore').textContent = `${sum.percent}%`;
+    document.getElementById('resultSub').textContent   = `${sum.correct} von ${sum.total} richtig`;
+    document.getElementById('resultEmoji').textContent  = sum.percent >= 80 ? '🎉' : sum.percent >= 60 ? '👍' : '💪';
+  }
+
+  function restart() {
+    correct = 0; wrong = 0;
+    VociEngine.startQueue(true);
+    document.getElementById('resultScreen').style.display   = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    showCard();
+  }
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!isFlipped) flipCard(); }
+    if (isFlipped) {
+      if (e.key === 'ArrowRight' || e.key === '1') markResult(true);
+      if (e.key === 'ArrowLeft'  || e.key === '2') markResult(false);
+    }
+  });
+
+  init();
+</script>
+</body>
+</html>

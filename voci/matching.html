@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zuordnen – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .matching-header { text-align:center; padding: 32px 0 0; }
+    .round-info { font-size:0.85rem; color:var(--ink-muted); margin-top:8px; }
+    .best-time { font-size:0.8rem; color:var(--gold); font-weight:600; margin-top:4px; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="index.html">← Zurück</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div id="loadingScreen" style="text-align:center; padding:80px 24px;">
+  <div style="font-size:3rem;">⏳</div><p>Laden…</p>
+</div>
+
+<div id="exerciseScreen" style="display:none;">
+  <div class="container" style="max-width:700px;">
+    <div class="matching-header">
+      <h2>Zuordnen</h2>
+      <div class="timer" id="timer">0:00</div>
+      <div class="round-info" id="roundInfo"></div>
+      <div class="best-time" id="bestTimeDisplay"></div>
+    </div>
+
+    <div id="matchingArea"></div>
+
+    <div style="text-align:center; margin:24px 0; color:var(--ink-muted); font-size:0.85rem;" id="matchHint">
+      Klicke ein deutsches Wort, dann das passende englische Wort.
+    </div>
+  </div>
+</div>
+
+<div id="resultScreen" style="display:none;">
+  <div class="container">
+    <div class="result-card">
+      <div style="font-size:3rem;">⏱️</div>
+      <h2>Runde geschafft!</h2>
+      <div class="result-score" id="resultTime">–</div>
+      <p class="result-subtitle" id="resultBest"></p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:24px;">
+        <button class="btn btn-primary" onclick="nextRound()">▶️ Nächste Runde</button>
+        <a href="index.html" class="btn btn-outline">← Einheiten</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/storage.js"></script>
+<script src="../js/voci-engine.js"></script>
+<script>
+  const themeBtn = document.getElementById('themeToggle');
+  document.body.classList.toggle('dark', Storage.getDarkMode());
+  themeBtn.textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  themeBtn.addEventListener('click', () => { Storage.setDarkMode(!Storage.getDarkMode()); location.reload(); });
+
+  const params = new URLSearchParams(location.search);
+  const unitNums = params.get('units').split(',').map(Number);
+  const dir = params.get('dir') || 'de_en';
+  const isSingle = unitNums.length === 1;
+  let seconds = 0, timerInterval = null;
+  let selectedLeft = null, matchedCount = 0;
+  let currentSet = [];
+  let totalRounds = 0, totalTime = 0;
+
+  async function init() {
+    await VociEngine.loadUnits(unitNums);
+    VociEngine.setDirection(dir);
+    document.getElementById('loadingScreen').style.display = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    if (isSingle) showBestTime();
+    startRound();
+  }
+
+  function showBestTime() {
+    const ud = Storage.getUnitData(unitNums[0]);
+    if (ud.matching_besttime) {
+      document.getElementById('bestTimeDisplay').textContent = `⭐ Bestzeit: ${formatTime(ud.matching_besttime)}`;
+    }
+  }
+
+  function formatTime(s) {
+    return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
+  }
+
+  function startRound() {
+    seconds = 0; matchedCount = 0; selectedLeft = null;
+    currentSet = VociEngine.getMatchingSet(5);
+    renderGrid();
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      seconds++;
+      document.getElementById('timer').textContent = formatTime(seconds);
+      document.getElementById('timer').classList.toggle('warning', seconds > 60);
+    }, 1000);
+    document.getElementById('roundInfo').textContent = `Runde ${totalRounds + 1}`;
+  }
+
+  function renderGrid() {
+    const prompts  = VociEngine.shuffle(currentSet.map(w => ({ id: w.id, text: VociEngine.prompt(w), side: 'L' })));
+    const answers  = VociEngine.shuffle(currentSet.map(w => ({ id: w.id, text: VociEngine.answer(w), side: 'R' })));
+    const area     = document.getElementById('matchingArea');
+
+    let html = '<div class="matching-grid">';
+    const maxLen = Math.max(prompts.length, answers.length);
+    for (let i = 0; i < maxLen; i++) {
+      const p = prompts[i];
+      const a = answers[i];
+      html += p ? `<div class="match-word" id="L_${p.id}" onclick="selectWord('L','${p.id}')">${p.text}</div>` : '<div></div>';
+      html += a ? `<div class="match-word" id="R_${a.id}" onclick="selectWord('R','${a.id}')">${a.text}</div>` : '<div></div>';
+    }
+    html += '</div>';
+    area.innerHTML = html;
+  }
+
+  function selectWord(side, id) {
+    const el = document.getElementById(`${side}_${id}`);
+    if (!el || el.classList.contains('matched')) return;
+
+    if (side === 'L') {
+      // Deselect previous
+      if (selectedLeft) {
+        const prev = document.getElementById(`L_${selectedLeft}`);
+        if (prev) prev.classList.remove('selected');
+      }
+      selectedLeft = id;
+      el.classList.add('selected');
+    } else {
+      // Right side clicked
+      if (!selectedLeft) return;
+      if (selectedLeft === id) {
+        // Match!
+        document.getElementById(`L_${id}`).classList.replace('selected','matched');
+        document.getElementById(`R_${id}`).classList.add('matched');
+        matchedCount++;
+        selectedLeft = null;
+        if (matchedCount === currentSet.length) roundComplete();
+      } else {
+        // Wrong
+        el.classList.add('wrong');
+        seconds += 2; // penalty
+        setTimeout(() => el.classList.remove('wrong'), 600);
+      }
+    }
+  }
+
+  function roundComplete() {
+    clearInterval(timerInterval);
+    totalRounds++;
+    totalTime += seconds;
+    if (isSingle) Storage.saveBestTime(unitNums[0], seconds);
+
+    document.getElementById('exerciseScreen').style.display = 'none';
+    document.getElementById('resultScreen').style.display   = 'block';
+    document.getElementById('resultTime').textContent = formatTime(seconds);
+
+    if (isSingle) {
+      const ud = Storage.getUnitData(unitNums[0]);
+      document.getElementById('resultBest').textContent = ud.matching_besttime
+        ? `⭐ Bestzeit: ${formatTime(ud.matching_besttime)}`
+        : 'Erste Runde – Zeit gespeichert!';
+    }
+  }
+
+  function nextRound() {
+    document.getElementById('resultScreen').style.display   = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    if (isSingle) showBestTime();
+    startRound();
+  }
+
+  init();
+</script>
+</body>
+</html>

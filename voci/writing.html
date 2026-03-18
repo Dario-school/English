@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schreiben – EnglishLearn</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="index.html">← Zurück</a>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div id="loadingScreen" style="text-align:center; padding:80px 24px;">
+  <div style="font-size:3rem;">⏳</div><p>Laden…</p>
+</div>
+
+<div id="exerciseScreen" style="display:none;">
+  <div class="container" style="max-width:640px;">
+    <div style="padding: 24px 0 0;">
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      </div>
+      <div class="progress-info">
+        <span id="progressText">0 / 0</span>
+        <span id="scoreText">✅ 0 &nbsp; ❌ 0</span>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div style="display:flex; gap:12px; align-items:center; padding:16px 0; flex-wrap:wrap;">
+      <label style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+        <input type="checkbox" id="ignoreCaseCheck" checked> Gross-/Kleinschreibung ignorieren
+      </label>
+      <label style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+        <input type="checkbox" id="toleranceCheck" checked> Tippfehler-Toleranz (1 Zeichen)
+      </label>
+    </div>
+
+    <div class="writing-area">
+      <div class="flashcard-hint" id="dirHint" style="font-size:1rem; margin-bottom:8px;"></div>
+      <div class="writing-prompt" id="wordPrompt">–</div>
+
+      <input type="text" class="writing-input" id="writingInput"
+        placeholder="Antwort eingeben…"
+        autocomplete="off" autocorrect="off" spellcheck="false">
+
+      <div style="margin-top:16px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <button class="btn btn-primary" id="confirmBtn" onclick="checkAnswer()">Bestätigen ↵</button>
+        <button class="btn btn-ghost btn-sm" onclick="skipWord()">Überspringen →</button>
+      </div>
+
+      <div id="feedbackArea" style="margin-top:20px; min-height:56px; text-align:center;"></div>
+    </div>
+  </div>
+</div>
+
+<div id="resultScreen" style="display:none;">
+  <div class="container">
+    <div class="result-card">
+      <div style="font-size:3rem;" id="resultEmoji">🎉</div>
+      <h2>Fertig!</h2>
+      <div class="result-score" id="resultScore">–%</div>
+      <p class="result-subtitle" id="resultSub"></p>
+
+      <div id="wrongList" style="text-align:left; margin:20px 0; max-height:200px; overflow-y:auto;"></div>
+
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:8px;">
+        <button class="btn btn-primary" onclick="restart()">🔄 Nochmal</button>
+        <a href="index.html" class="btn btn-outline">← Einheiten</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/storage.js"></script>
+<script src="../js/voci-engine.js"></script>
+<script>
+  const themeBtn = document.getElementById('themeToggle');
+  document.body.classList.toggle('dark', Storage.getDarkMode());
+  themeBtn.textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  themeBtn.addEventListener('click', () => { Storage.setDarkMode(!Storage.getDarkMode()); location.reload(); });
+
+  const params  = new URLSearchParams(location.search);
+  const unitNums = params.get('units').split(',').map(Number);
+  const dir = params.get('dir') || 'de_en';
+  let correct = 0, wrong = 0;
+  let waitingNext = false;
+  let wrongWords = [];
+
+  async function init() {
+    await VociEngine.loadUnits(unitNums);
+    VociEngine.setDirection(dir);
+    VociEngine.startQueue(true);
+    document.getElementById('loadingScreen').style.display = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    showWord();
+  }
+
+  function showWord() {
+    if (VociEngine.isDone()) { showResult(); return; }
+    waitingNext = false;
+    const w = VociEngine.currentWord();
+    document.getElementById('wordPrompt').textContent = VociEngine.prompt(w);
+    document.getElementById('dirHint').textContent = dir === 'de_en' ? '🇩🇪 → 🇬🇧' : '🇬🇧 → 🇩🇪';
+    const inp = document.getElementById('writingInput');
+    inp.value = '';
+    inp.className = 'writing-input';
+    inp.disabled = false;
+    document.getElementById('feedbackArea').innerHTML = '';
+    document.getElementById('confirmBtn').textContent = 'Bestätigen ↵';
+    updateProgress();
+    inp.focus();
+  }
+
+  function checkAnswer() {
+    if (waitingNext) { VociEngine.advance(); showWord(); return; }
+
+    const inp   = document.getElementById('writingInput');
+    const ignoreCase = document.getElementById('ignoreCaseCheck').checked;
+    const tolerance  = document.getElementById('toleranceCheck').checked;
+    const w = VociEngine.currentWord();
+    const result = VociEngine.checkWriting(inp.value, w, ignoreCase, tolerance);
+
+    if (result === 'correct') {
+      inp.className = 'writing-input correct';
+      VociEngine.recordResult(w.id, true);
+      correct++;
+      document.getElementById('feedbackArea').innerHTML = `<span style="color:var(--green); font-weight:600;">✅ Richtig!</span>`;
+      waitingNext = true;
+      document.getElementById('confirmBtn').textContent = 'Weiter →';
+    } else if (result === 'almost') {
+      inp.className = 'writing-input';
+      document.getElementById('feedbackArea').innerHTML =
+        `<span style="color:var(--gold);">⚠️ Fast richtig! Korrekte Antwort: <strong>${VociEngine.answer(w)}</strong></span>`;
+      inp.focus(); inp.select();
+    } else {
+      inp.className = 'writing-input wrong';
+      VociEngine.recordResult(w.id, false);
+      wrong++;
+      wrongWords.push({ prompt: VociEngine.prompt(w), answer: VociEngine.answer(w) });
+      document.getElementById('feedbackArea').innerHTML =
+        `<span style="color:#C0392B;">❌ Falsch.</span> Richtig: <strong>${VociEngine.answer(w)}</strong>`;
+      waitingNext = true;
+      inp.disabled = true;
+      document.getElementById('confirmBtn').textContent = 'Weiter →';
+    }
+  }
+
+  function skipWord() {
+    const w = VociEngine.currentWord();
+    VociEngine.recordResult(w.id, false);
+    wrong++;
+    wrongWords.push({ prompt: VociEngine.prompt(w), answer: VociEngine.answer(w) });
+    VociEngine.advance();
+    showWord();
+  }
+
+  function updateProgress() {
+    const total = VociEngine.totalWords();
+    const pos   = VociEngine.currentPos();
+    document.getElementById('progressFill').style.width = `${(pos/total)*100}%`;
+    document.getElementById('progressText').textContent = `${pos} / ${total}`;
+    document.getElementById('scoreText').textContent    = `✅ ${correct} &nbsp; ❌ ${wrong}`;
+  }
+
+  function showResult() {
+    document.getElementById('exerciseScreen').style.display = 'none';
+    document.getElementById('resultScreen').style.display   = 'block';
+    const sum = VociEngine.getSessionSummary();
+    document.getElementById('resultScore').textContent = `${sum.percent}%`;
+    document.getElementById('resultSub').textContent   = `${sum.correct} von ${sum.total} richtig`;
+    document.getElementById('resultEmoji').textContent  = sum.percent >= 80 ? '🎉' : sum.percent >= 60 ? '👍' : '💪';
+    if (wrongWords.length) {
+      document.getElementById('wrongList').innerHTML =
+        '<div style="font-size:0.8rem; color:var(--ink-muted); margin-bottom:8px;">Falsch beantwortet:</div>' +
+        wrongWords.map(w => `<div style="display:flex; justify-content:space-between; padding:4px 0; border-bottom:1px solid var(--border); font-size:0.85rem;">
+          <span>${w.prompt}</span><span style="color:var(--red); font-weight:600;">${w.answer}</span>
+        </div>`).join('');
+    }
+  }
+
+  function restart() {
+    correct = 0; wrong = 0; wrongWords = [];
+    VociEngine.startQueue(true);
+    document.getElementById('resultScreen').style.display   = 'none';
+    document.getElementById('exerciseScreen').style.display = 'block';
+    showWord();
+  }
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); checkAnswer(); }
+  });
+
+  init();
+</script>
+</body>
+</html>
