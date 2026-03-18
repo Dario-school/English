@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnglishLearn</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo">📚 English<span class="dot">·</span>Learn</a>
+    <nav class="nav">
+      <a href="voci/index.html">Vokabeln</a>
+      <a href="grammar/index.html">Grammatik</a>
+      <button class="theme-toggle" id="themeToggle" title="Dark Mode">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">Dein persönliches Englisch-Training</div>
+    <h1>English&shy;Learn</h1>
+    <p>Vokabeln lernen und Grammatik üben – einfach, effektiv und auf dich zugeschnitten.</p>
+    <div class="progress-badge" id="todayBadge">
+      ✨ <span id="todayCount">0</span> Vokabeln heute gelernt
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="feature-cards fade-up">
+      <div class="feature-card voci" onclick="location.href='voci/index.html'">
+        <span class="fc-icon">📖</span>
+        <h2>Vokabeln</h2>
+        <p>21 Units mit über 500 Wörtern. Lerne mit Karteikarten, Zuordnen, Schreiben oder dem Leitner-System.</p>
+        <div class="fc-arrow">→</div>
+      </div>
+      <div class="feature-card grammar" onclick="location.href='grammar/index.html'">
+        <span class="fc-icon">✏️</span>
+        <h2>Grammatik</h2>
+        <p>Satzbau, Verben, Adjektive und Nomen – 5 aufbauende Level pro Thema, mit Abschlusstest und Stern.</p>
+        <div class="fc-arrow">→</div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-strip fade-up fade-up-delay-1" id="statsStrip">
+      <div class="stat">
+        <div class="stat-num" id="statStreak">0</div>
+        <div class="stat-label">🔥 Tage Streak</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="statTotal">0</div>
+        <div class="stat-label">Voci gelernt</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">21</div>
+        <div class="stat-label">Units verfügbar</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">9</div>
+        <div class="stat-label">Grammatik-Themen</div>
+      </div>
+    </div>
+
+    <!-- Quick access -->
+    <div class="fade-up fade-up-delay-2" style="padding: 24px 0 48px;">
+      <div class="section-title">Letzte Aktivität</div>
+      <div class="card-grid" id="recentGrid" style="padding: 12px 0;">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="js/storage.js"></script>
+<script>
+  // Dark mode
+  function applyTheme() {
+    document.body.classList.toggle('dark', Storage.getDarkMode());
+    document.getElementById('themeToggle').textContent = Storage.getDarkMode() ? '☀️' : '🌙';
+  }
+  applyTheme();
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    Storage.setDarkMode(!Storage.getDarkMode());
+    applyTheme();
+  });
+
+  // Stats
+  Storage.updateStreak();
+  document.getElementById('statStreak').textContent = Storage.getStreak();
+  document.getElementById('todayCount').textContent = Storage.getTodayCount();
+
+  // Total learned
+  let total = 0;
+  for (let i = 1; i <= 21; i++) {
+    const ud = Storage.getUnitData(i);
+    total += Object.values(ud.words).reduce((s, w) => s + (w.correct || 0), 0);
+  }
+  document.getElementById('statTotal').textContent = total;
+
+  // Recent grid
+  const grid = document.getElementById('recentGrid');
+  const lastCombo = Storage.getLastCombination();
+  const units = [];
+  for (let i = 1; i <= 21; i++) {
+    const ud = Storage.getUnitData(i);
+    const wordCount = Object.keys(ud.words).length;
+    if (wordCount > 0) units.push({ num: i, count: wordCount });
+  }
+  units.sort((a, b) => b.count - a.count);
+  const topUnits = units.slice(0, 3);
+  if (topUnits.length === 0) {
+    grid.innerHTML = `<div class="card fade-up" onclick="location.href='voci/index.html'" style="grid-column: 1/-1; text-align:center;">
+      <span class="card-icon">🚀</span>
+      <h2>Fang jetzt an!</h2>
+      <p>Wähle deine erste Unit und starte mit dem Lernen.</p>
+    </div>`;
+  } else {
+    topUnits.forEach(u => {
+      const ud = Storage.getUnitData(u.num);
+      const names = ['Going places','Without words','Healthy living','Exploring','Weather dynamics',
+        'The deep blue','Patchwork city','Dreams of flying','Weird & wonderful games','Catchy tunes',
+        'Reaching for the stars','Hard times','Intriguing devices','Incredible India','Further faster higher',
+        'Down Fifth Avenue','Haunted houses','Its showtime','Green ideas','Sell sell sell','Backpacking'];
+      grid.innerHTML += `<div class="card fade-up" onclick="location.href='voci/index.html'">
+        <span class="card-icon">📘</span>
+        <h2>Unit ${u.num}</h2>
+        <p>${names[u.num-1]}<br><small>${u.count} Wörter geübt</small></p>
+      </div>`;
+    });
+  }
+</script>
+</body>
+</html>
