@@ -1,0 +1,3509 @@
+{
+  "id": "pp-vs-ps",
+  "group": "verben",
+  "title": "Present Perfect vs. Past Simple",
+  "description": "Abgeschlossene Vergangenheit (PS) vs. Vergangenheit mit Jetzt-Bezug (PP) – klar, einfach, vollständig",
+  "pool_size": 100,
+  "session_size": 20,
+  "levels": [
+    {
+      "level": 1,
+      "title": "Past Simple – Bildung & Formen",
+      "exercises": [
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'play'.",
+          "sentence": "She ___ football every Saturday as a child.",
+          "answer": "played",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'walk'.",
+          "sentence": "He ___ to school every morning last year.",
+          "answer": "walked",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'watch'.",
+          "sentence": "I ___ TV all evening yesterday.",
+          "answer": "watched",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'visit'.",
+          "sentence": "We ___ my grandparents last weekend.",
+          "answer": "visited",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'clean'.",
+          "sentence": "She ___ her room on Sunday.",
+          "answer": "cleaned",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'cook'.",
+          "sentence": "He ___ dinner for the whole family.",
+          "answer": "cooked",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'call'.",
+          "sentence": "I ___ you three times yesterday.",
+          "answer": "called",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'open'.",
+          "sentence": "She ___ the window because it was hot.",
+          "answer": "opened",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'help'.",
+          "sentence": "They ___ me with my homework.",
+          "answer": "helped",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'finish'.",
+          "sentence": "He ___ his project on Friday.",
+          "answer": "finished",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'wait'.",
+          "sentence": "I ___ for the bus for 30 minutes.",
+          "answer": "waited",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'work'.",
+          "sentence": "She ___ at the hospital for many years.",
+          "answer": "worked",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'listen'.",
+          "sentence": "They ___ to the radio all morning.",
+          "answer": "listened",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'dance'.",
+          "sentence": "We ___ until midnight at the party.",
+          "answer": "danced",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'study'.",
+          "sentence": "I ___ English for three hours last night.",
+          "answer": "studied",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'travel'.",
+          "sentence": "She ___ through Asia last summer.",
+          "answer": "travelled",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'arrive'.",
+          "sentence": "The guests ___ at seven o'clock.",
+          "answer": "arrived",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'start'.",
+          "sentence": "The film ___ at eight.",
+          "answer": "started",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'want'.",
+          "sentence": "He ___ to be a doctor when he was young.",
+          "answer": "wanted",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'use'.",
+          "sentence": "She ___ her dictionary many times.",
+          "answer": "used",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'live'.",
+          "sentence": "We ___ in Germany for two years.",
+          "answer": "lived",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'love'.",
+          "sentence": "She ___ swimming when she was a child.",
+          "answer": "loved",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'change'.",
+          "sentence": "The weather ___ quickly yesterday.",
+          "answer": "changed",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'stop'.",
+          "sentence": "He ___ smoking three years ago.",
+          "answer": "stopped",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Reguläres Verb: Ergänze mit dem Past Simple von 'plan'.",
+          "sentence": "They ___ the trip very carefully.",
+          "answer": "planned",
+          "hint": "Reguläres Verb: +ed"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'go'.",
+          "question": "He ___ to the cinema last night.",
+          "options": [
+            "went",
+            "goed",
+            "go",
+            "going"
+          ],
+          "answer": "went"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'see'.",
+          "question": "She ___ a great film on Friday.",
+          "options": [
+            "saw",
+            "seen",
+            "see",
+            "sawed"
+          ],
+          "answer": "saw"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'eat'.",
+          "question": "I ___ too much at the party.",
+          "options": [
+            "ate",
+            "eaten",
+            "eated",
+            "eat"
+          ],
+          "answer": "ate"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'write'.",
+          "question": "She ___ a long letter to her friend.",
+          "options": [
+            "wrote",
+            "written",
+            "writed",
+            "write"
+          ],
+          "answer": "wrote"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'come'.",
+          "question": "He ___ home very late last night.",
+          "options": [
+            "came",
+            "come",
+            "comed",
+            "coming"
+          ],
+          "answer": "came"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'take'.",
+          "question": "I ___ the train to London.",
+          "options": [
+            "took",
+            "taken",
+            "taked",
+            "take"
+          ],
+          "answer": "took"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'give'.",
+          "question": "She ___ me a wonderful present.",
+          "options": [
+            "gave",
+            "given",
+            "gived",
+            "give"
+          ],
+          "answer": "gave"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'have'.",
+          "question": "We ___ a great time at the beach.",
+          "options": [
+            "had",
+            "have",
+            "haved",
+            "having"
+          ],
+          "answer": "had"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'make'.",
+          "question": "He ___ a big mistake at work.",
+          "options": [
+            "made",
+            "maked",
+            "make",
+            "making"
+          ],
+          "answer": "made"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'do'.",
+          "question": "She ___ her homework before dinner.",
+          "options": [
+            "did",
+            "done",
+            "doed",
+            "doing"
+          ],
+          "answer": "did"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'know'.",
+          "question": "I ___ the answer immediately.",
+          "options": [
+            "knew",
+            "known",
+            "knowed",
+            "know"
+          ],
+          "answer": "knew"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'find'.",
+          "question": "She ___ her keys in the bag.",
+          "options": [
+            "found",
+            "finded",
+            "find",
+            "finding"
+          ],
+          "answer": "found"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'think'.",
+          "question": "He ___ about it for a long time.",
+          "options": [
+            "thought",
+            "thinked",
+            "think",
+            "thinking"
+          ],
+          "answer": "thought"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'buy'.",
+          "question": "They ___ a new house last year.",
+          "options": [
+            "bought",
+            "buyed",
+            "buy",
+            "buying"
+          ],
+          "answer": "bought"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'bring'.",
+          "question": "She ___ flowers to the party.",
+          "options": [
+            "brought",
+            "bringed",
+            "bring",
+            "bringing"
+          ],
+          "answer": "brought"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'say'.",
+          "question": "He ___ something very funny.",
+          "options": [
+            "said",
+            "sayed",
+            "say",
+            "saying"
+          ],
+          "answer": "said"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'get'.",
+          "question": "I ___ your message yesterday.",
+          "options": [
+            "got",
+            "getted",
+            "get",
+            "getting"
+          ],
+          "answer": "got"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'leave'.",
+          "question": "She ___ early yesterday morning.",
+          "options": [
+            "left",
+            "leaved",
+            "leave",
+            "leaving"
+          ],
+          "answer": "left"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'meet'.",
+          "question": "We ___ for the first time in Paris.",
+          "options": [
+            "met",
+            "meeted",
+            "meet",
+            "meeting"
+          ],
+          "answer": "met"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'run'.",
+          "question": "He ___ the marathon last Sunday.",
+          "options": [
+            "ran",
+            "runned",
+            "run",
+            "running"
+          ],
+          "answer": "ran"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'fall'.",
+          "question": "She ___ off her bike.",
+          "options": [
+            "fell",
+            "falled",
+            "fall",
+            "falling"
+          ],
+          "answer": "fell"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'speak'.",
+          "question": "He ___ to the manager about it.",
+          "options": [
+            "spoke",
+            "spoken",
+            "speaked",
+            "speak"
+          ],
+          "answer": "spoke"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'tell'.",
+          "question": "She ___ me the whole story.",
+          "options": [
+            "told",
+            "telled",
+            "tell",
+            "telling"
+          ],
+          "answer": "told"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'lose'.",
+          "question": "I ___ my wallet on the bus.",
+          "options": [
+            "lost",
+            "losed",
+            "lose",
+            "losing"
+          ],
+          "answer": "lost"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'win'.",
+          "question": "Our team ___ the final.",
+          "options": [
+            "won",
+            "winned",
+            "win",
+            "winning"
+          ],
+          "answer": "won"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'send'.",
+          "question": "She ___ me an email yesterday.",
+          "options": [
+            "sent",
+            "sended",
+            "send",
+            "sending"
+          ],
+          "answer": "sent"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'put'.",
+          "question": "He ___ the book on the table.",
+          "options": [
+            "put",
+            "putted",
+            "puts",
+            "putting"
+          ],
+          "answer": "put"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'sit'.",
+          "question": "We ___ in the park all afternoon.",
+          "options": [
+            "sat",
+            "sitted",
+            "sit",
+            "sitting"
+          ],
+          "answer": "sat"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'stand'.",
+          "question": "She ___ outside for an hour.",
+          "options": [
+            "stood",
+            "standed",
+            "stand",
+            "standing"
+          ],
+          "answer": "stood"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'feel'.",
+          "question": "He ___ much better after the rest.",
+          "options": [
+            "felt",
+            "feeled",
+            "feel",
+            "feeling"
+          ],
+          "answer": "felt"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'keep'.",
+          "question": "She ___ the secret for years.",
+          "options": [
+            "kept",
+            "keeped",
+            "keep",
+            "keeping"
+          ],
+          "answer": "kept"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'begin'.",
+          "question": "The concert ___ at 8 pm.",
+          "options": [
+            "began",
+            "begun",
+            "beginned",
+            "beginning"
+          ],
+          "answer": "began"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'cut'.",
+          "question": "She ___ the cake into eight pieces.",
+          "options": [
+            "cut",
+            "cutted",
+            "cuts",
+            "cutting"
+          ],
+          "answer": "cut"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'read'.",
+          "question": "I ___ an interesting article yesterday.",
+          "options": [
+            "read",
+            "readed",
+            "reads",
+            "reading"
+          ],
+          "answer": "read"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Irreguläres Verb: Wähle das Past Simple von 'build'.",
+          "question": "They ___ a new school in our town.",
+          "options": [
+            "built",
+            "builded",
+            "build",
+            "building"
+          ],
+          "answer": "built"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She goed to school by bus.",
+          "answer": "She went to school by bus.",
+          "hint": "go → went (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He eated a big pizza last night.",
+          "answer": "He ate a big pizza last night.",
+          "hint": "eat → ate (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "I sended you an email yesterday.",
+          "answer": "I sent you an email yesterday.",
+          "hint": "send → sent (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She writed a letter to her mum.",
+          "answer": "She wrote a letter to her mum.",
+          "hint": "write → wrote (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "They buyed a new car last year.",
+          "answer": "They bought a new car last year.",
+          "hint": "buy → bought (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He thinked about it all day.",
+          "answer": "He thought about it all day.",
+          "hint": "think → thought (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "We meeted them at the airport.",
+          "answer": "We met them at the airport.",
+          "hint": "meet → met (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She falled off her bicycle.",
+          "answer": "She fell off her bicycle.",
+          "hint": "fall → fell (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He runned to catch the bus.",
+          "answer": "He ran to catch the bus.",
+          "hint": "run → ran (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "I losted my keys yesterday.",
+          "answer": "I lost my keys yesterday.",
+          "hint": "lose → lost (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "They winned the match easily.",
+          "answer": "They won the match easily.",
+          "hint": "win → won (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She speaked to the teacher.",
+          "answer": "She spoke to the teacher.",
+          "hint": "speak → spoke (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He keeped the secret for a long time.",
+          "answer": "He kept the secret for a long time.",
+          "hint": "keep → kept (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "They builded a new house.",
+          "answer": "They built a new house.",
+          "hint": "build → built (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "I feeled very tired after the trip.",
+          "answer": "I felt very tired after the trip.",
+          "hint": "feel → felt (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She bringed a cake to the party.",
+          "answer": "She brought a cake to the party.",
+          "hint": "bring → brought (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He sayed something very rude.",
+          "answer": "He said something very rude.",
+          "hint": "say → said (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "I finded the answer in the book.",
+          "answer": "I found the answer in the book.",
+          "hint": "find → found (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "She stooded in the queue for an hour.",
+          "answer": "She stood in the queue for an hour.",
+          "hint": "stand → stood (irregulär)"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere das Past Simple.",
+          "sentence": "He cutted the bread with a knife.",
+          "answer": "He cut the bread with a knife.",
+          "hint": "cut → cut (gleich im Past Simple)"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "He ___ (not go) to school yesterday.",
+          "answer": "didn't go",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "She ___ (not see) the film.",
+          "answer": "didn't see",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "I ___ (not finish) my homework.",
+          "answer": "didn't finish",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "They ___ (not win) the match.",
+          "answer": "didn't win",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "He ___ (not eat) anything this morning.",
+          "answer": "didn't eat",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "She ___ (not call) me back.",
+          "answer": "didn't call",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "I ___ (not understand) the question.",
+          "answer": "didn't understand",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "We ___ (not go) out last night.",
+          "answer": "didn't go",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "He ___ (not study) enough.",
+          "answer": "didn't study",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Verneinung im Past Simple. Ergänze.",
+          "sentence": "She ___ (not remember) my name.",
+          "answer": "didn't remember",
+          "hint": "Verneinung: didn't + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "___ you see that film last week? (did/did not)",
+          "answer": "Did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "___ she call you yesterday?",
+          "answer": "Did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "___ they win the championship last year?",
+          "answer": "Did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "___ he go to the party on Friday?",
+          "answer": "Did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "___ you finish your homework?",
+          "answer": "Did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "What time ___ the film start?",
+          "answer": "did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "Where ___ you go last summer?",
+          "answer": "did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "Who ___ she meet at the airport?",
+          "answer": "did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "How long ___ he wait?",
+          "answer": "did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Frage im Past Simple. Ergänze did/Did.",
+          "sentence": "Why ___ you not come to school yesterday?",
+          "answer": "did",
+          "hint": "Fragen: Did + Subjekt + Infinitiv"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Present Perfect – Bildung & Signalwörter",
+      "exercises": [
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "She ___ just finished her homework.",
+          "answer": "has",
+          "hint": "she → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "I ___ never been to Japan.",
+          "answer": "have",
+          "hint": "I → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "They ___ already left.",
+          "answer": "have",
+          "hint": "Plural → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "He ___ just arrived.",
+          "answer": "has",
+          "hint": "he → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "We ___ known each other for years.",
+          "answer": "have",
+          "hint": "we → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "She ___ worked here since 2018.",
+          "answer": "has",
+          "hint": "she → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "The team ___ won every game this year.",
+          "answer": "has",
+          "hint": "Singular → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "I ___ already eaten lunch.",
+          "answer": "have",
+          "hint": "I → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "You ___ made a mistake.",
+          "answer": "have",
+          "hint": "you → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "My parents ___ just called.",
+          "answer": "have",
+          "hint": "Plural → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "He ___ never tried sushi.",
+          "answer": "has",
+          "hint": "he → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "She ___ lived here since she was a child.",
+          "answer": "has",
+          "hint": "she → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "Nobody ___ answered the question yet.",
+          "answer": "has",
+          "hint": "nobody → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "Both friends ___ arrived.",
+          "answer": "have",
+          "hint": "Plural → have"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "have oder has?",
+          "sentence": "The news ___ just been published.",
+          "answer": "has",
+          "hint": "Singular → has"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (go) to the dentist.",
+          "answer": "gone",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (see) that film before.",
+          "answer": "seen",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (eat) already.",
+          "answer": "eaten",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "They have ___ (write) three reports.",
+          "answer": "written",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (speak) to her.",
+          "answer": "spoken",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (give) her answer.",
+          "answer": "given",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (make) a decision.",
+          "answer": "made",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "We have ___ (be) here before.",
+          "answer": "been",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (do) my best.",
+          "answer": "done",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (take) the bus.",
+          "answer": "taken",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (find) the key.",
+          "answer": "found",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (buy) a new phone.",
+          "answer": "bought",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (send) the email.",
+          "answer": "sent",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "They have ___ (build) a new school.",
+          "answer": "built",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (lose) my wallet.",
+          "answer": "lost",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (feel) unwell today.",
+          "answer": "felt",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (begin) a new project.",
+          "answer": "begun",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "We have ___ (know) each other for years.",
+          "answer": "known",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (win) three prizes.",
+          "answer": "won",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (run) out of time.",
+          "answer": "run",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (keep) every promise.",
+          "answer": "kept",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "He has ___ (tell) everyone.",
+          "answer": "told",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "I have ___ (read) this book twice.",
+          "answer": "read",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "She has ___ (leave) already.",
+          "answer": "left",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "fill-in-the-blank",
+          "instruction": "Partizip Perfekt: Ergänze die Lücke.",
+          "sentence": "They have ___ (meet) the new boss.",
+          "answer": "met",
+          "hint": "Achte auf irreguläre Partizipien!"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have ___ visited London. It was amazing!",
+          "options": [
+            "already",
+            "yesterday",
+            "yet",
+            "last year"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "Have you ___ tried skydiving?",
+          "options": [
+            "ever",
+            "last",
+            "yet",
+            "already"
+          ],
+          "answer": "ever"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has ___ eaten – she's not hungry.",
+          "options": [
+            "already",
+            "yet",
+            "never",
+            "yesterday"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have ___ been to Australia. It's too far.",
+          "options": [
+            "never",
+            "ever",
+            "just",
+            "already"
+          ],
+          "answer": "never"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "Has he arrived ___?",
+          "options": [
+            "yet",
+            "ever",
+            "never",
+            "already"
+          ],
+          "answer": "yet"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have ___ lived here for ten years.",
+          "options": [
+            "–",
+            "just",
+            "already",
+            "yet"
+          ],
+          "answer": "–"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has ___ called me. She called a minute ago!",
+          "options": [
+            "just",
+            "already",
+            "yet",
+            "ever"
+          ],
+          "answer": "just"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I haven't finished the report ___.",
+          "options": [
+            "yet",
+            "already",
+            "ever",
+            "just"
+          ],
+          "answer": "yet"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "He has ___ seen that film before – three times!",
+          "options": [
+            "already",
+            "ever",
+            "yet",
+            "never"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "Have you ___ felt so nervous?",
+          "options": [
+            "ever",
+            "never",
+            "already",
+            "yet"
+          ],
+          "answer": "ever"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has lived here ___ 2015.",
+          "options": [
+            "since",
+            "for",
+            "already",
+            "yet"
+          ],
+          "answer": "since"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have known him ___ fifteen years.",
+          "options": [
+            "for",
+            "since",
+            "already",
+            "yet"
+          ],
+          "answer": "for"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "He has not called ___.",
+          "options": [
+            "yet",
+            "ever",
+            "already",
+            "just"
+          ],
+          "answer": "yet"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have ___ heard such a funny story!",
+          "options": [
+            "never",
+            "ever",
+            "just",
+            "already"
+          ],
+          "answer": "never"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "The train has ___ left – run!",
+          "options": [
+            "just",
+            "yet",
+            "never",
+            "ever"
+          ],
+          "answer": "just"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has worked here ___ she graduated.",
+          "options": [
+            "since",
+            "for",
+            "already",
+            "yet"
+          ],
+          "answer": "since"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "They have been married ___ 30 years.",
+          "options": [
+            "for",
+            "since",
+            "already",
+            "yet"
+          ],
+          "answer": "for"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "Have you finished ___?",
+          "options": [
+            "yet",
+            "ever",
+            "already",
+            "just"
+          ],
+          "answer": "yet"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has ___ eaten – don't cook anything!",
+          "options": [
+            "already",
+            "just",
+            "yet",
+            "never"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I've ___ heard of him.",
+          "options": [
+            "never",
+            "ever",
+            "already",
+            "yet"
+          ],
+          "answer": "never"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "He has ___ sent the message. Check your inbox!",
+          "options": [
+            "just",
+            "already",
+            "yet",
+            "never"
+          ],
+          "answer": "just"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I haven't seen her ___ last summer.",
+          "options": [
+            "since",
+            "for",
+            "yet",
+            "already"
+          ],
+          "answer": "since"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has played tennis ___ she was eight.",
+          "options": [
+            "since",
+            "for",
+            "already",
+            "yet"
+          ],
+          "answer": "since"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I've been learning French ___ two years.",
+          "options": [
+            "for",
+            "since",
+            "already",
+            "yet"
+          ],
+          "answer": "for"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "Has she replied ___?",
+          "options": [
+            "yet",
+            "ever",
+            "already",
+            "just"
+          ],
+          "answer": "yet"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I have ___ eaten there. Let's try somewhere new.",
+          "options": [
+            "already",
+            "just",
+            "yet",
+            "never"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "They have ___ won a cup. This is the first time.",
+          "options": [
+            "never",
+            "ever",
+            "already",
+            "yet"
+          ],
+          "answer": "never"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "The film has ___ started. Hurry up!",
+          "options": [
+            "already",
+            "just",
+            "yet",
+            "never"
+          ],
+          "answer": "already"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "She has worked at the school ___ five years.",
+          "options": [
+            "for",
+            "since",
+            "already",
+            "yet"
+          ],
+          "answer": "for"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Wähle das richtige Signalwort.",
+          "question": "I haven't heard from him ___ March.",
+          "options": [
+            "since",
+            "for",
+            "already",
+            "yet"
+          ],
+          "answer": "since"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "She has ___ three countries this year.",
+          "options": [
+            "visited",
+            "visit",
+            "visiting",
+            "visits"
+          ],
+          "answer": "visited"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "I have ___ my essay three times.",
+          "options": [
+            "rewritten",
+            "rewrote",
+            "rewrite",
+            "rewriting"
+          ],
+          "answer": "rewritten"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "He has ___ the company for 20 years.",
+          "options": [
+            "run",
+            "ran",
+            "running",
+            "runs"
+          ],
+          "answer": "run"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "We have ___ all the food!",
+          "options": [
+            "eaten",
+            "ate",
+            "eat",
+            "eating"
+          ],
+          "answer": "eaten"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "She has ___ him in London.",
+          "options": [
+            "met",
+            "meet",
+            "meeting",
+            "meets"
+          ],
+          "answer": "met"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "I have ___ to fix it but I can't.",
+          "options": [
+            "tried",
+            "try",
+            "trying",
+            "tries"
+          ],
+          "answer": "tried"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "He has ___ his arm.",
+          "options": [
+            "broken",
+            "break",
+            "broke",
+            "breaking"
+          ],
+          "answer": "broken"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "She has ___ a book about it.",
+          "options": [
+            "written",
+            "write",
+            "wrote",
+            "writing"
+          ],
+          "answer": "written"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "I have ___ the whole house today.",
+          "options": [
+            "cleaned",
+            "clean",
+            "cleaning",
+            "cleans"
+          ],
+          "answer": "cleaned"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Partizip Perfekt: Wähle die richtige Form.",
+          "question": "They have ___ three goals.",
+          "options": [
+            "scored",
+            "score",
+            "scoring",
+            "scores"
+          ],
+          "answer": "scored"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She have finished already.",
+          "answer": "She has finished already.",
+          "hint": "3. Person Singular → has"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I has never been there.",
+          "answer": "I have never been there.",
+          "hint": "I → have"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "He has went out.",
+          "answer": "He has gone out.",
+          "hint": "go → gone"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "They has just arrived.",
+          "answer": "They have just arrived.",
+          "hint": "Plural → have"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She has already ate.",
+          "answer": "She has already eaten.",
+          "hint": "eat → eaten"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I have never saw that film.",
+          "answer": "I have never seen that film.",
+          "hint": "see → seen"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "He have lived here for years.",
+          "answer": "He has lived here for years.",
+          "hint": "he → has"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She has writed the report.",
+          "answer": "She has written the report.",
+          "hint": "write → written"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I have buyed a new bag.",
+          "answer": "I have bought a new bag.",
+          "hint": "buy → bought"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "He has taked the bus.",
+          "answer": "He has taken the bus.",
+          "hint": "take → taken"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "They have haved lunch.",
+          "answer": "They have had lunch.",
+          "hint": "have → had"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She has maked a big mistake.",
+          "answer": "She has made a big mistake.",
+          "hint": "make → made"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I have thinked about it.",
+          "answer": "I have thought about it.",
+          "hint": "think → thought"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "He has bringed flowers.",
+          "answer": "He has brought flowers.",
+          "hint": "bring → brought"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She has speaked to the manager.",
+          "answer": "She has spoken to the manager.",
+          "hint": "speak → spoken"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I have sended the email.",
+          "answer": "I have sent the email.",
+          "hint": "send → sent"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "He has losted his phone.",
+          "answer": "He has lost his phone.",
+          "hint": "lose → lost"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "She have just arrived.",
+          "answer": "She has just arrived.",
+          "hint": "she → has"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "I has lived here for years.",
+          "answer": "I have lived here for years.",
+          "hint": "I → have"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler im Present Perfect.",
+          "sentence": "They has never tried it.",
+          "answer": "They have never tried it.",
+          "hint": "Plural → have"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "PP oder PS? – Signalwörter entscheiden",
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ him at the party last Saturday.",
+          "options": [
+            "met",
+            "have met",
+            "meet",
+            "has met"
+          ],
+          "answer": "met"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ already finished her essay.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "did"
+          ],
+          "answer": "has"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "They ___ to Rome in 2019.",
+          "options": [
+            "went",
+            "have gone",
+            "have been",
+            "go"
+          ],
+          "answer": "went"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ just heard the news!",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "did"
+          ],
+          "answer": "have"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ his keys yesterday.",
+          "options": [
+            "lost",
+            "has lost",
+            "have lost",
+            "loses"
+          ],
+          "answer": "lost"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "We ___ here since 2015.",
+          "options": [
+            "have lived",
+            "lived",
+            "are living",
+            "live"
+          ],
+          "answer": "have lived"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ him since they were at school.",
+          "options": [
+            "has known",
+            "knew",
+            "know",
+            "is knowing"
+          ],
+          "answer": "has known"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ that film last week.",
+          "options": [
+            "watched",
+            "have watched",
+            "watch",
+            "has watched"
+          ],
+          "answer": "watched"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "Have you ever ___ sushi?",
+          "options": [
+            "tried",
+            "try",
+            "trying",
+            "tries"
+          ],
+          "answer": "tried"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ to London three times.",
+          "options": [
+            "has been",
+            "went",
+            "was",
+            "be"
+          ],
+          "answer": "has been"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ home two hours ago.",
+          "options": [
+            "went",
+            "has gone",
+            "is going",
+            "goes"
+          ],
+          "answer": "went"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ never been to Asia.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "do"
+          ],
+          "answer": "have"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "They ___ the house last year.",
+          "options": [
+            "bought",
+            "have bought",
+            "has bought",
+            "buy"
+          ],
+          "answer": "bought"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ just called – she's on her way.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "does"
+          ],
+          "answer": "has"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ ill since Monday.",
+          "options": [
+            "has been",
+            "is",
+            "was",
+            "had been"
+          ],
+          "answer": "has been"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ my homework before dinner yesterday.",
+          "options": [
+            "did",
+            "have done",
+            "do",
+            "has done"
+          ],
+          "answer": "did"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "We ___ each other for twenty years.",
+          "options": [
+            "have known",
+            "know",
+            "knew",
+            "has known"
+          ],
+          "answer": "have known"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ the report this morning.",
+          "options": [
+            "has written",
+            "wrote",
+            "is writing",
+            "write"
+          ],
+          "answer": "has written"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ to Paris when I was fifteen.",
+          "options": [
+            "went",
+            "have gone",
+            "have been",
+            "go"
+          ],
+          "answer": "went"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ yet replied to my message.",
+          "options": [
+            "has not",
+            "did not",
+            "is not",
+            "was not"
+          ],
+          "answer": "has not"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "They ___ dinner an hour ago.",
+          "options": [
+            "had",
+            "have had",
+            "has had",
+            "have"
+          ],
+          "answer": "had"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ here for three years now.",
+          "options": [
+            "has worked",
+            "worked",
+            "is working",
+            "works"
+          ],
+          "answer": "has worked"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ a great book last weekend.",
+          "options": [
+            "read",
+            "have read",
+            "has read",
+            "reads"
+          ],
+          "answer": "read"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ just arrived at the airport.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "is"
+          ],
+          "answer": "has"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ never tried bungee jumping.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "does"
+          ],
+          "answer": "has"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "We ___ the film twice already.",
+          "options": [
+            "have seen",
+            "saw",
+            "see",
+            "has seen"
+          ],
+          "answer": "have seen"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ her in the supermarket yesterday.",
+          "options": [
+            "saw",
+            "have seen",
+            "see",
+            "has seen"
+          ],
+          "answer": "saw"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ medicine since he was 20.",
+          "options": [
+            "has studied",
+            "studied",
+            "studies",
+            "was studying"
+          ],
+          "answer": "has studied"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ her phone last night.",
+          "options": [
+            "broke",
+            "has broken",
+            "break",
+            "is breaking"
+          ],
+          "answer": "broke"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ not heard from him since Christmas.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "do"
+          ],
+          "answer": "have"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "They ___ last year in the final.",
+          "options": [
+            "lost",
+            "have lost",
+            "has lost",
+            "lose"
+          ],
+          "answer": "lost"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ already done it.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "did"
+          ],
+          "answer": "has"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ to her on the phone last Tuesday.",
+          "options": [
+            "spoke",
+            "have spoken",
+            "speak",
+            "has spoken"
+          ],
+          "answer": "spoke"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ three cups of coffee this morning.",
+          "options": [
+            "has had",
+            "had",
+            "have had",
+            "has have"
+          ],
+          "answer": "has had"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ the project last Friday.",
+          "options": [
+            "finished",
+            "has finished",
+            "is finishing",
+            "finish"
+          ],
+          "answer": "finished"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ in Paris for two years.",
+          "options": [
+            "have lived",
+            "lived",
+            "am living",
+            "was living"
+          ],
+          "answer": "have lived"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "She ___ the letter yet.",
+          "options": [
+            "has not sent",
+            "did not send",
+            "does not send",
+            "is not sending"
+          ],
+          "answer": "has not sent"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "He ___ football when he was young.",
+          "options": [
+            "played",
+            "has played",
+            "plays",
+            "is playing"
+          ],
+          "answer": "played"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "I ___ just seen something incredible!",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "do"
+          ],
+          "answer": "have"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple? Wähle die richtige Form.",
+          "question": "They ___ not spoken to each other since the argument.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "do"
+          ],
+          "answer": "have"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have seen him yesterday.",
+          "answer": "I saw him yesterday.",
+          "hint": "'yesterday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She has called me last night.",
+          "answer": "She called me last night.",
+          "hint": "'last night' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "They have bought the house in 2018.",
+          "answer": "They bought the house in 2018.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have read that book last week.",
+          "answer": "I read that book last week.",
+          "hint": "'last week' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He has gone to London three years ago.",
+          "answer": "He went to London three years ago.",
+          "hint": "'ago' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She has visited her parents last Sunday.",
+          "answer": "She visited her parents last Sunday.",
+          "hint": "'last Sunday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have met her in 2015.",
+          "answer": "I met her in 2015.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He has broken his arm last winter.",
+          "answer": "He broke his arm last winter.",
+          "hint": "'last winter' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have studied all evening yesterday.",
+          "answer": "I studied all evening yesterday.",
+          "hint": "'yesterday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She has started her new job on Monday.",
+          "answer": "She started her new job on Monday.",
+          "hint": "konkreter Zeitpunkt → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She just called.",
+          "answer": "She has just called.",
+          "hint": "'just' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I never been to Japan.",
+          "answer": "I have never been to Japan.",
+          "hint": "Present Perfect: have + Partizip"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He already finished.",
+          "answer": "He has already finished.",
+          "hint": "Present Perfect: have/has + Partizip"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "Did you ever try Japanese food?",
+          "answer": "Have you ever tried Japanese food?",
+          "hint": "Erfahrung → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She not replied yet.",
+          "answer": "She has not replied yet.",
+          "hint": "Present Perfect: has + Partizip"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I know her since 2020.",
+          "answer": "I have known her since 2020.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He lives here for five years.",
+          "answer": "He has lived here for five years.",
+          "hint": "'for' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She works at the school since 2019.",
+          "answer": "She has worked at the school since 2019.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I didn't see him since last month.",
+          "answer": "I have not seen him since last month.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "Did you finish your homework yet?",
+          "answer": "Have you finished your homework yet?",
+          "hint": "'yet' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have lived in Berlin in 2010.",
+          "answer": "I lived in Berlin in 2010.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She has worked there last summer.",
+          "answer": "She worked there last summer.",
+          "hint": "'last summer' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He have eaten already.",
+          "answer": "He has eaten already.",
+          "hint": "3. Person Singular → has"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She has went home two hours ago.",
+          "answer": "She went home two hours ago.",
+          "hint": "'ago' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "They have met in Paris in 2018.",
+          "answer": "They met in Paris in 2018.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I saw him since Monday.",
+          "answer": "I have not seen him since Monday.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "She lived here for ten years.",
+          "answer": "She has lived here for ten years.",
+          "hint": "noch andauernd → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "Did she already leave?",
+          "answer": "Has she already left?",
+          "hint": "'already' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "He has spent all his money yesterday.",
+          "answer": "He spent all his money yesterday.",
+          "hint": "'yesterday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler (PP vs. PS).",
+          "sentence": "I have finished the report last Friday.",
+          "answer": "I finished the report last Friday.",
+          "hint": "'last Friday' → Simple Past"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hast du jemals einen Berggipfel bestiegen?",
+          "answer": "Have you ever climbed a mountain peak?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat ihn gestern in der Stadt gesehen.",
+          "answer": "She saw him in town yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe das Buch schon zweimal gelesen.",
+          "answer": "I have already read the book twice."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat gerade eine E-Mail bekommen.",
+          "answer": "He has just received an email."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir haben 2016 geheiratet.",
+          "answer": "We got married in 2016."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie arbeitet hier seit zehn Jahren.",
+          "answer": "She has worked here for ten years."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe ihn an dem Tag kennengelernt.",
+          "answer": "I met him that day."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hat er noch nicht angerufen?",
+          "answer": "Hasn't he called yet?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat ihren Schlüssel verloren – sie kommt nicht rein.",
+          "answer": "She has lost her key – she can't get in."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir sahen den Film vor zwei Wochen.",
+          "answer": "We saw the film two weeks ago."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat noch nie im Ausland gelebt.",
+          "answer": "He has never lived abroad."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich kaufte das Fahrrad, als ich zwölf war.",
+          "answer": "I bought the bike when I was twelve."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat ihre Stelle erst seit einem Monat.",
+          "answer": "She has had her job for only a month."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Die Mannschaft gewann das Turnier letztes Jahr.",
+          "answer": "The team won the tournament last year."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe heute schon dreimal Kaffee getrunken.",
+          "answer": "I have already drunk coffee three times today."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "She has never ___ a horse.",
+          "options": [
+            "ridden",
+            "rode",
+            "ride",
+            "riding"
+          ],
+          "answer": "ridden"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "I ___ the shopping yesterday afternoon.",
+          "options": [
+            "did",
+            "have done",
+            "do",
+            "has done"
+          ],
+          "answer": "did"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "He ___ just ___ the good news!",
+          "options": [
+            "has … heard",
+            "did … hear",
+            "heard",
+            "have … heard"
+          ],
+          "answer": "has … heard"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "They ___ married in 2010.",
+          "options": [
+            "got",
+            "have gotten",
+            "have got",
+            "get"
+          ],
+          "answer": "got"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "I ___ not ___ him since the summer.",
+          "options": [
+            "have … seen",
+            "did … see",
+            "am … seeing",
+            "was … seeing"
+          ],
+          "answer": "have … seen"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "She ___ a novel when she was eighteen.",
+          "options": [
+            "wrote",
+            "has written",
+            "write",
+            "is writing"
+          ],
+          "answer": "wrote"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "We ___ just ___ an amazing offer.",
+          "options": [
+            "have … received",
+            "received",
+            "has … received",
+            "did … receive"
+          ],
+          "answer": "have … received"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "He ___ in the army for three years.",
+          "options": [
+            "served",
+            "has served",
+            "serve",
+            "is serving"
+          ],
+          "answer": "served"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "I ___ never ___ Thai food – I must try it!",
+          "options": [
+            "have … tasted",
+            "tasted",
+            "did … taste",
+            "taste"
+          ],
+          "answer": "have … tasted"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "She ___ abroad last year.",
+          "options": [
+            "worked",
+            "has worked",
+            "is working",
+            "work"
+          ],
+          "answer": "worked"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "I ___ her every day this week.",
+          "options": [
+            "have seen",
+            "saw",
+            "see",
+            "had seen"
+          ],
+          "answer": "have seen"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "He ___ to the USA when he was a student.",
+          "options": [
+            "went",
+            "has gone",
+            "is going",
+            "go"
+          ],
+          "answer": "went"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "She ___ already ___ the bill.",
+          "options": [
+            "has … paid",
+            "paid",
+            "have … paid",
+            "is … paying"
+          ],
+          "answer": "has … paid"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "They ___ here from 2005 to 2015.",
+          "options": [
+            "lived",
+            "have lived",
+            "are living",
+            "live"
+          ],
+          "answer": "lived"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Present Perfect oder Past Simple?",
+          "question": "I ___ just ___ – give me a minute!",
+          "options": [
+            "have … arrived",
+            "arrived",
+            "am … arriving",
+            "arrive"
+          ],
+          "answer": "have … arrived"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Kontextentscheidungen & Übersetzungen",
+      "exercises": [
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe ihn gestern getroffen.",
+          "answer": "I met him yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat gerade angerufen.",
+          "answer": "She has just called."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er ist noch nie in London gewesen.",
+          "answer": "He has never been to London."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir haben den Film letzten Samstag gesehen.",
+          "answer": "We saw the film last Saturday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich wohne seit drei Jahren hier.",
+          "answer": "I have lived here for three years."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat schon gegessen.",
+          "answer": "She has already eaten."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hast du jemals Sushi probiert?",
+          "answer": "Have you ever tried sushi?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat das Buch vor zwei Wochen gelesen.",
+          "answer": "He read the book two weeks ago."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie haben das Haus 2019 gekauft.",
+          "answer": "They bought the house in 2019."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe ihn seit Weihnachten nicht mehr gesehen.",
+          "answer": "I have not seen him since Christmas."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hat er schon geantwortet?",
+          "answer": "Has he replied yet?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe gerade die Nachricht bekommen.",
+          "answer": "I have just received the message."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie spielte als Kind Klavier.",
+          "answer": "She played the piano as a child."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat noch nie verloren.",
+          "answer": "He has never lost."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir trafen uns zum ersten Mal in Paris.",
+          "answer": "We met for the first time in Paris."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat seit 2018 bei dieser Firma gearbeitet.",
+          "answer": "She has worked at this company since 2018."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe das Buch noch nicht gelesen.",
+          "answer": "I have not read the book yet."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat gestern ein Tor geschossen.",
+          "answer": "He scored a goal yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat gerade die Prüfung bestanden.",
+          "answer": "She has just passed the exam."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe mein Portemonnaie verloren – ich finde es nicht!",
+          "answer": "I have lost my wallet – I can't find it!"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er verlor seinen Job vor einem Jahr.",
+          "answer": "He lost his job a year ago."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wie lange wohnst du schon hier?",
+          "answer": "How long have you lived here?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie besuchte London im Jahr 2020.",
+          "answer": "She visited London in 2020."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe noch nie so etwas gesehen!",
+          "answer": "I have never seen anything like this!"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat das Fenster gebrochen – es ist kaputt.",
+          "answer": "He has broken the window – it's broken."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er brach das Fenster gestern.",
+          "answer": "He broke the window yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat schon dreimal an diesem Marathon teilgenommen.",
+          "answer": "She has already taken part in this marathon three times."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir haben die ganze Nacht gearbeitet.",
+          "answer": "We worked all night."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hat der Zug schon abgefahren?",
+          "answer": "Has the train already left?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe als Kind in Frankreich gelebt.",
+          "answer": "I lived in France as a child."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat gerade eine gute Idee gehabt.",
+          "answer": "He has just had a great idea."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie rief mich gestern Abend an.",
+          "answer": "She called me yesterday evening."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hast du ihm schon geholfen?",
+          "answer": "Have you helped him yet?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe diesen Fehler noch nie gemacht.",
+          "answer": "I have never made this mistake."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er bekam die Stelle und begann sofort.",
+          "answer": "He got the job and started immediately."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat heute dreimal Kaffee getrunken.",
+          "answer": "She has drunk coffee three times today."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir sahen uns letzte Woche.",
+          "answer": "We saw each other last week."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er ist der beste Spieler, den ich je gesehen habe.",
+          "answer": "He is the best player I have ever seen."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Die Mannschaft hat noch kein Spiel gewonnen.",
+          "answer": "The team has not won a game yet."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich kaufte das Auto in 2021 und fuhr es zwei Jahre lang.",
+          "answer": "I bought the car in 2021 and drove it for two years."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hast du schon gefrühstückt?",
+          "answer": "Have you already had breakfast?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat ihre Hausaufgaben gemacht – sie ist jetzt frei.",
+          "answer": "She has done her homework – she is free now."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er verlor seinen Pass während der Reise.",
+          "answer": "He lost his passport during the trip."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe ihn zum ersten Mal auf einer Party getroffen.",
+          "answer": "I met him for the first time at a party."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie ist schon gegangen – du hast sie verpasst.",
+          "answer": "She has already gone – you missed her."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er arbeitete von 2010 bis 2020 als Lehrer.",
+          "answer": "He worked as a teacher from 2010 to 2020."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe mein ganzes Leben Englisch gelernt.",
+          "answer": "I have learnt English all my life."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hat sie dich angerufen?",
+          "answer": "Has she called you?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Nein, sie rief mich gestern an.",
+          "answer": "No, she called me yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat das Projekt noch nicht abgeschlossen.",
+          "answer": "He has not finished the project yet."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du siehst, dass dein Freund ein gebrochenes Bein hat. Du sagst:",
+          "options": [
+            "He has broken his leg.",
+            "He broke his leg.",
+            "He was breaking his leg.",
+            "He break his leg."
+          ],
+          "answer": "He has broken his leg."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Jemand fragt, ob du je in Australien warst. Du antwortest:",
+          "options": [
+            "I have never been to Australia.",
+            "I never went to Australia.",
+            "I never been to Australia.",
+            "I was never in Australia."
+          ],
+          "answer": "I have never been to Australia."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Dein Freund fragt, wann du das Buch gelesen hast. Du sagst:",
+          "options": [
+            "I read it last week.",
+            "I have read it last week.",
+            "I have read it.",
+            "I was reading it last week."
+          ],
+          "answer": "I read it last week."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du meldest dem Lehrer, dass du die Hausaufgaben schon gemacht hast:",
+          "options": [
+            "I have already done my homework.",
+            "I already did my homework.",
+            "I did already my homework.",
+            "I have do my homework already."
+          ],
+          "answer": "I have already done my homework."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du erfährst soeben die Neuigkeit und sagst aufgeregt:",
+          "options": [
+            "I have just heard the news!",
+            "I just hear the news!",
+            "I heard the news just.",
+            "I have just hear the news."
+          ],
+          "answer": "I have just heard the news!"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Jemand fragt, wann du nach London gefahren bist. Du sagst:",
+          "options": [
+            "I went there in 2018.",
+            "I have been there in 2018.",
+            "I have gone there in 2018.",
+            "I go there in 2018."
+          ],
+          "answer": "I went there in 2018."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du bemerkst, dass dein Schlüssel weg ist. Du rufst:",
+          "options": [
+            "I have lost my keys!",
+            "I lost my keys!",
+            "I lose my keys!",
+            "I have lose my keys!"
+          ],
+          "answer": "I have lost my keys!"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Jemand fragt, ob du schon je gekocht hast. Du sagst:",
+          "options": [
+            "Have you ever cooked?",
+            "Did you ever cook?",
+            "Do you ever cook?",
+            "Were you ever cooking?"
+          ],
+          "answer": "Have you ever cooked?"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du beschreibst, was gerade passiert ist: Der Zug fuhr gerade ab:",
+          "options": [
+            "The train has just left.",
+            "The train just left.",
+            "The train is just leaving.",
+            "The train just leaves."
+          ],
+          "answer": "The train has just left."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Dein Lehrer fragt, wie lange du schon Englisch lernst. Du sagst:",
+          "options": [
+            "I have learnt English for six years.",
+            "I learnt English for six years.",
+            "I am learning English for six years.",
+            "I learn English since six years."
+          ],
+          "answer": "I have learnt English for six years."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du erzählst von deiner Kindheit: damals spielte ich Gitarre. Du sagst:",
+          "options": [
+            "I played the guitar as a child.",
+            "I have played the guitar as a child.",
+            "I was playing the guitar as a child.",
+            "I play the guitar as a child."
+          ],
+          "answer": "I played the guitar as a child."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Der Film ist fertig. Du kommentierst:",
+          "options": [
+            "The film has finished.",
+            "The film finished.",
+            "The film is finishing.",
+            "The film has finish."
+          ],
+          "answer": "The film has finished."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du berichtest, dass du sie gerade kennengelernt hast. Du sagst:",
+          "options": [
+            "I have just met her.",
+            "I just met her.",
+            "I meet her just.",
+            "I just have met her."
+          ],
+          "answer": "I have just met her."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Jemand fragt, wann er den Job verloren hat. Er antwortet:",
+          "options": [
+            "He lost his job last March.",
+            "He has lost his job last March.",
+            "He has lost his job.",
+            "He lose his job last March."
+          ],
+          "answer": "He lost his job last March."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du sagst, dass es dir seit Montag nicht gut geht:",
+          "options": [
+            "I have felt unwell since Monday.",
+            "I feel unwell since Monday.",
+            "I felt unwell since Monday.",
+            "I am feeling unwell since Monday."
+          ],
+          "answer": "I have felt unwell since Monday."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du berichtest: Wir haben das Haus letzten Sommer gekauft.",
+          "options": [
+            "We bought the house last summer.",
+            "We have bought the house last summer.",
+            "We have bought the house.",
+            "We buy the house last summer."
+          ],
+          "answer": "We bought the house last summer."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du fragst, ob sie schon angekommen ist:",
+          "options": [
+            "Has she arrived yet?",
+            "Did she arrive yet?",
+            "Is she arrived yet?",
+            "She has arrived yet?"
+          ],
+          "answer": "Has she arrived yet?"
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Dein Freund fragt, seit wann du hier wohnst. Du sagst:",
+          "options": [
+            "I have lived here since 2019.",
+            "I lived here since 2019.",
+            "I am living here since 2019.",
+            "I live here since 2019."
+          ],
+          "answer": "I have lived here since 2019."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du erklärst, dass er heute schon dreimal angerufen hat:",
+          "options": [
+            "He has called three times today.",
+            "He called three times today.",
+            "He has call three times today.",
+            "He is calling three times today."
+          ],
+          "answer": "He has called three times today."
+        },
+        {
+          "type": "multiple-choice",
+          "instruction": "Situation: Welche Zeitform ist richtig?",
+          "question": "Du beschreibst, was du gestern Abend gemacht hast:",
+          "options": [
+            "I watched a film yesterday evening.",
+            "I have watched a film yesterday evening.",
+            "I was watching a film yesterday.",
+            "I watch a film yesterday."
+          ],
+          "answer": "I watched a film yesterday evening."
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "I have finished the report last Friday.",
+          "answer": "I finished the report last Friday.",
+          "hint": "'last Friday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "She just called me.",
+          "answer": "She has just called me.",
+          "hint": "'just' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "They lived here since 2018.",
+          "answer": "They have lived here since 2018.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "Have you seen him yesterday?",
+          "answer": "Did you see him yesterday?",
+          "hint": "'yesterday' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "He has lost his keys three days ago.",
+          "answer": "He lost his keys three days ago.",
+          "hint": "'ago' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "She never tried sushi before.",
+          "answer": "She has never tried sushi before.",
+          "hint": "Erfahrung → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "Did you already finish?",
+          "answer": "Have you already finished?",
+          "hint": "'already' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "I know her since we were children.",
+          "answer": "I have known her since we were children.",
+          "hint": "'since' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "He has met her at a party in 2019.",
+          "answer": "He met her at a party in 2019.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "She has bought this bag last week.",
+          "answer": "She bought this bag last week.",
+          "hint": "'last week' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "I have worked there from 2010 to 2020.",
+          "answer": "I worked there from 2010 to 2020.",
+          "hint": "abgeschlossener Zeitraum → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "Did she already eat?",
+          "answer": "Has she already eaten?",
+          "hint": "'already' → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "He lives here for five years.",
+          "answer": "He has lived here for five years.",
+          "hint": "Andauernd → Present Perfect"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "She has quit smoking a year ago.",
+          "answer": "She quit smoking a year ago.",
+          "hint": "'ago' → Simple Past"
+        },
+        {
+          "type": "error-correction",
+          "instruction": "Korrigiere den Fehler.",
+          "sentence": "I have visited Rome in 2017.",
+          "answer": "I visited Rome in 2017.",
+          "hint": "Jahresangabe → Simple Past"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat ihren Pass verloren – sie kann nicht reisen.",
+          "answer": "She has lost her passport – she can't travel."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er verlor seinen Pass am Flughafen.",
+          "answer": "He lost his passport at the airport."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe dieses Lied noch nie gehört.",
+          "answer": "I have never heard this song."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir sahen uns zuletzt im Sommer.",
+          "answer": "We last saw each other in summer."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat gerade eine Stelle bekommen!",
+          "answer": "She has just got a job!"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er arbeitete von 2010 bis 2015 als Koch.",
+          "answer": "He worked as a chef from 2010 to 2015."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe heute noch nicht gegessen.",
+          "answer": "I have not eaten today yet."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Hat sie dir schon geantwortet?",
+          "answer": "Has she replied to you yet?"
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe ihn zum ersten Mal 2018 getroffen.",
+          "answer": "I met him for the first time in 2018."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat das Buch gerade fertig gelesen.",
+          "answer": "She has just finished reading the book."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Wir haben das Rennen letztes Jahr gewonnen.",
+          "answer": "We won the race last year."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Er hat sein Leben lang nie geraucht.",
+          "answer": "He has never smoked in his life."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Ich habe die Prüfung gestern bestanden.",
+          "answer": "I passed the exam yesterday."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Sie hat seit dem Unfall nicht mehr gefahren.",
+          "answer": "She has not driven since the accident."
+        },
+        {
+          "type": "translation",
+          "instruction": "Übersetze (PP oder PS?).",
+          "sentence": "Das ist das Beste, was ich je gegessen habe.",
+          "answer": "This is the best thing I have ever eaten."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "⭐ Grosser Abschlusstest",
+      "exercises": []
+    }
+  ]
+}
